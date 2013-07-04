@@ -29,7 +29,7 @@ function myErrorHandler($errno,$errstr)
 }
 
 //用自定义的错误处理器 替代系统 的错误处理,系统的错误处理器不会被调用,而会调用自定义的错误处理器
-set_error_handler("myErrorHandler");
+set_error_handler("myErrorHandler",E_WARNING);
 
 $file = fopen("not_exist_file.txt", 'r');
 

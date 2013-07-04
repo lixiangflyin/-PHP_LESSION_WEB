@@ -1,0 +1,7 @@
+<?php
+
+$json = '{"name":"jack","age":18,"sex":"male"}';	
+
+$object = json_decode($json);
+
+?>

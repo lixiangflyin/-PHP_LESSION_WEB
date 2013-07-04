@@ -13939,3 +13939,250 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY org.eclipse.php.debug.core 4 4 2013-07-04 15:18:15.120
 !MESSAGE The debug port 9000 is in use. Please select a different port for the debugger.
+
+!ENTRY org.eclipse.epp.mpc.ui 4 4 2013-07-04 15:54:16.181
+!MESSAGE Unexpected exception: Cannot complete request to http://marketplace.eclipse.org/install/error/report: Connection timed out: connect
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot complete request to http://marketplace.eclipse.org/install/error/report: Connection timed out: connect
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:329)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.reportInstallError(CachingMarketplaceService.java:188)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(MarketplaceDiscoveryStrategy.java:487)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.installErrorReport(MarketplaceCatalog.java:350)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard$4.run(MarketplaceWizard.java:543)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:324)
+	... 5 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2013-07-04 15:54:16.182
+!MESSAGE Cannot complete request to http://marketplace.eclipse.org/install/error/report: Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:324)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.reportInstallError(CachingMarketplaceService.java:188)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(MarketplaceDiscoveryStrategy.java:487)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.installErrorReport(MarketplaceCatalog.java:350)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard$4.run(MarketplaceWizard.java:543)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.epp.mpc.ui 4 4 2013-07-04 15:54:43.243
+!MESSAGE Unexpected exception: Cannot complete request to http://marketplace.eclipse.org/install/error/report: Connection timed out: connect
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot complete request to http://marketplace.eclipse.org/install/error/report: Connection timed out: connect
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:329)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.reportInstallError(CachingMarketplaceService.java:188)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(MarketplaceDiscoveryStrategy.java:487)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.installErrorReport(MarketplaceCatalog.java:350)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard$4.run(MarketplaceWizard.java:543)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:324)
+	... 5 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2013-07-04 15:54:43.243
+!MESSAGE Cannot complete request to http://marketplace.eclipse.org/install/error/report: Connection timed out: connect
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:324)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.reportInstallError(CachingMarketplaceService.java:188)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(MarketplaceDiscoveryStrategy.java:487)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.installErrorReport(MarketplaceCatalog.java:350)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard$4.run(MarketplaceWizard.java:543)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.868
+!MESSAGE NLS missing message: ClassPrepareBreakpointTypeChange_0 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.869
+!MESSAGE NLS missing message: DeleteBreakpointChange_0 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.869
+!MESSAGE NLS missing message: ExceptionBreakpointTypeChange_0 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.869
+!MESSAGE NLS missing message: LaunchConfigurationProjectMainTypeChange_0 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.869
+!MESSAGE NLS missing message: LaunchConfigurationProjectMainTypeChange_1 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.869
+!MESSAGE NLS missing message: LaunchConfigurationProjectMainTypeChange_2 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.870
+!MESSAGE NLS missing message: LaunchConfigurationProjectMainTypeChange_3 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.870
+!MESSAGE NLS missing message: LaunchConfigurationProjectMainTypeChange_4 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.870
+!MESSAGE NLS missing message: LaunchConfigurationProjectMainTypeChange_5 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.870
+!MESSAGE NLS missing message: LaunchConfigurationProjectMainTypeChange_6 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.870
+!MESSAGE NLS missing message: LaunchConfigurationProjectMainTypeChange_7 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.870
+!MESSAGE NLS missing message: BreakpointRenameParticipant_0 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.871
+!MESSAGE NLS missing message: BreakpointRenameParticipant_1 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.871
+!MESSAGE NLS missing message: LaunchConfigurationParticipant_0 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.871
+!MESSAGE NLS missing message: LineBreakpointTypeChange_0 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.871
+!MESSAGE NLS missing message: LineBreakpointTypeChange_1 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.872
+!MESSAGE NLS missing message: MethodBreakpointMethodChange_0 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.872
+!MESSAGE NLS missing message: MethodBreakpointTypeChange_0 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.872
+!MESSAGE NLS missing message: MethodBreakpointTypeChange_1 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.872
+!MESSAGE NLS missing message: WatchpointFieldChange_0 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.872
+!MESSAGE NLS missing message: WatchpointTypeChange_0 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.osgi 2 1 2013-07-04 16:08:42.873
+!MESSAGE NLS missing message: WatchpointTypeChange_1 in: org.eclipse.jdt.internal.debug.core.refactoring.RefactoringMessages
+
+!ENTRY org.eclipse.php.core 4 4 2013-07-04 16:14:41.386
+!MESSAGE org.eclipse.dltk.core.ModelException: AST node can not be found for the given source range: <offset=341, length=2>
+
+!ENTRY org.eclipse.php.core 4 4 2013-07-04 16:14:41.396
+!MESSAGE org.eclipse.dltk.core.ModelException: AST node can not be found for the given source range: <offset=341, length=2>
+
+!ENTRY org.eclipse.php.core 4 4 2013-07-04 16:14:45.172
+!MESSAGE org.eclipse.dltk.core.ModelException: AST node can not be found for the given source range: <offset=350, length=2>
+
+!ENTRY org.eclipse.php.core 4 4 2013-07-04 16:14:45.182
+!MESSAGE org.eclipse.dltk.core.ModelException: AST node can not be found for the given source range: <offset=350, length=2>
+
+!ENTRY org.eclipse.php.core 4 4 2013-07-04 16:14:46.211
+!MESSAGE org.eclipse.dltk.core.ModelException: AST node can not be found for the given source range: <offset=351, length=2>
+
+!ENTRY org.eclipse.php.core 4 4 2013-07-04 16:14:46.221
+!MESSAGE org.eclipse.dltk.core.ModelException: AST node can not be found for the given source range: <offset=351, length=2>
+
+!ENTRY org.eclipse.php.core 4 4 2013-07-04 16:14:47.784
+!MESSAGE org.eclipse.dltk.core.ModelException: AST node can not be found for the given source range: <offset=359, length=2>
+
+!ENTRY org.eclipse.php.core 4 4 2013-07-04 16:14:47.795
+!MESSAGE org.eclipse.dltk.core.ModelException: AST node can not be found for the given source range: <offset=359, length=2>
+
+!ENTRY org.eclipse.php.core 4 4 2013-07-04 16:14:50.488
+!MESSAGE org.eclipse.dltk.core.ModelException: AST node can not be found for the given source range: <offset=360, length=2>
+
+!ENTRY org.eclipse.php.core 4 4 2013-07-04 16:14:50.499
+!MESSAGE org.eclipse.dltk.core.ModelException: AST node can not be found for the given source range: <offset=360, length=2>
+
+!ENTRY org.eclipse.php.core 4 4 2013-07-04 16:14:51.625
+!MESSAGE org.eclipse.dltk.core.ModelException: AST node can not be found for the given source range: <offset=368, length=2>
+
+!ENTRY org.eclipse.php.core 4 4 2013-07-04 16:14:51.638
+!MESSAGE org.eclipse.dltk.core.ModelException: AST node can not be found for the given source range: <offset=368, length=2>
+
+!ENTRY org.eclipse.php.ui 4 10001 2013-07-04 17:33:41.216
+!MESSAGE PHP ui plugin internal error
+!STACK 1
+org.eclipse.dltk.core.ModelException: $int [in 01_filter_var().php [in <default> [in <project root> [in 40_PHP_Filter_filter_var()_options]]]] does not exist
+	at org.eclipse.dltk.internal.core.ModelElement.newNotPresentException(ModelElement.java:258)
+	at org.eclipse.dltk.internal.core.ModelElement.openWhenClosed(ModelElement.java:196)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:171)
+	at org.eclipse.dltk.internal.core.ModelElement.getElementInfo(ModelElement.java:153)
+	at org.eclipse.dltk.internal.core.Member.getFlags(Member.java:48)
+	at org.eclipse.php.internal.ui.documentation.PHPDocumentationProvider.isFinal(PHPDocumentationProvider.java:262)
+	at org.eclipse.php.internal.ui.documentation.PHPDocumentationProvider.getConstantValue(PHPDocumentationProvider.java:221)
+	at org.eclipse.php.internal.ui.documentation.PHPDocumentationProvider.getInfo(PHPDocumentationProvider.java:82)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess$1.getInfo(ScriptDocumentationAccess.java:158)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.merge(ScriptDocumentationAccess.java:106)
+	at org.eclipse.dltk.ui.documentation.ScriptDocumentationAccess.getHTMLContentReader(ScriptDocumentationAccess.java:156)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getHTMLContentReader(ProposalInfo.java:158)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:140)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:90)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.dltk.core 4 969 2013-07-04 17:33:41.217
+!MESSAGE $int [in 01_filter_var().php [in <default> [in <project root> [in 40_PHP_Filter_filter_var()_options]]]] does not exist

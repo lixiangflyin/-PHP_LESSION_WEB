@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename source module &apos;set_error_handler().php&apos; to &apos;01_Uncaught exception.php&apos;&#x0D;&#x0A;- Original element: &apos;(default package)\set_error_handler().php&apos;&#x0D;&#x0A;- Renamed element: &apos;(default package)\01_Uncaught exception.php&apos;" description="Rename source module &apos;set_error_handler().php&apos;" flags="589830" id="org.eclipse.dltk.ui.rename.sourcemodule" input="/&lt;{set_error_handler().php" name="01_Uncaught exception.php" stamp="1372924836434" version="1.0"/>
+</session>

@@ -1,0 +1,14 @@
+<?php
+
+
+$array = array("name" => 'jack',
+			   "age"  => 18,
+			   "sex"  => 'male');
+
+
+header("Content-Type:application/json");
+
+$json = json_encode($array);
+
+echo $json;
+?>
