@@ -1,0 +1,15 @@
+<?php
+$teams = array(
+			"team1" => array("jack","ken","tom"),
+			"team2" => array("jack","ken","tom")
+);
+
+echo $teams[0][0] . " ";
+echo $teams[0][1] . " ";
+echo $teams[0][2] . " ";
+echo "<tr>";
+echo $teams[1][0] . " ";
+echo $teams[1][1] . " ";
+
+//结果： jack ken tom <tr>mary jack  
+?>

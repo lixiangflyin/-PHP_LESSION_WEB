@@ -1,0 +1,18 @@
+.ecc_adduser{margin-bottom: 20px;}
+.ecc_adduser .add{padding-left: 17px; background: url(../img/add.png) no-repeat left center;}
+
+.ecc_ulist_ft{border-top: 1px solid #DADADA; margin-top: 10px; padding-top: 10px;}
+
+.ecc_power_list{}
+.ecc_power_list label{display: block; width: 150px; float: left; margin-bottom: 10px;margin-right: 10px;}
+.ecc_power_list input{position: relative; top: 2px; margin-right: 3px;}
+
+.ecc_mod_classify{margin: 10px 0}
+	.ecc_mod_cyitem{width: 160px; float: left;}
+		.ecc_mod_cyitem_hd{height: 30px; line-height: 30px; text-align: center; font-weight: 700; background: #BDDDFC;}
+		.ecc_mod_cyitem_bd{ border: 1px solid #DEE3E4; border-top: 0 none; height:250px; overflow-x: auto;}
+		.ecc_mod_cyitem_bd a{display: block; height: 25px; line-height: 25px; color: #000; padding-left: 10px;}
+		.ecc_mod_cyitem_bd a:hover,
+		.ecc_mod_cyitem_bd a.selected{ background: #E8F2FA; text-decoration: none; }
+		.ecc_mod_cyitem_bd a.selected{font-weight:700;}
+		.ecc_mod_cyitem_btn{float: left; display: block; width: 30px; height: 182px; background: url(../img/bg_arr.png) no-repeat center center;}

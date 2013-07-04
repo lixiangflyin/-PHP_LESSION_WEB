@@ -1,0 +1,12 @@
+<?php 
+include 'vars.php';
+
+echo "I have a $color $car";
+
+/**
+输出：
+Content-type: text/html
+
+I have a red BMW
+ */
+?>

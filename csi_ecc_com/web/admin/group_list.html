@@ -1,0 +1,50 @@
+<link rel="stylesheet" type="text/css" href="css/group_config.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/power_manage.css" media="screen" />
+<script src="js/group.js"></script>
+<div class="ecc_page_con">
+	<div class="ecc_mod_box">
+		<div class="ecc_mod_box_hd">
+			<h3 class="ecc_mod_box_tit">分组管理</h3>
+		</div>
+		<div class="ecc_mod_box_bd">
+
+			<div class="ecc_ulist">
+				<div class="ecc_usearch">
+					<form>
+						分组搜索：<input type="text" id="group-search-keywords" /> <a id="group-search-btn" href="javascript:void(0);" class="mod_btn">确定</a> <a href="javascript:void(0);" id="group-add-btn" class="add"><i></i>添加分组</a>
+					</form>
+				</div>
+
+				<div class="ecc_ulist">
+					<div class="ecc_mod_tit">
+						<h4 class="tit">组列表</h4>
+					</div>
+					<div class="ecc_ulist_bd">
+						<table class="ecc_mod_table_light" id="group-list-table">
+							<thead>
+								<tr>
+									<th></th>
+									<th>组ID</th>
+									<th>组名</th>
+									<th>组长</th>
+									<th>组业务</th>
+									<th>创建时间</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+						</table>
+						<br />
+						<label style="margin-left: 5px;"><input type="checkbox" id="group-check-all" title="全选/反选" /> 全选</label>&nbsp;&nbsp;&nbsp;<a class="mod_btn_common" id="group-check-delete" href="javascript:void(0);">删除选中分组</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function(){
+		CSI.group.initEvent();
+	});
+</script>

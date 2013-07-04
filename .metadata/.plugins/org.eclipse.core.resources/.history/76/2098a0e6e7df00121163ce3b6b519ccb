@@ -1,0 +1,21 @@
+<?php
+/*
+PHP Date() 函数
+PHP Date() 函数可把时间戳格式化为可读性更好的日期和时间。
+ */
+echo "格式化输出当前时间：\r\n";
+
+$time = date("Y/m/d");
+echo $time;
+echo "\r\n";
+
+$time = date("Y.m.d");
+echo $time;
+echo "\r\n";
+
+$time = date("Y-m-d");
+echo $time;
+echo "\r\n";
+
+
+?>

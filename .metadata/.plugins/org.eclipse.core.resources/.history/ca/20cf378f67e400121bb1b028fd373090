@@ -1,0 +1,9 @@
+<?php
+$hello = 'hello';
+
+unset($hello); //变量$hello被删除(在当前作用域已经不存在$hello此变量)
+
+echo $hello;  //
+
+
+?>

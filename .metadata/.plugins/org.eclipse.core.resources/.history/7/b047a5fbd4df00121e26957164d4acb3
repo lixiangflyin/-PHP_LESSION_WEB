@@ -1,0 +1,14 @@
+/** 
+*/
+<html>
+<body>
+<?php
+$strs = array("one","two","three");
+
+foreach ($strs as $str)
+{
+	echo "string:" . $str . "<br/>";
+}
+?>
+</body>
+</html>

@@ -1,0 +1,58 @@
+10
+
+dir
+61935
+https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep/kf_proj/trunk/csi_ecc_com
+https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
+
+
+
+2013-06-26T09:08:07.012090Z
+61721
+mikeye
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e1b45ce1-979d-514a-b810-c7c14b6f71c4
+
+api
+dir
+
+cache
+dir
+
+dao
+dir
+
+etc
+dir
+
+inc
+dir
+
+lib
+dir
+
+mod
+dir
+
+shell
+dir
+
+tpl
+dir
+
+web
+dir
+

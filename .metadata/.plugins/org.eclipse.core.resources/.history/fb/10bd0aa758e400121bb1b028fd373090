@@ -1,0 +1,8 @@
+<?php
+
+session_start();//因为请求没有带上PHPSESSID(即没有Session),故新建一个Session,并将PHPSESSID返回给用户浏览器
+
+/** 结果:
+Content-type: text/html
+ */
+?>

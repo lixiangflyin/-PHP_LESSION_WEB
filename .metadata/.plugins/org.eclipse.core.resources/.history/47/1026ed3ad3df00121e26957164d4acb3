@@ -1,0 +1,13 @@
+<?php
+$names = array(5);
+
+$names[0] = "peter";
+$names[1] = "Hely";
+
+echo $names[0] . ",";
+echo $names[1] . ",";
+echo $names[2] . ",";  
+echo $names[3] . ",";  
+echo $names[4] . ",";  
+//结果： Peter Hely Warth Mason 
+?>

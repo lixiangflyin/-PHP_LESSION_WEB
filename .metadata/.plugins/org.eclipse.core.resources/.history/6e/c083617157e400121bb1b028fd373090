@@ -1,0 +1,60 @@
+export C2C_BASE_PATH=/home/helyhu/c2cforsvn
+export MCS_BASE_PATH=/home/helyhu/c2cforsvn/clubs/mcs
+export PAIPAI_EXT_PROTOCOL_PATH=/share/comm_ext
+export AUCTION_BASE_PATH=/home/helyhu/c2cforsvn/auction/auction_comm
+export BOSS_BASE_PATH=/home/helyhu/new_workspace/paipai_toushu/custom_proj
+export SNS_API_PATH=/home/helyhu/c2cforsvn/sns_proj
+export COMM_BASE_PATH=/home/helyhu/c2cforsvn/comm
+export C2C_API_PATH=/home/helyhu/c2cforsvn/c2c_proj
+export BOSS_API_PATH=/home/helyhu/c2cforsvn/boss_proj
+##################ALIAS##################
+alias com='cd ${C2C_BASE_PATH}/comm'
+#alias ipt='cd ${C2C_BASE_PATH}/import'
+alias club='cd ${C2C_BASE_PATH}/clubs'
+alias vb2c='cd ${C2C_BASE_PATH}/b2c_virtual'
+#alias sns='cd ${C2C_BASE_PATH}/PaipaiSns'
+alias sns='cd ${C2C_BASE_PATH}/clubs/snsent' 
+
+alias cmk='make clean;make;'
+alias mki='make install'
+alias rmsvn='find . -type d -name ".svn"|xargs rm -rf'
+
+
+alias bsvn='export LC_ALL=en_US.UTF-8'
+alias esvn='export LC_ALL=C'
+################ EXPORT ARG ######################
+export c2c=/usr/local/c2c
+#export c2clog=/usr/local/c2c/logs
+export c2ccgi=/usr/local/c2c/cgi-bin
+#export favao=/usr/local/c2csvc/svc/ao_favorite
+#export favdao=/usr/local/c2csvc/svc/dao_favorite
+export pl4=${C2C_BASE_PATH}/clubs/c2cent/plv4
+#export favpl4=${C2C_BASE_PATH}/clubs/c2cent/plv4/favorite
+#export aofav=${C2C_BASE_PATH}/clubs/c2cent/plv4/favorite/ao
+#export bofav=${C2C_BASE_PATH}/comm/export_include/c2cent/bo/favorite
+#export daofav=${C2C_BASE_PATH}/clubs/c2cent/plv4/favorite/dao
+export webmy=${C2C_BASE_PATH}/clubs/web_my
+export webmb=${C2C_BASE_PATH}/clubs/web_member
+export expind=${C2C_BASE_PATH}/comm/export_include
+export autogen=${C2C_BASE_PATH}/comm/app_platform
+export storage=${C2C_BASE_PATH}/PaipaiSns/c2cent/sns/storage/
+export access=${C2C_BASE_PATH}/PaipaiSns/c2cent/sns/access
+export snslib=${C2C_BASE_PATH}/PaipaiSns/comm/lib
+export snslibcpp=${C2C_BASE_PATH}/PaipaiSns/c2cent/sns/library
+export snsinc=${C2C_BASE_PATH}/PaipaiSns/comm/include
+export gw=${C2C_BASE_PATH}/PaipaiSns/c2cent/sns/gateway
+export snsweb=${C2C_BASE_PATH}/PaipaiSns/snsent/web
+export snsent=${C2C_BASE_PATH}/clubs/snsent/
+#lias dbfav='cd ${C2C_BASE_PATH}/clubs/db_favorite'
+#alias apppnt='cd ${C2C_BASE_PATH}/clubs/app_point_pl'
+#alias dbrk='cd ${C2C_BASE_PATH}/clubs/db_rlink'
+#alias dblib='cd ${C2C_BASE_PATH}/comm/db_api'
+#alias cgifav='cd ${C2C_BASE_PATH}/clubs/web_my/favorite'
+#alias c2c='cd /usr/local/c2c'
+export PATH=/usr/bin:$PATH:/home/mikeliang/local/php/bin
+#export PATH=/usr/local/mysql/bin:$PATH
+export PATH=$PATH:/usr/local/mysql/bin
+export PATH=/home/helyhu/tools/autoconf/bin/:$PATH
+
+export GREP_OPTIONS='--color=auto'  
+export GREP_COLOR='1;32' 

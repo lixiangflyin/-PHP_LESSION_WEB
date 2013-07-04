@@ -1,0 +1,8 @@
+<?php
+function outputMyName($username)
+{
+	echo $username . " liang";
+}
+
+outputMyName(); //结果： Kenzfliang
+?>

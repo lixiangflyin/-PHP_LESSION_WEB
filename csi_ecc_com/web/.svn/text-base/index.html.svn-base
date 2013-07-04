@@ -1,0 +1,3 @@
+<script>
+	window.location.href = "page.php?menu=2&biz=service&mod=deal&act=unsolved";
+</script>

@@ -1,0 +1,59 @@
+<link rel="stylesheet" type="text/css" href="css/member_config.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/power_manage.css" media="screen" />
+<style>
+	
+</style>
+<script src="js/csi.js"></script>
+<script src="js/member.js"></script>
+<div class="ecc_page_con">
+	<!-- S 成员配置 -->
+	<div class="ecc_mod_box">
+		<div class="ecc_mod_box_hd">
+			<h3 class="ecc_mod_box_tit">成员管理</h3>
+		</div>
+		<div class="ecc_mod_box_bd">
+
+			<div class="ecc_ulist">
+				<div class="ecc_usearch">
+					<form action="##">
+						成员搜索：<input type="text" id="member-search-keywords" value="输入工号或RTX" /> <a id="member-search-btn" href="javascript:void(0);" class="mod_btn">确定</a>
+					</form>
+				</div>
+				<div class="ecc_upower">
+					<h4>用户角色:</h4>
+					<p id="member-roles"></p>
+				</div>
+
+				
+				<div class="ecc_mod_tit">
+					<h4 class="tit">成员列表</h4>
+				</div>
+				<div class="ecc_ulist_bd">
+					<table class="ecc_mod_table_light" id="member-list-table">
+						<thead>
+							<tr>
+								<th></th>
+								<th>易迅工号</th>
+								<th>成员RTX名</th>
+								<th>成员昵称</th>
+								<th>成员角色</th>
+								<th>加入时间</th>
+								<th>操作</th>
+							</tr>
+						</thead>
+					</table>
+					<br />
+					<label style="margin-left: 5px;"><input type="checkbox" id="member-check-all" title="全选/反选" /> 全选</label> &nbsp;&nbsp;&nbsp;<a id="member-check-delete" class="mod_btn_common" href="javascript:void(0);">删除选中成员</a>
+				</div>
+				<div class="ecc_ulist_ft" id="member-list-pages"></div>
+			</div>
+		</div>
+	</div>
+	<!-- E 成员配置 -->
+</div>
+
+<script>
+	$(document).ready(function(){
+		CSI.member.initEvent();
+	});
+</script>

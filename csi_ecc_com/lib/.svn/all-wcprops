@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib
+END
+TOFClient.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/TOFClient.php
+END
+PicCode.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/PicCode.php
+END
+VImgCode.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/VImgCode.php
+END
+ToolUtil.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/ToolUtil.php
+END
+Template.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/Template.php
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/Image.php
+END
+BinLog.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/BinLog.php
+END
+DataReport.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/DataReport.php
+END
+DB.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/DB.php
+END
+OZReport.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/OZReport.php
+END
+NetUtil.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/NetUtil.php
+END
+Config.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/Config.php
+END
+TTC.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/TTC.php
+END
+vcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/vcode.php
+END
+Daemon.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/Daemon.php
+END
+TcpServer.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/TcpServer.php
+END
+UdpServer.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/UdpServer.php
+END
+VerifyCode.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/VerifyCode.php
+END
+HTTPRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/HTTPRequest.php
+END
+MSSQL.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/MSSQL.php
+END
+UploadPic.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/UploadPic.php
+END
+CheckPrivilege.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/CheckPrivilege.php
+END
+ErrorNo.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/ErrorNo.php
+END
+MailSender.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/MailSender.php
+END
+TMAutoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/TMAutoload.php
+END
+ImgTransfer.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/ImgTransfer.php
+END
+TTC2.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/TTC2.php
+END
+TTC3.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/TTC3.php
+END
+Logger.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/Logger.php
+END
+Dirty.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/lib/Dirty.php
+END

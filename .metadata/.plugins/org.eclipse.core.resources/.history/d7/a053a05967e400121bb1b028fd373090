@@ -1,0 +1,13 @@
+<?php
+/**
+
+
+ */
+
+$hello = 'hello';
+
+unset($hello);
+
+echo $hello;
+
+?>

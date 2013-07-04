@@ -1,0 +1,33 @@
+#overlay{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#loading_text{
+	position: absolute;
+	background: url(../img/loading11.gif) no-repeat;
+	width: 210px;
+	height: 19px;
+	display: none;
+	/*
+	width: 210px;
+	height: 20px;
+	padding: 2px;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	position: absolute;
+	z-index: 99999;
+	display: none;*/
+}
+
+.overlay_show {
+  background-color: #000;
+  z-index: 999;
+}
+
+.overlay_hide {
+  z-index:-100;
+}

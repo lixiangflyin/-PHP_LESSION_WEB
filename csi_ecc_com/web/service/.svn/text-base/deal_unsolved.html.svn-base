@@ -1,0 +1,240 @@
+<!-- S 内容区域 -->
+<link rel="stylesheet" type="text/css" href="css/power_manage.css" media="screen" />
+<div class="ecc_main" id="content">
+	<div class="ecc_page_con">
+		
+		<div class="ecc_mod_box">
+			<div class="ecc_mod_box_hd up_down">
+				<h3 class="ecc_mod_box_tit">快捷查询</h3>
+				<a href="##" class="ecc_mod_box_up" style="display:none"><span class="hidden">展开</span></a>
+				<a href="##" class="ecc_mod_box_down" ><span class="hidden">收起</span></a>
+			</div>
+			<div class="ecc_mod_box_bd" style="display:none;">
+				<div class="ecc_mod_box_inner">
+					<table class="ecc_mod_table ecc_filter_table" id="unsolved_search_table">
+						<tbody><tr>
+							<th>工单标识：</th>
+							<td>
+								<select name="unsolved_filter_flag" id="unsolved_filter_flag">
+									<option value="">全部</option>
+									<option value="1">催单</option>
+								</select>
+							</td>
+							<th>单据状态：</th>
+							<td>
+								<select name="unsolved_filter_state" id="unsolved_filter_state">
+									<option value="">全部</option>
+									<option value="1">待处理</option>
+									<option value="2">处理中</option>
+								</select>
+							</td>
+							<th>下次跟进时间：</th>
+							<td>
+								<select name="unsolved_filter_expire" id="unsolved_filter_expire">
+									<option value="">全部</option>
+									<option value="1">待到期</option>
+									<option value="2">已到期</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>单据类型：</th>
+							<td>
+								<!-- <select name="unsolved_filter_type" id="unsolved_filter_type">
+									<option value="">全部</option>
+									<option value="1">订单催办</option>
+									<option value="2">订单修改</option>
+									<option value="3">订单取消</option>
+									<option value="4">投诉建议</option>
+									<option value="5">问题咨询</option>
+									<option value="6">建议表扬</option>
+									<option value="8">预约服务</option>
+								</select> -->
+								<div class="ecc_subtype_option">
+									<div class="ecc_subtype_pop">
+										<p>选择分类</p>
+										<div class="ecc_mod_cbox" id="subtype_box">
+											<div class="item">
+												<ul>
+													<li>
+														<label class="chk_wrap"><input type="checkbox" value="" id="check_all_subtype"><span>全部</span></label>
+													</li>
+												</ul>
+											</div>
+											<div class="item">
+												<ul>
+													<li>
+														<label class="chk_wrap"><input type="checkbox" name="deal_type" value="1"><span>订单催办</span></label>
+													</li>
+												</ul>
+											</div>
+											<div class="item">
+												<ul>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="201"><span>修改收货信息</span></label></li>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="202"><span>修改发票抬头</span></label></li>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="203"><span>修改收货时间</span></label></li>
+												</ul>
+											</div>
+											<div class="item">
+												<ul>
+													<li>
+														<label class="chk_wrap"><input type="checkbox" name="deal_type" value="3"><span>订单取消</span></label>
+													</li>
+												</ul>	
+											</div>
+											<div class="item">
+												<ul>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="401"><span>投诉-商品问题</span></label></li>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="402"><span>投诉-订单问题</span></label></li>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="403"><span>投诉-物流问题</span></label></li>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="404"><span>投诉-售后问题</span></label></li>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="405"><span>投诉-活动问题</span></label></li>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="406"><span>投诉客服</span></label></li>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="407"><span>投诉其它</span></label></li>
+												</ul>
+											</div>
+											<div class="item">
+												<ul>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="501"><span>活动咨询</span></label></li>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="502"><span>咨询其它</span></label></li>
+												</ul>
+											</div>
+											<div class="item">
+												<ul>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="601"><span>建议</span></label></li>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="602"><span>表扬</span></label></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							
+							<th>回复状态：</th>
+							<td>
+								<select name="unsolved_filter_reply_state" id="unsolved_filter_reply_state">
+									<option value="">全部</option>
+									<option value="1">待用户回复</option>
+									<option value="2">待客服回复</option>
+								</select>
+							</td>
+							<th></th>
+							<td></td>
+						</tr>
+					</tbody></table>
+
+					<div class="ecc_mod_form_action">
+						<a class="mod_btn" id="unsolved_search_btn" href="#">查询</a>
+						<a class="mod_btn_common" id="unsolved_reset_btn" href="#">重置</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="ecc_mod_box">
+			<div class="ecc_mod_box_hd cur_d">
+				<h3 class="ecc_mod_box_tit">待处理列表</h3>
+				<a href="##" class="ecc_filter_excel ecc_mod_txt1" id="result_export">导出Excel</a>
+				<!-- 显示列表设置 使用类名 selected -->
+				<div class="ecc_filter_option">
+					<div class="ecc_filter_pop">
+						<p>勾选您希望显示的列表项</p>
+						<div class="ecc_mod_cbox">
+							<ul id="fields_checkbox">
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="orderNo"><span>订单号</span></label></li>
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="account"><span>用户账号</span></label></li>
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="userPhone"><span>用户电话</span></label></li>
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="content"><span>问题描述</span></label></li>
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="type"><span>单据类型</span></label></li>
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="state"><span>单据状态</span></label></li>
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="createTime"><span>建单时间</span></label></li>
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="source"><span>单据来源</span></label></li>		
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="approve"><span>满意度</span></label></li>
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="acceptTime"><span>跟进时间</span></label></li>																										
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="finishTime"><span>完成时间</span></label></li>																
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="isVip"><span>是否VIP</span></label></li>			
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="checkup"><span>质检结果</span></label></li>		
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="censor"><span>质检人</span></label></li>	
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="flag"><span>单据标识</span></label></li>	
+								<li><label class="chk_wrap"><input type="checkbox" name="fileds[]" value="archive"><span>归档路径</span></label></li>				
+							</ul>
+						</div>
+						<div class="ecc_mod_form_action">
+							<a class="mod_btn" href="#" id="filter_field_btn">确认</a>
+							<a class="mod_btn_common" href="#"  id="filter_field_reset_btn">取消</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<div class="ecc_mod_box_bd">
+				<div class="ecc_mod_box_inner">
+					<div class="ecc_filter_sort" id="result_sort">
+						<strong>排序：</strong>
+						<a href="#" class="ecc_mod_btn2" ob="createTime" obdir="desc">建单时间<i class="ecc_mod_icon_down">&nbsp;</i></a>
+						<a href="#" class="ecc_mod_btn2" ob="isVip" obdir="desc">VIP级别<i class="ecc_mod_icon_down">&nbsp;</i></a>
+						<a href="#" class="ecc_mod_btn2" ob="est_comp_time" obdir="asc">预定完成时间<i class="ecc_mod_icon_up">&nbsp;</i></a>
+						<a href="#" class="ecc_mod_btn2" ob="finishTime" obdir="asc">最后完成时间<i class="ecc_mod_icon_up">&nbsp;</i></a>
+						<input type="hidden" id="order_by" value="">
+						<input type="hidden" id="order_dir" value="">
+					 </div>
+					
+					<div class="ecc_result" style="margin-top:20px;">
+						<div class="ecc_result_inner"  id="search_result_div" style="width:843px;margin-left:120px;margin-left:121px\0;">
+							<table class="ecc_result_table" id="search_result_table">
+								
+							</table>
+						</div>
+						<div class="ecc_mod_form_action">
+							&nbsp;&nbsp;
+							<label class="ecc_mod_vam"><input type="checkbox" id="select_all"> 全选</label>
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<a class="mod_btn" href="#" id="reassign_btn">转单</a>&nbsp;&nbsp;&nbsp;
+							<a class="mod_btn_common" id="reassign_urge_btn" href="#">转单并催单</a>
+						</div>
+					</div>
+					<!-- S 分页 -->
+					<div class="page_wrap">
+						<div class="paginator" id="paginator">
+						</div>
+					</div>
+					<!-- E 分页 -->							
+				</div>
+			</div>
+		</div>
+		<div class="ecc_result_pop" id="deal_detail" style="display:none;">
+		</div>
+		
+	</div>
+</div>
+<!-- <div class="mod_pop" id="reassign_zone" style="display:none; left:50%; top:139px; width:450px;margin-left:-350px;z-index:99;position:absolute;"> -->
+<div class="mod_pop" id="reassign_zone" style="display:none; width:450px; max-width: 500px;position: absolute;margin:0;">
+	<div class="mod_pop_hd">
+		<h3 class="mod_pop_tit">转单</h3>
+		<button type="button" class="mod_pop_close">关闭</button>
+	</div>
+	<div class="mod_pop_bd">
+		<div class="ecc_mod_rowform">
+			<div class="item">
+				<input type="radio" id="reassign_type1" checked name="reassign_type" value="1"><label for="reassign_type1">转单到个人</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<!-- <input type="radio" id="reassign_type2" name="reassign_type" value="2"><label for="reassign_type2">转单到组</label> -->
+			</div>
+			<div class="item" id="input_kf_rtx">
+				输入员工RTX: <input type="text" id="kf_rtx" placeholder="输入员工RTX">
+			</div>
+			<!-- <div class="item ecc_power_list clear" id="group_list" style="display:none;">
+				
+				
+			</div> -->
+			<div class="item">
+				<input type="hidden" id="reassign_flag" value="">
+				<a href="##" id="reassign_submit_btn" class="mod_btn">确认</a>
+				<div class="item" style="float:right;padding-right:165px;margin-top:5px;"><span class="msg-tips" style="color: red;"></span></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- E 内容区域 -->
+<script src="/service/js/unsolved.js" type="text/javascript" charset="utf-8" > </script>
+			

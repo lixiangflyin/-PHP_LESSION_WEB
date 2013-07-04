@@ -1,0 +1,6 @@
+<?php 
+include 'vars.php';
+
+echo "I have a $color $car";
+
+?>

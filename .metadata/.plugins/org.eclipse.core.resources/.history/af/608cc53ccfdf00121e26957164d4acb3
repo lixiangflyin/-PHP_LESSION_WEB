@@ -1,0 +1,4 @@
+<?php
+$str = "Hello World!";
+echo strpos($str,"World");//结果：6
+?>

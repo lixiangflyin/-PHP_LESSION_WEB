@@ -1,0 +1,17 @@
+.ecc_msg_bd{padding: 10px 0;}
+	.ecc_table_msg{width: 100%;}
+	.ecc_table_msg td{padding: 5px; font-size: 14px; border-bottom: 1px solid #fff}
+	.ecc_table_msg .cbox{width: 50px; text-align: right;}
+	.ecc_table_msg .cbox input{position: relative; top: 2px;}
+	.ecc_table_msg .msg a{color: #000;}
+	.ecc_table_msg .time{width: 150px;padding-right:36px;}
+	.ecc_table_msg .unview .msg a{ font-weight: 700;}
+
+	.ecc_table_msg .item:hover td,
+	.ecc_table_msg .item.selected td{background: #E7F2FF; border-bottom: 1px solid #CFDDF0}
+	.ecc_table_msg .cont.selected td{background: #F7FBFF;}
+
+	.ecc_msg_action{padding: 20px 0 10px 40px}
+	.ecc_msg_action a{margin-right: 10px}
+
+.ecc_msg_bd .page_wrap{margin:5px 20px; border-top: 1px solid #DADADA; padding-top: 15px;}

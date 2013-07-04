@@ -1,0 +1,13 @@
+<?php
+/*
+如何创建 cookie？
+setcookie() 函数用于设置 cookie。
+注释：setcookie() 函数必须位于 <html> 标签之前。
+ */
+$name = "little_cookie";
+$value = "xxx_vale";
+$expire = time() + 3600; //超时时间： 3600S 后
+
+//
+setcookie($name,$value,$expire);
+?>

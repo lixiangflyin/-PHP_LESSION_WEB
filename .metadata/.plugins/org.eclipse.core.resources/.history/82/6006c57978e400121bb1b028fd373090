@@ -1,0 +1,5 @@
+<?php
+
+$file = fopen("not_exist_file.txt", 'r');
+
+?>

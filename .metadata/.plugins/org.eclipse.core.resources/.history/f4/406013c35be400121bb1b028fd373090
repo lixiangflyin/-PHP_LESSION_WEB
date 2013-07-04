@@ -1,0 +1,32 @@
+<?php
+/**
+isset函数是检测变量是否设置。
+
+格式：bool isset ( mixed var [, mixed var [, ...]] )
+
+返回值：
+
+若变量不存在则返回 FALSE 
+若变量存在且其值为NULL，也返回 FALSE 
+若变量存在且值不为NULL，则返回 TURE 
+ */
+session_start();//因为请求没有带上PHPSESSID(即没有Session),故新建一个Session,并将PHPSESSID返回给用户浏览器
+
+if(!array_key_exists('view_cnt',$_SESSION))
+{
+	$_SESSION['view_cnt'] = 1;
+}
+else
+{ 
+	$_SESSION['view_cnt']++;
+}
+
+echo 'View Count: ' . $_SESSION['view_cnt'];
+/** 结果:
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-type: text/html
+
+View Count: 4
+ */
+?>
