@@ -1,0 +1,12 @@
+<?php
+$mysqli = new mysqli('localhost', 'root', 'root', 'phpdb', 3306);
+
+
+$query = "INSERT INTO user(id,username,password) VALUES(3,'ben','789')";
+
+$result = $mysqli->query($query);  //DML语句执行后,返回受影响的行数
+
+echo "$mysqli->affected_rows have been INSERT!";
+
+$mysqli->close();
+?>

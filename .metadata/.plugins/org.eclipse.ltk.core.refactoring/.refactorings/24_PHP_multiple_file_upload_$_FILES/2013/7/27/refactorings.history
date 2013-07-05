@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename source module &apos;02_upload_file.php&apos; to &apos;02_upload_files.php&apos;&#x0D;&#x0A;- Original element: &apos;(default package)\02_upload_file.php&apos;&#x0D;&#x0A;- Renamed element: &apos;(default package)\02_upload_files.php&apos;" description="Rename source module &apos;02_upload_file.php&apos;" flags="589830" id="org.eclipse.dltk.ui.rename.sourcemodule" input="/&lt;{02_upload_file.php" name="02_upload_files.php" stamp="1372905041849" version="1.0"/>
-</session>

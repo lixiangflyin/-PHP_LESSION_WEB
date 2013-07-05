@@ -1,8 +1,0 @@
-<?php
-/*
-如何取回 Cookie 的值？
-PHP 的 $_COOKIE 变量用于取回 cookie 的值。
- */
-echo "name: " . $_POST["name"] . ",";
-echo "age: " . $_POST["age"];
-?>

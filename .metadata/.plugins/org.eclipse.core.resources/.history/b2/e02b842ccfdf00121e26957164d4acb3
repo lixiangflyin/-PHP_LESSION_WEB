@@ -1,4 +1,0 @@
-<?php
-$str = "Hello World!";
-echo strlen($str,"World");//结果：5
-?>

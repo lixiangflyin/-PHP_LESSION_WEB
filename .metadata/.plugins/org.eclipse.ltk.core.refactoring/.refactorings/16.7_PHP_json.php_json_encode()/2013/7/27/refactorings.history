@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename source module &apos;01_json.php&apos; to &apos;01_json_encode().php&apos;&#x0D;&#x0A;- Original element: &apos;(default package)\01_json.php&apos;&#x0D;&#x0A;- Renamed element: &apos;(default package)\01_json_encode().php&apos;" description="Rename source module &apos;01_json.php&apos;" flags="589830" id="org.eclipse.dltk.ui.rename.sourcemodule" input="/&lt;{01_json.php" name="01_json_encode().php" stamp="1372928652793" version="1.0"/>
-</session>

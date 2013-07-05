@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename source module &apos;01_json_decode()_json2Object.php&apos; to &apos;01_json_decode()_json2assoc_Array.php&apos;&#x0D;&#x0A;- Original element: &apos;(default package)\01_json_decode()_json2Object.php&apos;&#x0D;&#x0A;- Renamed element: &apos;(default package)\01_json_decode()_json2assoc_Array.php&apos;" description="Rename source module &apos;01_json_decode()_json2Object.php&apos;" flags="589830" id="org.eclipse.dltk.ui.rename.sourcemodule" input="/&lt;{01_json_decode()_json2Object.php" name="01_json_decode()_json2assoc_Array.php" stamp="1372929087719" version="1.0"/>
-</session>

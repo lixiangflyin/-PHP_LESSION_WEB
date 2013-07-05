@@ -1,4 +1,0 @@
-<?php
-echo "name: " . $_GET["name"] . ",";
-echo "age: " . $_GET["age"];
-?>

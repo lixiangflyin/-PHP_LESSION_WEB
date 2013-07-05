@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename source module &apos;03_Mapping_Array.php&apos; to &apos;01_Mapping_Array.php&apos;&#x0D;&#x0A;- Original element: &apos;(default package)\03_Mapping_Array.php&apos;&#x0D;&#x0A;- Renamed element: &apos;(default package)\01_Mapping_Array.php&apos;" description="Rename source module &apos;03_Mapping_Array.php&apos;" flags="589830" id="org.eclipse.dltk.ui.rename.sourcemodule" input="/&lt;{03_Mapping_Array.php" name="01_Mapping_Array.php" stamp="1372409953304" version="1.0"/>
-</session>

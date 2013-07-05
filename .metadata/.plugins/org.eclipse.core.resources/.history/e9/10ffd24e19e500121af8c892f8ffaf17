@@ -1,0 +1,6 @@
+<?php
+$mysqli = new mysqli('localhost', 'root', 'root55
+		', 'phpdb', 3306);
+
+$mysqli->close();
+?>

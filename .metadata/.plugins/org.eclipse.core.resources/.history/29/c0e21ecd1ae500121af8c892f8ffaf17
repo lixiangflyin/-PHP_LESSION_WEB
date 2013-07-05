@@ -1,0 +1,7 @@
+<?php
+$mysqli = new mysqli('localhost', 'root', 'root', 'phpdb', 3306);
+
+echo '$mysqli->errno' . $mysqli->errno;
+
+$mysqli->close();
+?>

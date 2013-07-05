@@ -1,8 +1,0 @@
-<?php
-function outputMyName($username,$age)
-{
-	echo $username . "," . $age;
-}
-
-outputMyName("Ken"); //结果： Ken Liang
-?>

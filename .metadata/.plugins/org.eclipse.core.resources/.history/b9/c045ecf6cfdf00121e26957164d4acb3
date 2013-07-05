@@ -1,5 +1,0 @@
-<?php
-$names = array("Peter","Hely", "Warth","Mason");//会自动分配 ID 键：
-
-
-?>

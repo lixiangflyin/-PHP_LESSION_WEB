@@ -1,0 +1,33 @@
+monitorId,attribute1,attribute2,attribute3,attribute4,time
+org.zend.contentAssistMonitor,mysqli() - mysqli,false,mysq,"2873",1372988360575
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.edit.text.delete.line",1372988378374
+org.zend.contentAssistMonitor,echo,false,ec,"668",1372988382255
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.edit.text.copyLineDown",1372988386618
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.file.save",1372988392732
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.debug.ui.commands.DebugLast",1372988395143
+org.zend.viewsUsageMonitor,activated,org.eclipse.debug.ui.PHPDebugOutput,org.eclipse.php.perspective,"view",1372988395274
+org.zend.viewsUsageMonitor,activated,org.eclipse.debug.ui.PHPBrowserOutput,org.eclipse.php.perspective,"view",1372988397763
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.debug.ui.commands.StepOver",1372988401678
+org.zend.viewsUsageMonitor,activated,org.eclipse.debug.ui.PHPDebugOutput,org.eclipse.debug.ui.DebugPerspective,"view",1372988404999
+org.zend.viewsUsageMonitor,activated,org.eclipse.debug.ui.VariableView,org.eclipse.debug.ui.DebugPerspective,"view",1372988411377
+org.zend.viewsUsageMonitor,activated,org.eclipse.ui.views.ContentOutline,org.eclipse.debug.ui.DebugPerspective,"view",1372988416306
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.debug.ui.commands.StepOver",1372988428734
+org.zend.viewsUsageMonitor,activated,org.eclipse.debug.ui.PHPDebugOutput,org.eclipse.debug.ui.DebugPerspective,"view",1372988431068
+org.zend.viewsUsageMonitor,activated,org.eclipse.ui.views.ContentOutline,org.eclipse.php.perspective,"view",1372988579300
+org.zend.viewsUsageMonitor,activated,org.eclipse.ui.views.ContentOutline,org.eclipse.php.perspective,"view",1372988581787
+org.zend.commandUsageMonitor,no handler,org.eclipse.php.editor,There is no handler to execute for command org.eclipse.ui.project.closeProject,"org.eclipse.ui.project.closeProject",1372988696466
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.debug.ui.commands.DebugLast",1372988701185
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.debug.ui.commands.StepOver",1372988703993
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.debug.ui.commands.StepOver",1372988706018
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.debug.ui.commands.Resume",1372988707381
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.edit.copy",1372988733536
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.edit.text.contentAssist.proposals",1372988737518
+org.zend.contentAssistMonitor,mysqli() - mysqli,false,mysql,"860",1372988738304
+org.zend.commandUsageMonitor,executed,org.eclipse.php.editor,,"org.eclipse.ui.window.preferences",1372988752782
+org.zend.viewsUsageMonitor,activated,org.eclipse.egit.ui.RepositoriesView,org.eclipse.php.perspective,"view",1372988774280
+org.zend.viewsUsageMonitor,activated,org.eclipse.ui.views.ContentOutline,org.eclipse.php.perspective,"view",1372988984495
+org.zend.viewsUsageMonitor,activated,org.eclipse.egit.ui.RepositoriesView,org.eclipse.php.perspective,"view",1372989000979
+org.zend.commandUsageMonitor,no handler,org.eclipse.php.editor,There is no handler to execute for command org.eclipse.ui.edit.copy,"org.eclipse.ui.edit.copy",1372989049782
+org.zend.viewsUsageMonitor,activated,org.eclipse.ui.views.ProblemView,org.eclipse.php.perspective,"view",1372989050174
+org.zend.viewsUsageMonitor,activated,org.eclipse.ui.views.ProblemView,org.eclipse.php.perspective,"view",1372989103589
+org.zend.viewsUsageMonitor,activated,org.eclipse.ui.views.ContentOutline,org.eclipse.php.perspective,"view",1372989139420

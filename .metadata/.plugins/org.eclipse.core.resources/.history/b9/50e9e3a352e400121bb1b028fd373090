@@ -1,4 +1,0 @@
-<?php
-$str = "012345World!";
-echo strpos($str,"World");//结果：6
-?>

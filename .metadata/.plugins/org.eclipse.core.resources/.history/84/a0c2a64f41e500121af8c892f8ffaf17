@@ -1,0 +1,33 @@
+<?php
+//$mysqli 在概念上是连接对象
+$mysqli = new mysqli('localhost', 'root', 'root', 'phpdb', 3306);
+
+
+//创建查询及相应的占位符
+$query = "INSERT INTO user(id,username,password) VALUES(?,?,?')";
+
+
+//创建语句对象
+$stmt = $mysqli->stmt_init();
+
+//准备语句
+$stmt->prepare($query);
+
+
+//绑定参数:指定i,d,s,b类型
+$stmt->bind_param('iss', $id,$usename,$password);
+
+
+//解决错误
+if(!$result)
+{
+	echo "Error: [$mysqli->errno],$mysqli->error";
+}
+
+if($mysqli->affected_rows > 0)		//DML语句执行后,受影响的行数由 [$mysqli->affected_rows] 返回
+{
+	echo "$mysqli->affected_rows have been INSERT!";
+}
+
+$mysqli->close();
+?>
