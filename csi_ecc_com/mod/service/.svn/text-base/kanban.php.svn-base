@@ -54,23 +54,32 @@ function page_kanban_page() {
 	$today_total = 0;
 	$today_array = array('1' => 0, '2' => 0, '3' => 0);
 	$average_accept_time = time2hour($live_data['acceptTime']);
-	$average_deal_time = time2hour($live_data['dealTime']);
+	$average_deal_time = time2hour(IStatDao::getAvgDealtime($yesterday_date));
 	$exprie_data = array();
 	foreach($_type_list as $k => $v) {
 		$exprie_data[$k] = 0;
 	}
 	$expire = $live_data['expire'];
+	$today_type_arr = array();
+	foreach($_type_list as $k => $v) {
+		$today_type_arr[$k] = 0;
+	}
 	foreach($live_data as $k => $v) {
 		if (in_array($k, array('1', '2', '3'))) {
 			foreach($v as $kk => $vv) {
 				$today_total += $vv;
 				$today_array[$k] += $vv;
+				$today_type_arr[$kk] += $vv;
 			}
 		}
 	}
 	if (!empty($expire)) {
 		foreach($expire as $row) {
-			$exprie_data[$row['type']] = round($row['total'] / $today_total, 2) * 100;
+			if ($today_type_arr[$row['type']] ==0 ) {
+				$exprie_data[$row['type']] = 0;
+			} else {
+				$exprie_data[$row['type']] = round($row['total'] / $today_type_arr[$row['type']], 2) * 100;
+			}
 		}
 	}
 	ksort($exprie_data);
@@ -84,6 +93,7 @@ function page_kanban_page() {
 	$data_dealed_arr_str = implode(",", $live_data[3]);
 	$data_dealing_arr_str = implode(",", $live_data[1]);
 	
+	
 	$today_dealed_precent = round($today_array[3] / ($today_total + 1), 3) * 100;
 	$today_dealing_precent = round($today_array[2] / ($today_total + 1), 3) * 100;
 	$data = array('month' => $month, 'rtx'=> IUser::$rtx, 'month_count' => $month_count,'tb_percent' => $tb_percent,
@@ -92,9 +102,11 @@ function page_kanban_page() {
 					'today_total' => $today_total, 'average_accept_time' => $average_accept_time);
 	$data += array('data_undeal_arr_str' => $data_undeal_arr_str, 'data_dealed_arr_str' => $data_dealed_arr_str, 'data_dealing_arr_str' => $data_dealing_arr_str);
 	$data += array('data_expire_arr_str' => $data_expire_arr_str, 'trend_st_str' => $trend_st_str, 'average_deal_time' => $average_deal_time);
+	
 	//不满意度统计
 	$approve_arr = array();
 	$approve_data = IStatDao::findApproveData($yesterday_date);
+	//$approve_data = IStatDao::findApproveData("2013-06-08");
 	$approve_total = 0;
 	if (!empty($approve_data)) {
 		foreach ($approve_data as $row) {
@@ -108,6 +120,9 @@ function page_kanban_page() {
 	}
 	ksort($approve_arr);
 	//print_r($approve_arr);die(0);
+	if ($yesterday_total == 0) {
+		$yesterday_total = 1;
+	}
 	$data_approve_arr_str = implode(",", $approve_arr);
 	$approve_precent = round($approve_total / $yesterday_total, 3) * 100;
 	$last_week_approve_precent = IStatDao::findApprovePrecent($last_week_date );
@@ -116,6 +131,45 @@ function page_kanban_page() {
 	
  	$data += array('approve_precent' => $approve_precent, 'yesterday_total' => $yesterday_total, 'data_approve_arr_str' => $data_approve_arr_str,
 					'approve_trend_str' => $approve_trend_str);
+	//昨日工单分布统计
+	$y_type_data = IStatDao::findTypeData($yesterday_date);
+	$y_dealing_arr = array();
+	$y_dealed_arr = array();
+	$y_undeal_arr = array();
+	$y_expire_arr = array();
+	$yt_type_arr = array();
+	foreach($_type_list as $k => $v) {
+		$yt_type_arr[$k] = 0;
+	}
+	foreach($y_type_data as $row) {
+		if ($row['stat_type'] == 10) {
+			$y_undeal_arr[$row['stat_key']] = $row['stat_value'];
+		} else if ($row['stat_type'] == 11) {
+			$y_dealing_arr[$row['stat_key']] = $row['stat_value'];
+		} else {
+			$y_dealed_arr[$row['stat_key']] = $row['stat_value'];
+		}
+		$yt_type_arr[$row['stat_key']] += $row['stat_value'];
+	}
+	ksort($y_undeal_arr);
+	ksort($y_dealing_arr);
+	ksort($y_dealed_arr);
+	$y_undeal_arr_str = implode(",", $y_undeal_arr);
+	$y_dealing_arr_str = implode(",", $y_dealing_arr);
+	$y_dealed_arr_str = implode(",", $y_dealed_arr);
+	$y_expire_data = IStatDao::findExpireData($yesterday_date);
+	//print_r($y_type_data);
+	foreach($y_expire_data as $row) {
+		if ($yt_type_arr[$row['stat_key']] == 0) {
+			$y_expire_arr[$row['stat_key']] = 0;
+		} else {
+			$y_expire_arr[$row['stat_key']] = round($row['stat_value'] / $yt_type_arr[$row['stat_key']], 3) * 100;
+		}
+	}
+	ksort($y_expire_arr);
+	$y_expire_arr_str = implode(",", $y_expire_arr);
+	$data += array('y_undeal_arr_str' => $y_undeal_arr_str, 'y_dealing_arr_str' => $y_dealing_arr_str,
+					'y_dealed_arr_str' => $y_dealed_arr_str, 'y_expire_arr_str' => $y_expire_arr_str);
 	//昨日完成情况
 	$data_s = IStatDao::findStateData($yesterday_date);
 	$data_state = array('2' => 0, '3' => 0);
@@ -221,6 +275,7 @@ function page_kanban_page() {
 		}
 	}
 	$data += array('archive_rank_zx_str' => $archive_rank_zx_str);
+	$data += array('yesterday_date' => $yesterday_date, 'today_date' => date("Y-m-d"));
 	
 	//数据输出
 	$TPL->set_file("contentHandler", 'kanban.tpl');

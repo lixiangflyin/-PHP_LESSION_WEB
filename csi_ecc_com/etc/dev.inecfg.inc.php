@@ -7,7 +7,9 @@ if ( !defined('LOG_ROOT') ) {
 
 $_IP_CFG = array();
 
-
+/*评论导入功能*/
+$_IP_CFG['Review_IDGenerator'] = "10.12.194.106:10100";
+$_IP_CFG['reviewSystem']  = "10.12.194.106:10606";
 $_TTC_CFG = array();
 
 
@@ -17,6 +19,11 @@ $_DB_CFG = array();
 $_DB_CFG['b2b2c_kf_web'] = array('IP' => '10.152.23.179', 'PORT' => '9007', 'DB' => 'b2b2c_kf_web', 'USER' => 'root', 'PASSWD' => 'rootcdb');
 $_DB_CFG['b2b2c_kf_admin'] = array('IP' => '10.152.23.179', 'PORT' => '9007', 'DB' => 'b2b2c_kf_admin', 'USER' => 'root', 'PASSWD' => 'rootcdb');
 $_DB_CFG['b2b2c_kf_stat'] = array('IP' => '10.152.23.179', 'PORT' => '9007', 'DB' => 'b2b2c_kf_stat', 'USER' => 'root', 'PASSWD' => 'rootcdb');
+
+//beta环境
+//$_DB_CFG['b2b2c_kf_web'] = array('IP' => '10.187.19.247', 'PORT' => '9015', 'DB' => 'b2b2c_kf_web', 'USER' => 'root', 'PASSWD' => 'rootcdb');
+//gamma环境
+//$_DB_CFG['b2b2c_kf_web'] = array('IP' => '10.152.23.179', 'PORT' => '9003', 'DB' => 'b2b2c_kf_web', 'USER' => 'user_icson', 'PASSWD' => 'icson');
 
 ######################## Cache 配置 ############################
 $_TMEM_CFG = array();

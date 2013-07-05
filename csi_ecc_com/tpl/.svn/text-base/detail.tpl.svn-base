@@ -184,9 +184,10 @@
 						</div>
 
 						<div class="ecc_box_action">
-							<a class="mod_btn" id="normal_submit" href="#">提交</a>
+							{reply_btn_str}
 							<a class="mod_btn3" id="resolved_submit" href="#">提交并归档</a>
 							<a class="mod_btn_common" id="memo_submit" href="#">对内备注</a>
+							{delete_btn_str}
 						</div>
 				</div>
 			</div>

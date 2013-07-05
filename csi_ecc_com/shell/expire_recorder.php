@@ -34,12 +34,15 @@ if (!empty($ret)) {
 	}
 }
 if (!empty($ids)) {
-	$update_sql = "update service_apply set ext1=1 where id in (" . implode(",", $ids) . ")";
+	$update_sql = "update service_apply set ext1=( 1 | ext1) where id in (" . implode(",", $ids) . ")";
 	$db_web->execSql($update_sql);
 }
 
-$sql = "select id from service_apply where createTime>=" . ($current_time -5 * 24 * 3600) . 
-	   " and est_comp_time <= " . $current_time;
+//$sql = "select id from service_apply where state!=3 and createTime>=" . ($current_time -5 * 24 * 3600) . 
+//	   " and est_comp_time <= " . $current_time;
+$sql = "select id from service_apply where state=3 and createTime>=" . ($current_time -5 * 24 * 3600) . 
+	   " and finishTime>est_comp_time";
+echo $sql;
 $ret = $db_web->getRows($sql);
 $ids = array();
 if (!empty($ret)) {

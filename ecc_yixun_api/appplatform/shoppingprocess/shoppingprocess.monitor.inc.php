@@ -1,0 +1,417 @@
+<?php
+/**
+ * 易迅购物流程itile，模调定义
+ */
+
+global $shoppingProcessItil, $shoppingProcessOtherItil, $shoppingProcessModuleCall;
+
+define("LocalServerIP", ToolUtil::getLocalIp(0));				//本地服务器的IP
+
+$shoppingProcessItil = array(
+    "order"     =>  array(
+        "order" => array(
+            "req"	 => 634809,
+            "succ"	 => 634810,
+            "failed" => 634811,
+            "timeout" => 0,
+        ),
+        "orderDB" => array(
+            "req"	 => 634812,
+            "succ"	 => 634813,
+            "failed" => 634814,
+            "timeout" => 0,
+        ),
+        "inventoryDB" => array(
+            "req"	 => 634815,
+            "succ"	 => 634816,
+            "failed" => 634817,
+            "timeout" => 0,
+        ),
+        "idGenerator" => array(
+            "req"	 => 634818,
+            "succ"	 => 634819,
+            "failed" => 634820,
+            "timeout" => 0,
+        ),
+        "shoppingcart" => array(
+            "req"	 => 634821,
+            "succ"	 => 634822,
+            "failed" => 634823,
+            "timeout" => 0,
+        ),
+        "product" => array(
+            "req"	 => 634824,
+            "succ"	 => 634825,
+            "failed" => 634826,
+            "timeout" => 635936,
+        ),
+        "uniproduct" => array(
+            "req"	 => 635931,
+            "succ"	 => 635932,
+            "failed" => 635933,
+            "timeout" => 635934,
+        ),
+        "inventory" => array(
+            "req"	 => 634827,
+            "succ"	 => 634828,
+            "failed" => 634829,
+            "timeout" => 635937,
+        ),
+        "uniInventoryLock" => array(
+            "req"	 => 629520,
+            "succ"	 => 629521,
+            "failed" => 629522,
+            "timeout" => 629523,
+        ),
+        "uniInventoryUnlock" => array(
+            "req"	 => 629524,
+            "succ"	 => 629525,
+            "failed" => 629526,
+            "timeout" => 629527,
+        ),
+        "promotion"    => array(
+            "req"	 => 634830,
+            "succ"	 => 634831,
+            "failed" => 634832,
+            "timeout" => 635938,
+        ),
+        "tying" => array(
+            "req"	 => 634833,
+            "succ"	 => 634834,
+            "failed" => 634835,
+            "timeout" => 635939,
+        ),
+        "tyinPackage" => array(
+            "req"	 => 634836,
+            "succ"	 => 634837,
+            "failed" => 634838,
+            "timeout" => 635940,
+        ),
+        "tyingMind" => array(
+            "req"	 => 634839,
+            "succ"	 => 634840,
+            "failed" => 634841,
+            "timeout" => 635941,
+        ),
+        "tyingEWarranty" => array(
+            "req"	 => 634842,
+            "succ"	 => 634843,
+            "failed" => 634844,
+            "timeout" => 635942,
+        ),
+        "tyingGift" => array(
+            "req"	 => 634845,
+            "succ"	 => 634846,
+            "failed" => 634847,
+            "timeout" => 635943,
+        ),
+        "singleCoupon" => array(
+            "req"	 => 634848,
+            "succ"	 => 634849,
+            "failed" => 634850,
+            "timeout" => 635944,
+        ),
+        "delivery" => array(
+            "req"	 => 634851,
+            "succ"	 => 634852,
+            "failed" => 634853,
+            "timeout" => 635945,
+        ),
+        "deliveryOrs" => array(
+            "req"	 => 634854,
+            "succ"	 => 634855,
+            "failed" => 634856,
+            "timeout" => 635946,
+        ),
+        "user"    => array(
+            "req"	 => 634860,
+            "succ"	 => 634861,
+            "failed" => 634862,
+            "timeout" => 0,
+        ),
+        "coupon"    => array(
+            "req"	 => 634869,
+            "succ"	 => 634870,
+            "failed" => 634871,
+            "timeout" => 0,
+        ),
+        "score"    => array(
+            "req"	 => 634866,
+            "succ"	 => 634867,
+            "failed" => 634868,
+            "timeout" => 0,
+        ),
+        "pay"    => array(
+            "req"	 => 629509,
+            "succ"	 => 629510,
+            "failed" => 629511,
+            "timeout" => 629512,
+        ),
+        "promotionLimitDeal"    => array(
+            "req"	 => 629841,
+            "succ"	 => 629842,
+            "failed" => 629843,
+            "timeout" => 629516,
+        ),
+        "promotionLimitRollback"    => array(
+            "req"	 => 629844,
+            "succ"	 => 629845,
+            "failed" => 629846,
+            "timeout" => 629517,
+        ),
+        "appoint"    => array(
+            "req"	 => 634863,
+            "succ"	 => 634864,
+            "failed" => 634865,
+            "timeout" => 635949,
+        ),
+    ),
+    "process"   =>  array(
+        "process" => array(
+            "req"	 => 634872,
+            "succ"	 => 634873,
+            "failed" => 634874,
+            "timeout" => 0,
+        ),
+        "shoppingcart" => array(
+            "req"	 => 634875,
+            "succ"	 => 634876,
+            "failed" => 634877,
+            "timeout" => 0,
+        ),
+        "product" => array(
+            "req"	 => 634878,
+            "succ"	 => 634879,
+            "failed" => 634880,
+            "timeout" => 635954,
+        ),
+        "uniproduct" => array(
+            "req"	 => 635935,
+            "succ"	 => 635950,
+            "failed" => 635951,
+            "timeout" => 635952,
+        ),
+        "inventory" => array(
+            "req"	 => 634881,
+            "succ"	 => 634882,
+            "failed" => 634883,
+            "timeout" => 635955,
+        ),
+        "promotion"    => array(
+            "req"	 => 634884,
+            "succ"	 => 634885,
+            "failed" => 634886,
+            "timeout" => 635956,
+        ),
+        "tying" => array(
+            "req"	 => 634887,
+            "succ"	 => 634888,
+            "failed" => 634889,
+            "timeout" => 635957,
+        ),
+        "tyinPackage" => array(
+            "req"	 => 634890,
+            "succ"	 => 634891,
+            "failed" => 634892,
+            "timeout" => 635958,
+        ),
+        "tyingMind" => array(
+            "req"	 => 634893,
+            "succ"	 => 634894,
+            "failed" => 634895,
+            "timeout" => 635959,
+        ),
+        "tyingEWarranty" => array(
+            "req"	 => 634896,
+            "succ"	 => 634897,
+            "failed" => 634898,
+            "timeout" => 635960,
+        ),
+        "tyingGift" => array(
+            "req"	 => 634899,
+            "succ"	 => 634900,
+            "failed" => 634901,
+            "timeout" => 635961,
+        ),
+        "singleCoupon" => array(
+            "req"	 => 634902,
+            "succ"	 => 634903,
+            "failed" => 634904,
+            "timeout" => 635962,
+        ),
+        "delivery" => array(
+            "req"	 => 634905,
+            "succ"	 => 634906,
+            "failed" => 634907,
+            "timeout" => 635963,
+        ),
+        "deliveryOrs" => array(
+            "req"	 => 634908,
+            "succ"	 => 634909,
+            "failed" => 634910,
+            "timeout" => 635964,
+        ),
+        "user"    => array(
+            "req"	 => 634911,
+            "succ"	 => 634912,
+            "failed" => 634913,
+            "timeout" => 0,
+        ),
+        "allpay"    => array(
+            "req"	 => 629513,
+            "succ"	 => 629514,
+            "failed" => 629515,
+            "timeout" => 629519,
+        ),
+        "appoint"    => array(
+            "req"	 => 634857,
+            "succ"	 => 634858,
+            "failed" => 634859,
+            "timeout" => 0,
+        ),
+    ),
+    "cart"      =>  array(
+        "cart" => array(
+            "req"	 => 634914,
+            "succ"	 => 634915,
+            "failed" => 634916,
+            "timeout" => 0,
+        ),
+        "shoppingcart" => array(
+            "req"	 => 634917,
+            "succ"	 => 634918,
+            "failed" => 634919,
+            "timeout" => 0,
+        ),
+        "product" => array(
+            "req"	 => 634920,
+            "succ"	 => 634921,
+            "failed" => 634922,
+            "timeout" => 635968,
+        ),
+        "uniproduct" => array(
+            "req"	 => 635953,
+            "succ"	 => 635965,
+            "failed" => 635948,
+            "timeout" => 635966,
+        ),
+        "inventory" => array(
+            "req"	 => 634923,
+            "succ"	 => 634924,
+            "failed" => 634925,
+            "timeout" => 635969,
+        ),
+        "promotion"    => array(
+            "req"	 => 634926,
+            "succ"	 => 634927,
+            "failed" => 634928,
+            "timeout" => 635970,
+        ),
+        "tying" => array(
+            "req"	 => 634929,
+            "succ"	 => 634930,
+            "failed" => 634931,
+            "timeout" => 635971,
+        ),
+        "tyinPackage" => array(
+            "req"	 => 634932,
+            "succ"	 => 634933,
+            "failed" => 634934,
+            "timeout" => 635972,
+        ),
+        "tyingMind" => array(
+            "req"	 => 634935,
+            "succ"	 => 634936,
+            "failed" => 634937,
+            "timeout" => 635973,
+        ),
+        "tyingEWarranty" => array(
+            "req"	 => 634938,
+            "succ"	 => 634939,
+            "failed" => 634940,
+            "timeout" => 635974,
+        ),
+        "tyingGift" => array(
+            "req"	 => 634941,
+            "succ"	 => 634942,
+            "failed" => 634943,
+            "timeout" => 635975,
+        ),
+        "singleCoupon" => array(
+            "req"	 => 634944,
+            "succ"	 => 634945,
+            "failed" => 634946,
+            "timeout" => 635976,
+        ),
+        "delivery" => array(
+            "req"	 => 634947,
+            "succ"	 => 634948,
+            "failed" => 634949,
+            "timeout" => 635977,
+        ),
+        "user"    => array(
+            "req"	 => 634950,
+            "succ"	 => 634951,
+            "failed" => 634952,
+            "timeout" => 0,
+        ),
+        "appoint"    => array(
+            "req"	 => 635947,
+            "succ"	 => 635967,
+            "failed" => 635978,
+            "timeout" => 0,
+        ),
+    ),
+);
+
+$shoppingProcessOtherItil = array(
+    'userpoint' => array(
+        "req"     => 629838,
+        "succ"    => 629839,
+        "failed"  => 629840,
+        "timeout" => 629508,
+    ),
+    'cartMultPrice' =>array(
+        "req"     => 629847,
+        "succ"    => 629848,
+        "failed"  => 629849,
+        "timeout" => 629518,
+    ),
+
+);
+$shoppingProcessModuleCall = array(
+    "passiveMID" => 235000291,
+    "active" => array(
+        "order"    => 235000288,
+        "process"  => 235000289,
+        "cart"     => 235000290,
+    ),
+    "passive" => array(
+        "GETALLCARTITEMSINFO"       => 135000517,
+        "_GETITEMSLIST"             => 135000518,
+        "_GETITEMSPACKAGEINFO"      => 135000519,
+        "_GETPRODUCTSINFO"          => 135000520,
+        "_GETINVENTORYINFO"         => 135000521,
+        "_GETITEMSSINGLECOUPONINFO" => 135000522,
+        "_GETITEMSGIFTINFO"         => 135000523,
+        "GETDELIVERYINFO4ORDER"     => 135000524,
+        "GETDELIVERYINFOORS4ORDER"  => 135000525,
+        "GETDELIVERYINFO4CART"      => 135000526,
+        "GETTYINGINFO"              => 135000527,
+        "CHECKRULEFORORDER"         => 135000528,
+        "GETRULEFORSHOPPINGCART"    => 135000529,
+        "CHECKCOUPONFORORDER"       => 135000530,
+        "SETORDERDIVIDE"            => 135000531,
+        "FETCHCOUPONS"              => 135000532,
+        "USECOUPON"                 => 135000533,
+        "ADDSCORE"                  => 135000534,
+        "ICSON_ORDER_CORE"          => 135000535,
+        "INVENTORY_MANAGER"         => 135000536,
+        "ICSON_CORE"                => 135000537,
+        "PLACEORDER"                => 135000538,
+        "LISTPRODUCTSINFO"          => 135000539,
+        "LISTPACKAGEINSHOPPINGCART" => 135000540,
+        "GETUSERINFO"               => 135000541,
+        "IIDGENERATOR4ORDER"        => 135000542,
+    ),
+);

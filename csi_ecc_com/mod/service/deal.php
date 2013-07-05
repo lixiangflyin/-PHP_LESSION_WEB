@@ -455,7 +455,7 @@ function deal_setArchive() {
 	setcookie("used_archive_id", implode(",", $used_archive_id_arr), time() + 3600 * 24 * 15);
 	
 	
-	$rows = IServiceApplyDao::getList(array('id', 'account', 'type', 'userPhone', 'hasReply', 'acceptTime', 'followKF', 'orderNo'), "id='{$id}'", 0, 1);
+	$rows = IServiceApplyDao::getList(array('id', 'account', 'type', 'subtype', 'ext4', 'ext1', 'userPhone', 'hasReply', 'acceptTime', 'followKF', 'orderNo', 'createTime', 'distributeTime'), "id='{$id}'", 0, 1);
 	
 	if (!empty($rows)) {
 		$complaint = $rows[0];
@@ -542,6 +542,29 @@ function deal_setArchive() {
 	if (!empty($_POST['isclose'])) {
 		_cleaner($id) ;
 	}
+	//非质检的归档，评论导入，非空content 同步到评论系统,评论非删除
+	if ($complaint['type'] == 9 && empty($_POST['is_censor']) && !empty($content) && $complaint['ext1'] < 2) {
+		$arr = explode(":", $complaint['ext4']);
+		$product_id = intval($arr[0]);
+		$review_id = intval($arr[1]);
+		if (!empty($review_id)) {
+			$sync_review_data = array('review_id' => $review_id, 'account' => $complaint['account'], 'content' => $content);
+			$review_type = array(
+	            '901' => 1,
+	            '902' => 2,
+	            '903' => 3
+	        );
+	        $sync_review_data['type'] = $review_type[$complaint['subtype']];
+			$ret = _review_add_reply($sync_review_data);
+			if ($ret['errno'] != 0) {
+				return array(
+					//'errno' => 1,
+					'errno' => 10, //防止两边发布不一致，暂时设为0
+					'msg'   => '评论导入回复接口调用失败'
+				);
+			}
+		}
+	} 
 	//更新tmem数据,质检不需要更新tmem
 	if (empty($complaint['hasReply']) && $has_reply && empty($_POST['is_censor'])) {
 		$tm = Config::getTMem('service_center_unread_message');
@@ -603,7 +626,7 @@ function deal_addReply() {
 			  'msg'   => '无权限进行此操作'
 		 );
 	}
-	$rows = IServiceApplyDao::getList(array('account', 'type', 'userPhone', 'hasReply', 'acceptTime'), "id='{$id}'", 0, 1);
+	$rows = IServiceApplyDao::getList(array('account', 'type', 'subtype', 'userPhone', 'ext4', 'hasReply', 'acceptTime'), "id='{$id}'", 0, 1);
 	
 	if (!empty($rows)) {
 		$complaint = $rows[0];
@@ -691,6 +714,17 @@ function deal_addReply() {
 	}
 	IServiceApplyDao::update($apply_data, 'id=' . $id);
 	
+	//评论导入，同步到评论系统
+	// if ($complaint['type'] == 9) {
+		// $arr = explode(":", $complaint['ext4']);
+		// $product_id = intval($arr[0]);
+		// $review_id = intval($arr[1]);
+		// if (!empty($review_id)) {
+			// $sync_review_data = array('review_id' => $review_id, 'account' => $complaint['account'], 'content' => $content);
+			// _review_add_reply($sync_review_data);
+		// }
+	// }
+	
 	$sync_data = array('id' => $id);
 	_sync_stat($sync_data, 3);
 	if (!empty($_POST['isclose'])) {
@@ -711,7 +745,6 @@ function deal_addReply() {
 			$tm->set(TMEM_BID_SERVICE_CENTER_UNREAD_MESSAGE, $complaint['account']. "_" . "unread_message_" . $complaint['type'], (intval($unreadCount) +1 ));
 			//echo $unreadCount;die(0);
 		} else {
-			//print "here2";
 			return array(
 					//'errno' => 1,
 					'errno' => 0, //防止两边发布不一致，暂时设为0
@@ -734,6 +767,84 @@ function deal_addReply() {
 	);
 }
 
+//差评删除
+
+function deal_deleteReview() {
+	require_once(API_PATH . 'IReviewsAdmin.php');
+	if(!empty($_POST['id'])) {
+		$id = intval($_POST['id']);
+	} else {
+		return array(
+			'errno' => 1,
+			 'msg'   => '缺少投诉单数据'
+		);
+	}
+	if(IUser::checkLogin() === false){
+		return array('errno' => 500, 'msg' => '请重新登录');
+	}
+	if (!IUser::checkAuth(AUTH_COMPLAINT_DELETE)) {
+		return array(
+			 'errno' => 2,
+			  'msg'   => '无权限进行此操作'
+		 );
+	}
+	$rows = IServiceApplyDao::getList(array('account', 'type', 'subtype', 'ext4', 'ext1'), "id='{$id}'", 0, 1);
+	
+	if (!empty($rows)) {
+		$complaint = $rows[0];
+	} else {
+		return array(
+			'errno' => 1,
+			'msg'   => '投诉单不存在'
+		);
+	}
+	if($complaint['type'] != 9) {
+		return array(
+			'errno' => 5,
+			'msg'   => '非评论导入不能进行此操作'
+		);
+	}
+	$arr = explode(":", $complaint['ext4']);
+	$product_id = intval($arr[0]);
+	$review_id = intval($arr[1]);
+	$user_id = $_COOKIE['username'];
+	$kf = $_COOKIE['rtx'];
+	if ($product_id && $review_id) {
+		$review_type = array(
+	            '901' => 1,
+	            '902' => 2,
+	            '903' => 3
+	        );
+	    $type = $review_type[$complaint['subtype']];
+		$ret = IReviewsAdmin::deleteReview($product_id, $review_id, $user_id, $type);
+		if ($ret['errno'] != 0 ) {
+			return array(
+			'errno' => 10,
+			'msg'   => '差评删除失败'
+			);
+		}
+		$apply_data['ext1'] = $complaint['ext1'] | 2;
+		IServiceApplyDao::update($apply_data, 'id=' . $id);
+		$workflow_detail = '删除差评:'. $review_id;
+		$workflow_data = array(
+								'complaint_id' => $id,
+								'create_time' => time(),
+								'create_by'  => $kf,
+								'workflow_type' => 12,
+								'workflow_detail' => $workflow_detail
+		);
+		IWorkflowDao::insert($workflow_data);
+		return array(
+			'errno' => 0
+		);
+	} else {
+		return array(
+			'errno' => 6,
+			'msg'   => '非评论导入不能进行此操作'
+		);
+	}
+}
+
 //工单详情页面
 
 function page_deal_detail() {
@@ -745,9 +856,14 @@ function page_deal_detail() {
 		if (empty($ret)) {
 			ToolUtil::redirect("http://csi.ecc.com/");
 		}
-		if (preg_match("/^[1-8]:/", $ret[0]['content']) && $ret[0]['type'] == 3) {
+		//取消订单原因解析
+		if (preg_match("/^[1-9]:/", $ret[0]['content']) && $ret[0]['type'] == 3) {
 			$k = intval(substr($ret[0]['content'], 0, 1));
 			$ret[0]['content'] = "取消原因:" . $_ORDER_CANCEL_REASON_TYPE[$k] . " &nbsp;" . substr($ret[0]['content'], 2);
+		} else if (in_array($ret[0]['type'], array(4, 5))) {
+			if (!empty($ret[0]['question_url'])) {
+				$ret[0]['content'] = "问题地址：&nbsp;" . urldecode($ret[0]['question_url']) . "&nbsp;" . $ret[0]['content'];
+			}
 		}
 		$ret[0]['order_id_str'] = '<a href="http://ias.icson.com/Sale/SODetail.aspx?SysNo=' . substr($ret[0]['orderNo'],2) . '" target="_blank">' . $ret[0]['orderNo'] . '</a>';
 		//常用归档路径
@@ -765,6 +881,16 @@ function page_deal_detail() {
 			$archive_option_str = '<option value="">暂无常用归档</option>';
 		}
 		$ret[0]['archive_option_str'] = $archive_option_str;
+		if ($ret[0]['type'] == 9) {
+			//差评相关逻辑处理
+			$ret[0]['delete_btn_str'] = '<a class="mod_btn_common" id="review_delete" href="#">删除评论</a>';
+			if ($ret[0]['ext1'] >= 2) {
+				$ret[0]['delete_btn_str'] = '<a class="mod_btn_common mod_btn_disabled" id="review_delete" href="#">差评已删除</a>';
+			}
+			$ret[0]['reply_btn_str'] = '';
+		} else {
+			$ret[0]['reply_btn_str'] = '<a class="mod_btn" id="normal_submit" href="#">提交</a>';
+		}
 		//处理最新回复
  		$latest_reply = IServiceReplyDao::getLatestReply($id);
 		if (!empty($latest_reply)) {
@@ -871,7 +997,7 @@ function page_deal_detail() {
 			$ret[0]['deal_detail_str'] .= '<li><span>预约人：</span>' . urldecode($detail_array['connecter'])  ."</li>";
 			$ret[0]['deal_detail_str'] .= '<li class="deal_content_msgcon"><span>预约内容：</span>' .  $ret[0]['content'] . "</li>";
 		} else {
-			if ($ret[0]['type'] == 4) {
+			if ($ret[0]['type'] == 4 || $ret[0]['type'] == 9) {
 				$ret[0]['deal_detail_str'] = '<ul class="deal_content1">
 									<li><span>服务类型：</span>' . $ret[0]['subtype_str']. '</li>
 									<li><span>订单状态：</span>' . $ret[0]['order_state']. '</li>
@@ -896,6 +1022,7 @@ function page_deal_detail() {
 			}
 			$ret[0]['attachment_str'] = $attachment_str;
 		}
+		
 		$ret[0]['week_ago_str'] = date("Y-m-d H:i:s", (time() - 7 * 24 *3600));
 		$auth = IUser::getAuth();
 		$ret[0]['privileges'] = array();
@@ -1085,5 +1212,17 @@ function _sync_stat($data, $type = 1) {
 	$where = " billNo = " . intval($data['id']) . " and biz=1 ";
 	return IStatDao::update($update_stat, $where);
 	
+}
+
+//评论导入回复
+function _review_add_reply($data) {
+	$review_id = intval($data['review_id']);
+    $user_id = trim($_COOKIE['username']);
+    $buyer_id = trim($data['account']);
+	$content = trim($data['content']);
+	$type = $data['type'];
+  	require_once(API_PATH . 'IReviewReplyAdmin.php');
+    $ret = IReplyAdmin::addReply($review_id, $user_id, $buyer_id, $content, $type);
+    return $ret;
 }
 

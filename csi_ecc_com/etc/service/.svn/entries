@@ -1,15 +1,15 @@
 10
 
 dir
-61935
+62731
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep/kf_proj/trunk/csi_ecc_com/etc/service
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 
 
 
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
+2013-07-02T09:36:27.891372Z
+62183
+mikeye
 
 
 svn:special svn:externals svn:needs-lock
@@ -25,4 +25,38 @@ svn:special svn:externals svn:needs-lock
 
 
 e1b45ce1-979d-514a-b810-c7c14b6f71c4
+
+users.php
+file
+
+
+
+
+2013-07-05T07:55:31.479000Z
+a5989f51934d6d9e4d8c20ccc776ffe6
+2013-07-02T09:36:27.891372Z
+62183
+mikeye
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6612
 

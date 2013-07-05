@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 77
-/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/web/service
+/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/web/service
 END
 deal_overtime.html
 K 25
 svn:wc:ra_dav:version-url
 V 96
-/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/web/service/deal_overtime.html
+/paipai/paipai_b2b2c_rep/!svn/ver/61961/kf_proj/trunk/csi_ecc_com/web/service/deal_overtime.html
 END
 deal_detail.html
 K 25
@@ -31,13 +31,13 @@ deal_list.html
 K 25
 svn:wc:ra_dav:version-url
 V 92
-/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/web/service/deal_list.html
+/paipai/paipai_b2b2c_rep/!svn/ver/61961/kf_proj/trunk/csi_ecc_com/web/service/deal_list.html
 END
 deal_unsolved.html
 K 25
 svn:wc:ra_dav:version-url
 V 96
-/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/web/service/deal_unsolved.html
+/paipai/paipai_b2b2c_rep/!svn/ver/61961/kf_proj/trunk/csi_ecc_com/web/service/deal_unsolved.html
 END
 deal_groupwork.html
 K 25

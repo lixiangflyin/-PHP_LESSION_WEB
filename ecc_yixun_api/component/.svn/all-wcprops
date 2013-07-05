@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/ecc/ecc_yixun_rep/!svn/ver/9034/yixun_test_proj/trunk/PHPLIB/api/component
+END
+component.sql
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/component/component.sql
+END
+ComponentConfig.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/ecc/ecc_yixun_rep/!svn/ver/4933/yixun_test_proj/trunk/PHPLIB/api/component/ComponentConfig.class.php
+END
+CompRank.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/component/CompRank.class.php
+END
+IComponent.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ecc/ecc_yixun_rep/!svn/ver/5018/yixun_test_proj/trunk/PHPLIB/api/component/IComponent.class.php
+END
+CompCategory.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/component/CompCategory.class.php
+END
+CompOrderlottery.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/component/CompOrderlottery.class.php
+END
+CompCountdown.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/component/CompCountdown.class.php
+END
+CompComment.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/component/CompComment.class.php
+END
+CompCoupon.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/component/CompCoupon.class.php
+END
+IComponentView.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ecc/ecc_yixun_rep/!svn/ver/1987/yixun_test_proj/trunk/PHPLIB/api/component/IComponentView.php
+END
+IPrize.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ecc/ecc_yixun_rep/!svn/ver/9034/yixun_test_proj/trunk/PHPLIB/api/component/IPrize.class.php
+END
+IUserActStatus.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ecc/ecc_yixun_rep/!svn/ver/9034/yixun_test_proj/trunk/PHPLIB/api/component/IUserActStatus.class.php
+END
+CompConfig.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/component/CompConfig.class.php
+END
+CompInformation.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/component/CompInformation.class.php
+END

@@ -271,7 +271,7 @@ function _adv_search_where() {
 	}
 	
 	if (!empty($archive)) {
-		$conditions[] = " archive = '" . $archive . "'";
+		$conditions[] = " archive = '" . iconv("utf8", "gbk", $archive) . "'";
 	}
 	
 	if (!empty($_REQUEST['start_time']) && ToolUtil::checkDateTime($_REQUEST['start_time'] . ":00")) {
@@ -311,6 +311,7 @@ function _adv_search_where() {
 		unset($row);
 		$where .= (empty($where) ? '' : ' AND') . " followKF in (" . implode(",", $key_array) . ")";
 	}
+	//print $where;die(0);
 	return $where;
 }
 

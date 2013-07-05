@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 71
-/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/shell
+/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/shell
 END
 live_stat.php
 K 25
@@ -25,7 +25,7 @@ stat_recorder.php
 K 25
 svn:wc:ra_dav:version-url
 V 89
-/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/shell/stat_recorder.php
+/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/shell/stat_recorder.php
 END
 assigner.php
 K 25
@@ -43,7 +43,7 @@ expire_recorder.php
 K 25
 svn:wc:ra_dav:version-url
 V 91
-/paipai/paipai_b2b2c_rep/!svn/ver/61634/kf_proj/trunk/csi_ecc_com/shell/expire_recorder.php
+/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/shell/expire_recorder.php
 END
 alarmer.php
 K 25

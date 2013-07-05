@@ -295,8 +295,9 @@ class IServiceApplyDao
 					$row['archive'] = $archive_array[0];
 				}
 				if(!empty($row['content'] )) {
-					$row['content'] = iconv('GBK', 'UTF-8', $row['content']);
-					if (preg_match("/^[1-8]:/", $row['content'])) {
+					//为了兼容后动咨询的数据，加了urldecode
+					$row['content'] = iconv('GBK', 'UTF-8', urldecode($row['content']));
+					if (preg_match("/^[1-9]:/", $row['content'])) {
 						$k = intval(substr($row['content'], 0, 1));
 						$row['content'] = $_ORDER_CANCEL_REASON_TYPE[$k] . " &nbsp;" . substr($row['content'], 2);
 					}

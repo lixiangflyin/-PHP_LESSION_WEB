@@ -1153,3 +1153,130 @@ SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$mysqli('
 07-05 15:40:00 jdbc[5]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$mysqli('LOCALHOST[*]',' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(106,1,2,3)) LIMIT 100; "; SQL statement:
 SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$mysqli('localhost',' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(106,1,2,3)) LIMIT 100; [42000-169]
+07-05 15:56:57 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Config::getDB('B2B2C_KF_ADMIN[*]');
+		if(!$db)' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(65,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Config::getDB('b2b2c_kf_admin');
+		if(!$db)' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(65,1,2,3)) LIMIT 100; [42000-169]
+07-05 15:57:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Config::getDB('B2B2C_KF_ADMIN[*]');
+		if(!$db)' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(65,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Config::getDB('b2b2c_kf_admin');
+		if(!$db)' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(65,1,2,3)) LIMIT 100; [42000-169]
+07-05 16:14:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$ROOT_DIR.'ETC[*]/'.$_ENV_FLAG' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(65,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$ROOT_DIR.'etc/'.$_ENV_FLAG' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(65,1,2,3)) LIMIT 100; [42000-169]
+07-05 16:14:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$ROOT_DIR.'ETC[*]/'.$_ENV_FLAG' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(65,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$ROOT_DIR.'etc/'.$_ENV_FLAG' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(65,1,2,3)) LIMIT 100; [42000-169]
+07-05 16:14:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$ROOT_DIR.'ETC[*]/'.$_ENV_FLAG' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(65,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$ROOT_DIR.'etc/'.$_ENV_FLAG' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(65,1,2,3)) LIMIT 100; [42000-169]
+07-05 19:35:07 jdbc[5]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-169]
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.message.DbException.get(DbException.java:135)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:120)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:93)
+	at org.h2.Driver.connect(Driver.java:72)
+	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
+	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
+	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
+	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
+	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
+	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
+	at org.eclipse.dltk.internal.core.index.sql.SqlSearchEngine.search(SqlSearchEngine.java:66)
+	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:285)
+	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:263)
+	at org.eclipse.dltk.core.index2.search.ModelAccess.findTypes(ModelAccess.java:203)
+	at org.eclipse.php.internal.core.model.PhpModelAccess.findTypes(PhpModelAccess.java:87)
+	at org.pdtextensions.core.validation.validator.UsageValidator.isResolved(UsageValidator.java:315)
+	at org.pdtextensions.core.validation.validator.UsageValidator.isResolved(UsageValidator.java:269)
+	at org.pdtextensions.core.validation.validator.UsageValidator.visit(UsageValidator.java:232)
+	at org.eclipse.php.internal.core.compiler.ast.visitor.PHPASTVisitor.visit(PHPASTVisitor.java:1155)
+	at org.eclipse.php.internal.core.compiler.ast.visitor.PHPASTVisitor.visit(PHPASTVisitor.java:1350)
+	at org.eclipse.php.internal.core.compiler.ast.nodes.StaticMethodInvocation.traverse(StaticMethodInvocation.java:61)
+	at org.eclipse.php.internal.core.compiler.ast.nodes.ExpressionStatement.traverse(ExpressionStatement.java:44)
+	at org.eclipse.dltk.ast.statements.Block.traverse(Block.java:43)
+	at org.eclipse.dltk.ast.declarations.MethodDeclaration.traverseChildNodes(MethodDeclaration.java:97)
+	at org.eclipse.dltk.ast.declarations.MethodDeclaration.traverse(MethodDeclaration.java:71)
+	at org.eclipse.dltk.ast.statements.Block.traverse(Block.java:43)
+	at org.eclipse.dltk.ast.declarations.TypeDeclaration.traverse(TypeDeclaration.java:158)
+	at org.eclipse.dltk.ast.statements.Block.traverse(Block.java:43)
+	at org.eclipse.dltk.ast.declarations.ModuleDeclaration.traverse(ModuleDeclaration.java:71)
+	at org.pdtextensions.core.validation.PEXValidator.validateResolvableReferences(PEXValidator.java:130)
+	at org.pdtextensions.core.validation.PEXValidator.validateFile(PEXValidator.java:117)
+	at org.pdtextensions.core.validation.PEXValidator.validate(PEXValidator.java:94)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.h2.jdbc.JdbcSQLException: The connection was not closed by the application and is garbage collected [90018-169]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	... 49 more
+07-05 19:35:07 jdbc[5]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-169]
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.message.DbException.get(DbException.java:135)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:120)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:93)
+	at org.h2.Driver.connect(Driver.java:72)
+	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
+	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
+	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
+	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
+	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
+	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
+	at org.eclipse.dltk.internal.core.index.sql.SqlSearchEngine.search(SqlSearchEngine.java:66)
+	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:285)
+	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:263)
+	at org.eclipse.dltk.core.index2.search.ModelAccess.findTypes(ModelAccess.java:203)
+	at org.eclipse.php.internal.core.model.PhpModelAccess.findTypes(PhpModelAccess.java:87)
+	at org.pdtextensions.core.validation.validator.UsageValidator.isResolved(UsageValidator.java:315)
+	at org.pdtextensions.core.validation.validator.UsageValidator.isResolved(UsageValidator.java:269)
+	at org.pdtextensions.core.validation.validator.UsageValidator.visit(UsageValidator.java:232)
+	at org.eclipse.php.internal.core.compiler.ast.visitor.PHPASTVisitor.visit(PHPASTVisitor.java:1155)
+	at org.eclipse.php.internal.core.compiler.ast.visitor.PHPASTVisitor.visit(PHPASTVisitor.java:1350)
+	at org.eclipse.php.internal.core.compiler.ast.nodes.StaticMethodInvocation.traverse(StaticMethodInvocation.java:61)
+	at org.eclipse.php.internal.core.compiler.ast.nodes.ExpressionStatement.traverse(ExpressionStatement.java:44)
+	at org.eclipse.dltk.ast.statements.Block.traverse(Block.java:43)
+	at org.eclipse.dltk.ast.declarations.MethodDeclaration.traverseChildNodes(MethodDeclaration.java:97)
+	at org.eclipse.dltk.ast.declarations.MethodDeclaration.traverse(MethodDeclaration.java:71)
+	at org.eclipse.dltk.ast.statements.Block.traverse(Block.java:43)
+	at org.eclipse.dltk.ast.declarations.TypeDeclaration.traverse(TypeDeclaration.java:158)
+	at org.eclipse.dltk.ast.statements.Block.traverse(Block.java:43)
+	at org.eclipse.dltk.ast.declarations.ModuleDeclaration.traverse(ModuleDeclaration.java:71)
+	at org.pdtextensions.core.validation.PEXValidator.validateResolvableReferences(PEXValidator.java:130)
+	at org.pdtextensions.core.validation.PEXValidator.validateFile(PEXValidator.java:117)
+	at org.pdtextensions.core.validation.PEXValidator.validate(PEXValidator.java:94)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:327)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.h2.jdbc.JdbcSQLException: The connection was not closed by the application and is garbage collected [90018-169]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	... 49 more

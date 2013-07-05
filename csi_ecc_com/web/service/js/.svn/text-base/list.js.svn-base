@@ -24,7 +24,10 @@ var dealList = {
         501 : '活动咨询',
         502 : '其它咨询',
         601 : '建议',
-        602 : '表扬'
+        602 : '表扬',
+        901 : '评论导入-满意', 
+        902 : '评论导入-一般', 
+        903 : '评论导入-不满意'
 	},
 	APPLY_STATE: {
 		0: "全部",
@@ -665,9 +668,9 @@ dealList.getInfo = function(){
 			var data = {key: uid, page : 1};
 			$("#advanced_search_key").val(uid);
 		} else {
-			var uname = _self.QueryString('uname');
-			var data = {account: uname, page : 1};
-			$("#advanced_search_account").val(_self.QueryString('uname'));
+			//var uname = _self.QueryString('uname');
+			var data = {account: uid, page : 1};
+			$("#advanced_search_account").val(uid);
 		}
 		
 		switch(type) {
@@ -709,6 +712,27 @@ dealList.getInfo = function(){
 				$("#advanced_search_start_time").val(data.start_time);
 				break;
 		}
+		_self.search(data);
+		dealList.searchBoxHide();
+	} else if (type == 'kanban') {
+		var data = {};
+		var stype = _self.QueryString('stype');
+		var start_time = _self.QueryString('start_time');
+		var end_time = _self.QueryString('end_time');
+		var selected_types = new Array();
+		$("#subtype_box input[name='deal_type']").each(function() {
+			 if ($(this).val() == stype || Math.floor($(this).val() / 100) == stype ) {
+			 	$(this).attr("checked", true);
+			 	selected_types.push($(this).val());
+			 }
+		});
+		$("#advanced_search_start_time").val(start_time + " 00:00");
+		$("#advanced_search_end_time").val(end_time + " 00:00");
+		$("#advanced_search_stai").val(2);
+		data.approve = 2;
+		data.type = selected_types.join(",");
+		data.start_time = start_time + " 00:00";
+		data.end_time = end_time + "00:00";
 		_self.search(data);
 		dealList.searchBoxHide();
 	}

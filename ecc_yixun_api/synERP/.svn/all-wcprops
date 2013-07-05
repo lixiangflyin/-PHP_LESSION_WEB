@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/synERP
+END
+IUserInvoiceSyn.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/synERP/IUserInvoiceSyn.php
+END
+IUserSyn.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/synERP/IUserSyn.php
+END
+ReSync.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/synERP/ReSync.php
+END
+ISyncLog.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/synERP/ISyncLog.php
+END
+IUserAddressSyn.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/synERP/IUserAddressSyn.php
+END

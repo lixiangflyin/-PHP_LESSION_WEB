@@ -307,7 +307,7 @@ border-style:dashed solid dashed dashed;}
 
 	/*客户回复区*/
 	.ecc_editor{ height:60px;}
-	.ecc_editor textarea{height:50px;margin-top:5px;}
+	.ecc_editor textarea{height:50px;margin-top:5px;font-size:14px;}
 	.ecc_box_action{margin:10px 0 0 0;}
 	.ecc_editor img{margin: -15px -20px; }
 

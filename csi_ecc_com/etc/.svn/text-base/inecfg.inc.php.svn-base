@@ -6,6 +6,9 @@ if ( !defined('LOG_ROOT') ) {
 
 
 $_IP_CFG = array();
+/*评论导入功能*/
+$_IP_CFG['Review_IDGenerator'] = "10.180.76.18:10100";
+$_IP_CFG['reviewSystem']  = "10.180.76.19:10606";
 
 $_TTC_CFG = array();
 

@@ -511,6 +511,33 @@ dealDetail.bindSubmitEvent = function(){
 		});
 	});
 	
+	//差评导入删除
+	$("#review_delete").click(function(){
+		CSI.confirmBox("确认删除此差评？", function(layerdom) {
+			layerdom.remove();
+			$.ajax({
+			url	 : "/json.php?biz=service&mod=deal&act=deleteReview",
+			type 	 : 'POST',
+			dataType : 'json',
+			data	 : {id: _self.QueryString('id')},
+			success  : function(result){
+				if(0 == result.errno){
+					CSI.newLayer2("成功","差评删除成功", function(layerdom){
+						layerdom.remove();
+						dealDetail.getInfo();
+						$("#review_delete").text("差评已删除");
+						$("#review_delete").unbind("click");
+						$("#review_delete").addClass("mod_btn_disabled");
+
+					});
+				}else{	
+					CSI.msgBox2(result.msg);
+				}
+			}
+			});
+		});
+	});
+	
 }
 dealDetail.assign = function() {
 	$("#kf_rtx").val('');

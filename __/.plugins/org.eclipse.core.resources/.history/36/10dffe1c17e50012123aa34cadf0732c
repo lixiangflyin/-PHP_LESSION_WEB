@@ -1,4 +1,0 @@
-<?php
-$mysqli = new mysqli();
-$mysqli->connect('localhost', 'root', 'root', y
-?>

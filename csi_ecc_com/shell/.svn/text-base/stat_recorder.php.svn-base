@@ -19,7 +19,7 @@ require_once LIB_PATH . 'Logger.php';
 require ROOT_DIR . 'inc/constant_web.inc.php';
 require ROOT_DIR . 'inc/service/constant_web.inc.php';
 
-//stat type 1=>每日分类统计，2=>每日不满意统计 , 3=>每日总量统计,4=>投诉归档, 8=>咨询归档 , 5=>工作量统计, 6=>今天统计， 7=>结单状态统计
+//stat type 1=>每日分类统计，2=>每日不满意统计 , 3=>每日总量统计,4=>投诉归档, 8=>咨询归档 , 5=>工作量统计, 6=>今天统计， 7=>结单状态统计, 10=>每日待完成分类统计，11=>每日进行中分类统计，12=>每日已完成分类统计,13=>每日结单超时分类统计 ,14=>昨日平均处理时长
 $current_time = time();
 $db = Config::getDB('b2b2c_kf_stat');
 if(!$db) {
@@ -74,7 +74,6 @@ foreach($stat_array2 as $k => $v) {
 	$insert_sql2 .= "(null, 2, '" . $date_str . "', '" . $k.  "', " . $v . "),";
 }
 
-//$insert_sql2= substr($insert_sql2, 0, -1);
 if ($total > 0) {
 	$insert_sql2 .= "(null, 2, '" . $date_str . "','unapprove_precent', " . round($approve_total / $total, 2) * 100 . ")";
 	$db->execSql($insert_sql2);
@@ -140,6 +139,58 @@ foreach($ret4 as $row) {
 $insert_sql4 = substr($insert_sql4, 0, -1);
 $db->execSql($insert_sql4);
 }
+
+//分类统计每日总量
+$stat_array = array();
+foreach($_type_list as $k => $v) {
+	$stat_array[1][$k] = 0;
+	$stat_array[2][$k] = 0;
+	$stat_array[3][$k] = 0;
+}
+$sql5 = "select type, state from base_stat where source = 1 and  createTime>" . $start_time ." and createTime<" . $end_time;
+$ret5 = $db->getRows($sql5);
+if (!empty($ret5)) {
+	foreach($ret5 as $row) {
+		$stat_array[$row['state']][$row['type']] += 1;
+	}
+}
+$insert_sql5 = "insert into daily_stat values ";
+foreach($stat_array[1] as $k => $v ) {
+	$insert_sql5 .= "(null, 10, '" . $date_str . "', '" . $k .  "', " . $v . "),";
+}
+foreach($stat_array[2] as $k => $v ) {
+	$insert_sql5 .= "(null, 11, '" . $date_str . "', '" . $k .  "', " . $v . "),";
+}
+foreach($stat_array[3] as $k => $v ) {
+	$insert_sql5 .= "(null, 12, '" . $date_str . "', '" . $k .  "', " . $v . "),";
+}
+$insert_sql5 = substr($insert_sql5, 0, -1);
+//print $insert_sql5;
+$db->execSql($insert_sql5);
+
+//分类统计每日结单超时
+$stat_array = array();
+foreach($_type_list as $k => $v) {
+	$stat_array[$k] = 0;
+}
+$sql6 = "select type, count(*) as total from base_stat where source=1 and ext3=1 and createTime>" . $start_time ." and createTime<" . $end_time . " group by type";
+$res6 = $db->getRows($sql6);
+$insert_sql6 = "insert into daily_stat values ";
+foreach($res6 as $row) {
+	$stat_array[$row['type']] = $row['total'];
+}
+foreach($stat_array as $k => $v ) {
+	$insert_sql6 .= "(null, 13, '" . $date_str . "', '" . $k .  "', " . $v . "),";
+}
+$insert_sql6 = substr($insert_sql6, 0, -1);
+//print $insert_sql6;
+$db->execSql($insert_sql6);
+
+//每日平均处理时长统计
+$sql7 = "select avg(finishTime-createTime) as at from base_stat where source=1 and state=3 and finishTime> 0 and createTime>" . $start_time ." and createTime<" . $end_time ;
+$res7 = $db->getRows($sql7);
+$insert_sql7 = "insert into daily_stat values (null, 14, '" . $date_str . "', 'average', " . $res7[0]['at'] . ")";
+$db->execSql($insert_sql7);
 exit(0);
 
 

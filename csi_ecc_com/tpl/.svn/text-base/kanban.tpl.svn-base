@@ -84,9 +84,11 @@
 						</div>
 					</div>
 					<div class="progress_num">{yesterday_total}</div>
-					
+					<div class="trend_con">昨日处理完结平均时长：{average_deal_time}</div>
 				</div>
-
+				<div class="index_mod1_bd">
+					<div class="chart_box" id="chart-5" style=""></div>
+				</div>
 				<div class="index_mod1_hd clear">
 					<h3>昨日结单不满意度</h3>
 					<div class="progress_wrap clear">
@@ -100,7 +102,7 @@
 					</div>
 					<div class="progress_num">{yesterday_total}</div>
 					<div class="trend_con">
-						较上周同期：{approve_trend_str}今日处理完结平均时长：{average_deal_time}<!-- <i class="icon_trend_down"></i> -->
+						较上周同期：{approve_trend_str}<!-- <i class="icon_trend_down"></i> -->
 					</div>									
 					<!-- <a class="index_mod1_flod_link" href="#"></a> -->
 				</div>
@@ -385,11 +387,19 @@
  	var data_dealed_arr = [{data_dealed_arr_str}];
  	var data_expire_arr = [{data_expire_arr_str}];
  	
+ 	var y_dealing_arr_str = [{y_dealing_arr_str}];
+ 	var y_undeal_arr_str = [{y_undeal_arr_str}];
+ 	var y_dealed_arr_str = [{y_dealed_arr_str}];
+ 	var y_expire_arr_str = [{y_expire_arr_str}];
+ 	
  	var data_approve_arr = [{data_approve_arr_str}];
  	var data_daily_y_arr_str = [{data_daily_y_arr_str}];
  	var data_daily_x_arr_str = [{data_daily_x_arr_str}];
  	var data_wk_y_arr_str = [{data_wk_y_arr_str}];
  	var data_wk_x_arr_str = [{data_wk_x_arr_str}];
+ 	
+ 	var yesterday_date = "{yesterday_date}";
+ 	var today_date = "{today_date}";
  </script>
  <script src="/service/js/kanban.js" type="text/javascript" charset="utf-8" > </script>
  

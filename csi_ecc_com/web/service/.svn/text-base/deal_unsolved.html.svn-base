@@ -105,6 +105,19 @@
 													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="602"><span>表扬</span></label></li>
 												</ul>
 											</div>
+											<div class="item">
+												<ul>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="8"><span>预约服务</span></label></li>
+													
+												</ul>
+											</div>
+											<div class="item">
+												<ul>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="901"><span>评论导入-满意</span></label></li>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="902"><span>评论导入-一般</span></label></li>
+													<li><label class="chk_wrap"><input type="checkbox" name="deal_type" value="903"><span>评论导入-不满意</span></label></li>
+												</ul>
+											</div>
 										</div>
 									</div>
 								</div>

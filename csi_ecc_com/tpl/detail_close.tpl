@@ -64,7 +64,7 @@
 					<div class="ecc_mod_box_hd up_down">
 						<h3 class="ecc_mod_box_tit">用户信息</h3>
 						<p class="ecc_mod_icon ecc_mod_icon1" title=""></p>
-						<p class="ecc_mod_icon ecc_mod_icon2" title=""></p>
+						{vip_icon_str}
 						<a href="##" class="ecc_mod_box_up"><span class="hidden">展开</span></a>
 						<a href="##" class="ecc_mod_box_down" style="display:none"><span class="hidden">收起</span></a>
 					</div>

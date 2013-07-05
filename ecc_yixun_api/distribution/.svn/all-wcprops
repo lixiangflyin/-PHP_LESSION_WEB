@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/ecc/ecc_yixun_rep/!svn/ver/9233/yixun_test_proj/trunk/PHPLIB/api/distribution
+END
+IBUser.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ecc/ecc_yixun_rep/!svn/ver/3882/yixun_test_proj/trunk/PHPLIB/api/distribution/IBUser.php
+END
+DataMaintain.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ecc/ecc_yixun_rep/!svn/ver/1688/yixun_test_proj/trunk/PHPLIB/api/distribution/DataMaintain.php
+END
+INotice.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/distribution/INotice.php
+END
+IBParameter.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/distribution/IBParameter.php
+END
+IBProduct.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ecc/ecc_yixun_rep/!svn/ver/8769/yixun_test_proj/trunk/PHPLIB/api/distribution/IBProduct.php
+END
+Invoice.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/distribution/Invoice.php
+END
+IBPreOrder.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/distribution/IBPreOrder.php
+END
+IBIpadVersion.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ecc/ecc_yixun_rep/!svn/ver/3142/yixun_test_proj/trunk/PHPLIB/api/distribution/IBIpadVersion.php
+END
+IBSession.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/distribution/IBSession.php
+END
+IBSailReport.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/distribution/IBSailReport.php
+END
+ShippingTime.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/ecc/ecc_yixun_rep/!svn/ver/9233/yixun_test_proj/trunk/PHPLIB/api/distribution/ShippingTime.php
+END
+ShippingPrice.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ecc/ecc_yixun_rep/!svn/ver/9233/yixun_test_proj/trunk/PHPLIB/api/distribution/ShippingPrice.php
+END
+IInvoice.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/distribution/IInvoice.php
+END
+ShipConst.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ecc/ecc_yixun_rep/!svn/ver/9190/yixun_test_proj/trunk/PHPLIB/api/distribution/ShipConst.php
+END
+Order.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ecc/ecc_yixun_rep/!svn/ver/7009/yixun_test_proj/trunk/PHPLIB/api/distribution/Order.php
+END
+IBShoppingCart.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/distribution/IBShoppingCart.php
+END
+RetailerAddress.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/ecc/ecc_yixun_rep/!svn/ver/1256/yixun_test_proj/trunk/PHPLIB/api/distribution/RetailerAddress.php
+END
+IBanner.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/distribution/IBanner.php
+END
+IBSearch.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/distribution/IBSearch.php
+END
+Shipping.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ecc/ecc_yixun_rep/!svn/ver/9195/yixun_test_proj/trunk/PHPLIB/api/distribution/Shipping.php
+END
+IBCustom.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ecc/ecc_yixun_rep/!svn/ver/4866/yixun_test_proj/trunk/PHPLIB/api/distribution/IBCustom.php
+END
+District.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/ecc/ecc_yixun_rep/!svn/ver/9190/yixun_test_proj/trunk/PHPLIB/api/distribution/District.php
+END
+IBOrder.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ecc/ecc_yixun_rep/!svn/ver/133/yixun_test_proj/trunk/PHPLIB/api/distribution/IBOrder.php
+END

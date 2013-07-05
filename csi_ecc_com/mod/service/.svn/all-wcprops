@@ -1,19 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 77
-/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/mod/service
+/paipai/paipai_b2b2c_rep/!svn/ver/62205/kf_proj/trunk/csi_ecc_com/mod/service
 END
 kanban.php
 K 25
 svn:wc:ra_dav:version-url
 V 88
-/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/mod/service/kanban.php
+/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/mod/service/kanban.php
 END
 deal.php
 K 25
 svn:wc:ra_dav:version-url
 V 86
-/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/mod/service/deal.php
+/paipai/paipai_b2b2c_rep/!svn/ver/62205/kf_proj/trunk/csi_ecc_com/mod/service/deal.php
 END
 team.php
 K 25
@@ -31,7 +31,13 @@ list.php
 K 25
 svn:wc:ra_dav:version-url
 V 86
-/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/mod/service/list.php
+/paipai/paipai_b2b2c_rep/!svn/ver/61961/kf_proj/trunk/csi_ecc_com/mod/service/list.php
+END
+dailyMail.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/mod/service/dailyMail.php
 END
 overtime.php
 K 25

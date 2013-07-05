@@ -360,5 +360,48 @@ class IStatDao
 		$v = $db->getRows($sql);
 		return $v;
 	}
+	
+	public static function findTypeData($d) {
+		self::clearErr();
+		$db = Config::getDB('b2b2c_kf_stat');
+		if(!$db) {
+			self::$errCode = Config::$errCode;
+			self::$errMsg  = Config::$errMsg;
+			return false;
+		}
+		$sql = "SELECT stat_type, stat_key, stat_value FROM daily_stat where stat_type in(10, 11, 12) and stat_date = '" . $d . "'";
+		
+		$v = $db->getRows($sql);
+		return $v;
+	}
+	
+	public static function findExpireData($d) {
+		self::clearErr();
+		$db = Config::getDB('b2b2c_kf_stat');
+		if(!$db) {
+			self::$errCode = Config::$errCode;
+			self::$errMsg  = Config::$errMsg;
+			return false;
+		}
+		$sql = "SELECT stat_key, stat_value FROM daily_stat where stat_type=13 and stat_date = '" . $d . "'";
+		
+		$v = $db->getRows($sql);
+		return $v;
+	}
+	
+	//获得某日的平均处理时长
+	public static function getAvgDealtime($d) {
+		self::clearErr();
+		$db = Config::getDB('b2b2c_kf_stat');
+		if(!$db) {
+			self::$errCode = Config::$errCode;
+			self::$errMsg  = Config::$errMsg;
+			return false;
+		}
+		$sql = "SELECT stat_value FROM daily_stat where stat_type=14 and stat_date = '" . $d . "'";
+		
+		$v = $db->getRows($sql);
+		return $v[0]['stat_value'];
+	}
 }
 

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/ecc/ecc_yixun_rep/!svn/ver/184/yixun_test_proj/trunk/PHPLIB/api/OrderWork
+END
+Data.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ecc/ecc_yixun_rep/!svn/ver/184/yixun_test_proj/trunk/PHPLIB/api/OrderWork/Data.php
+END
+Base.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/ecc/ecc_yixun_rep/!svn/ver/184/yixun_test_proj/trunk/PHPLIB/api/OrderWork/Base.php
+END
+Order.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ecc/ecc_yixun_rep/!svn/ver/180/yixun_test_proj/trunk/PHPLIB/api/OrderWork/Order.php
+END
+Score.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/ecc/ecc_yixun_rep/!svn/ver/180/yixun_test_proj/trunk/PHPLIB/api/OrderWork/Score.php
+END
+error_message.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/ecc/ecc_yixun_rep/!svn/ver/184/yixun_test_proj/trunk/PHPLIB/api/OrderWork/error_message.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ecc/ecc_yixun_rep/!svn/ver/180/yixun_test_proj/trunk/PHPLIB/api/OrderWork/Interface.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/ecc/ecc_yixun_rep/!svn/ver/180/yixun_test_proj/trunk/PHPLIB/api/OrderWork/Abstract.php
+END
+Dispatcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/ecc/ecc_yixun_rep/!svn/ver/184/yixun_test_proj/trunk/PHPLIB/api/OrderWork/Dispatcher.php
+END
+End.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/ecc/ecc_yixun_rep/!svn/ver/180/yixun_test_proj/trunk/PHPLIB/api/OrderWork/End.php
+END
+Promotion.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/ecc/ecc_yixun_rep/!svn/ver/180/yixun_test_proj/trunk/PHPLIB/api/OrderWork/Promotion.php
+END
