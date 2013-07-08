@@ -3,35 +3,11 @@ svn:wc:ra_dav:version-url
 V 69
 /paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/api
 END
-IGroup.php
-K 25
-svn:wc:ra_dav:version-url
-V 80
-/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/api/IGroup.php
-END
-IReviewReplyAdmin.php
-K 25
-svn:wc:ra_dav:version-url
-V 91
-/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/api/IReviewReplyAdmin.php
-END
-IReviewIdGenerator.php
-K 25
-svn:wc:ra_dav:version-url
-V 92
-/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/api/IReviewIdGenerator.php
-END
-IAssign.php
+IReview.php
 K 25
 svn:wc:ra_dav:version-url
 V 81
-/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/api/IAssign.php
-END
-IReviewsAdmin.php
-K 25
-svn:wc:ra_dav:version-url
-V 87
-/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/api/IReviewsAdmin.php
+/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/api/IReview.php
 END
 IRole.php
 K 25
@@ -45,11 +21,23 @@ svn:wc:ra_dav:version-url
 V 78
 /paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/api/ISMS.php
 END
-IReview.php
+IAssign.php
 K 25
 svn:wc:ra_dav:version-url
 V 81
-/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/api/IReview.php
+/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/api/IAssign.php
+END
+IReviewIdGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/api/IReviewIdGenerator.php
+END
+IReviewReplyAdmin.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/api/IReviewReplyAdmin.php
 END
 IMember.php
 K 25
@@ -57,15 +45,27 @@ svn:wc:ra_dav:version-url
 V 81
 /paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/api/IMember.php
 END
-IUser.php
-K 25
-svn:wc:ra_dav:version-url
-V 79
-/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/api/IUser.php
-END
 IServiceV2DailyReport.php
 K 25
 svn:wc:ra_dav:version-url
 V 95
 /paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/api/IServiceV2DailyReport.php
+END
+IGroup.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/api/IGroup.php
+END
+IReviewsAdmin.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/api/IReviewsAdmin.php
+END
+IUser.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/api/IUser.php
 END

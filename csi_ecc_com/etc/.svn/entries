@@ -1,7 +1,7 @@
 10
 
 dir
-62731
+62929
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep/kf_proj/trunk/csi_ecc_com/etc
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 
@@ -12,7 +12,7 @@ https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 mikeye
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -26,7 +26,7 @@ svn:special svn:externals svn:needs-lock
 
 e1b45ce1-979d-514a-b810-c7c14b6f71c4
 
-admin
+service
 dir
 
 beta.inecfg.inc.php
@@ -35,7 +35,7 @@ file
 
 
 
-2013-07-05T07:55:31.505000Z
+2013-07-08T02:44:39.123462Z
 b7cc6562ac1bedfd560597ddb7c0ec67
 2013-07-03T01:55:05.687813Z
 62205
@@ -63,47 +63,13 @@ mikeye
 
 1783
 
-dev.extcfg.inc.php
-file
-
-
-
-
-2013-06-28T06:23:03.162000Z
-3beefb00777a6bd04265b7d33c23efa9
-2013-06-08T09:35:05.468501Z
-60436
-mikeye
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7
-
 dev.inecfg.inc.php
 file
 
 
 
 
-2013-07-05T07:55:31.515000Z
+2013-07-08T02:44:39.125462Z
 8a8d8a487af0a1d9a14efe1fcd7f7657
 2013-07-02T09:36:27.891372Z
 62183
@@ -131,13 +97,16 @@ mikeye
 
 1690
 
+admin
+dir
+
 inecfg.inc.php
 file
 
 
 
 
-2013-07-05T07:55:31.522000Z
+2013-07-08T02:44:39.127462Z
 822ca06e35387d22c0790b4c96db1265
 2013-07-02T09:36:27.891372Z
 62183
@@ -165,6 +134,37 @@ mikeye
 
 1628
 
-service
-dir
+dev.extcfg.inc.php
+file
+
+
+
+
+2013-07-08T02:44:39.130462Z
+3beefb00777a6bd04265b7d33c23efa9
+2013-06-08T09:35:05.468501Z
+60436
+mikeye
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7
 

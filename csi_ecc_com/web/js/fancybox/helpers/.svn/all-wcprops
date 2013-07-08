@@ -3,24 +3,6 @@ svn:wc:ra_dav:version-url
 V 89
 /paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/js/fancybox/helpers
 END
-jquery.fancybox-buttons.js
-K 25
-svn:wc:ra_dav:version-url
-V 116
-/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/js/fancybox/helpers/jquery.fancybox-buttons.js
-END
-jquery.fancybox-buttons.css
-K 25
-svn:wc:ra_dav:version-url
-V 117
-/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/js/fancybox/helpers/jquery.fancybox-buttons.css
-END
-jquery.fancybox-thumbs.css
-K 25
-svn:wc:ra_dav:version-url
-V 116
-/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/js/fancybox/helpers/jquery.fancybox-thumbs.css
-END
 jquery.fancybox-media.js
 K 25
 svn:wc:ra_dav:version-url
@@ -38,4 +20,22 @@ K 25
 svn:wc:ra_dav:version-url
 V 110
 /paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/fancybox/helpers/fancybox_buttons.png
+END
+jquery.fancybox-buttons.css
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/js/fancybox/helpers/jquery.fancybox-buttons.css
+END
+jquery.fancybox-buttons.js
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/js/fancybox/helpers/jquery.fancybox-buttons.js
+END
+jquery.fancybox-thumbs.css
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/js/fancybox/helpers/jquery.fancybox-thumbs.css
 END

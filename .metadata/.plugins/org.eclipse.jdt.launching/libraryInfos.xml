@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
-<libraryInfo home="C:\Program Files (x86)\Zend\Zend Studio 10.0.1\jre" version="1.6.0_31">
+<libraryInfo home="C:\Program Files (x86)\Zend\Zend Studio 10.0.1" version="1.6.0_31">
 <bootpath>
 <entry path="C:\Program Files (x86)\Zend\Zend Studio 10.0.1\jre\lib\resources.jar"/>
 <entry path="C:\Program Files (x86)\Zend\Zend Studio 10.0.1\jre\lib\rt.jar"/>
@@ -19,7 +19,7 @@
 <entry path="C:\Program Files (x86)\Zend\Zend Studio 10.0.1\jre\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
-<libraryInfo home="C:\Program Files (x86)\Zend\Zend Studio 10.0.1" version="1.6.0_31">
+<libraryInfo home="C:\Program Files (x86)\Zend\Zend Studio 10.0.1\jre" version="1.6.0_31">
 <bootpath>
 <entry path="C:\Program Files (x86)\Zend\Zend Studio 10.0.1\jre\lib\resources.jar"/>
 <entry path="C:\Program Files (x86)\Zend\Zend Studio 10.0.1\jre\lib\rt.jar"/>

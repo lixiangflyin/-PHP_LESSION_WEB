@@ -1,7 +1,7 @@
 10
 
 dir
-62731
+62929
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/dialog
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 
@@ -12,7 +12,7 @@ https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 ninojiang
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -26,81 +26,13 @@ svn:special svn:externals svn:needs-lock
 
 e1b45ce1-979d-514a-b810-c7c14b6f71c4
 
-dialog-bc.png
-file
-
-
-
-
-2013-06-28T06:23:04.772000Z
-b3818e16534d658e9b56b57f13e28142
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-42643
-
-dialog-bl.png
-file
-
-
-
-
-2013-06-28T06:23:04.837000Z
-d9b3058b59a036b8ae4766d249c25aa8
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2992
-
 dialog-br.png
 file
 
 
 
 
-2013-06-28T06:23:04.577000Z
+2013-07-08T02:44:40.587316Z
 ed3fd7acf9ec587aa90835a3262cf9f9
 2013-06-07T03:02:08.371903Z
 60190
@@ -128,141 +60,8 @@ has-props
 
 2998
 
-dialog-button.gif
-file
-
-
-
-
-2013-06-28T06:23:04.825000Z
-627751b3bfc18b6e01e32cff5da743bd
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13459
-
-dialog-button.png
-file
-
-
-
-
-2013-06-28T06:23:04.705000Z
-47fec4d47a2247d182aa91e6dbb6e8ee
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-44103
-
-dialog-cl.png
-file
-
-
-
-
-2013-06-28T06:23:04.858000Z
-c04debe1150ae413d90b8d67e15733ce
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-43108
-
-dialog-close.png
-file
-
-
-
-
-2013-06-28T06:23:04.620000Z
-8855c9b30774d8d6889399b801d80b22
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-43315
+ie6
+dir
 
 dialog-cr.png
 file
@@ -270,7 +69,7 @@ file
 
 
 
-2013-06-28T06:23:04.597000Z
+2013-07-08T02:44:40.590316Z
 98409e93b3807be34b88190d737bb3fa
 2013-06-07T03:02:08.371903Z
 60190
@@ -298,14 +97,14 @@ has-props
 
 42586
 
-dialog-done.gif
+dialog-close.png
 file
 
 
 
 
-2013-06-28T06:23:04.634000Z
-f9172cd5c2bedb47cc1331fb7c8712f9
+2013-07-08T02:44:40.594315Z
+8855c9b30774d8d6889399b801d80b22
 2013-06-07T03:02:08.371903Z
 60190
 ninojiang
@@ -330,109 +129,7 @@ has-props
 
 
 
-14179
-
-dialog-error.gif
-file
-
-
-
-
-2013-06-28T06:23:04.684000Z
-dcf71e71507c5e61bc3b8d77dd6a1228
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-14219
-
-dialog-icons.png
-file
-
-
-
-
-2013-06-28T06:23:04.735000Z
-6c2239ff7cbc91e3abd0ed2f079816b3
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-62488
-
-dialog-question.gif
-file
-
-
-
-
-2013-06-28T06:23:04.812000Z
-cd7b7e918f234eec124f3e6fbe0fa6ca
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-14842
+43315
 
 dialog-tc.png
 file
@@ -440,7 +137,7 @@ file
 
 
 
-2013-06-28T06:23:04.655000Z
+2013-07-08T02:44:40.602314Z
 6f8cc0b15e93a5a9d0fab8c987913db4
 2013-06-07T03:02:08.371903Z
 60190
@@ -468,13 +165,47 @@ has-props
 
 42071
 
+dialog-done.gif
+file
+
+
+
+
+2013-07-08T02:44:40.598315Z
+f9172cd5c2bedb47cc1331fb7c8712f9
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14179
+
 dialog-title-icon.png
 file
 
 
 
 
-2013-06-28T06:23:04.671000Z
+2013-07-08T02:44:40.605314Z
 152ba4b28316d023af9ac2c1e9254239
 2013-06-07T03:02:08.371903Z
 60190
@@ -502,13 +233,115 @@ has-props
 
 233
 
+dialog-error.gif
+file
+
+
+
+
+2013-07-08T02:44:40.609314Z
+dcf71e71507c5e61bc3b8d77dd6a1228
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14219
+
+dialog-button.png
+file
+
+
+
+
+2013-07-08T02:44:40.617313Z
+47fec4d47a2247d182aa91e6dbb6e8ee
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+44103
+
+dialog-icons.png
+file
+
+
+
+
+2013-07-08T02:44:40.613313Z
+6c2239ff7cbc91e3abd0ed2f079816b3
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+62488
+
 dialog-tl.png
 file
 
 
 
 
-2013-06-28T06:23:04.748000Z
+2013-07-08T02:44:40.620313Z
 7075ac0b0a690f2860d94c0da6143e81
 2013-06-07T03:02:08.371903Z
 60190
@@ -536,13 +369,47 @@ has-props
 
 3103
 
+dialog-bc.png
+file
+
+
+
+
+2013-07-08T02:44:40.625312Z
+b3818e16534d658e9b56b57f13e28142
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+42643
+
 dialog-tr.png
 file
 
 
 
 
-2013-06-28T06:23:04.784000Z
+2013-07-08T02:44:40.629312Z
 5c3edf6cd5bd88b290ce32e59b5f06ee
 2013-06-07T03:02:08.371903Z
 60190
@@ -576,7 +443,7 @@ file
 
 
 
-2013-06-28T06:23:04.797000Z
+2013-07-08T02:44:40.633311Z
 a4f2d5268a26aa8e5723997666592ca4
 2013-06-07T03:02:08.371903Z
 60190
@@ -604,6 +471,139 @@ has-props
 
 14502
 
-ie6
-dir
+dialog-question.gif
+file
+
+
+
+
+2013-07-08T02:44:40.636311Z
+cd7b7e918f234eec124f3e6fbe0fa6ca
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14842
+
+dialog-button.gif
+file
+
+
+
+
+2013-07-08T02:44:40.640311Z
+627751b3bfc18b6e01e32cff5da743bd
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13459
+
+dialog-bl.png
+file
+
+
+
+
+2013-07-08T02:44:40.578317Z
+d9b3058b59a036b8ae4766d249c25aa8
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2992
+
+dialog-cl.png
+file
+
+
+
+
+2013-07-08T02:44:40.582316Z
+c04debe1150ae413d90b8d67e15733ce
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+43108
 

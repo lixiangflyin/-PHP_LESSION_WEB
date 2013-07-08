@@ -1,7 +1,7 @@
 10
 
 dir
-62731
+62929
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 
@@ -12,7 +12,7 @@ https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 ninojiang
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -26,9 +26,9 @@ svn:special svn:externals svn:needs-lock
 
 e1b45ce1-979d-514a-b810-c7c14b6f71c4
 
-css
+images
 dir
 
-images
+css
 dir
 

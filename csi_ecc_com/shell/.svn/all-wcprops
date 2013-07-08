@@ -9,11 +9,11 @@ svn:wc:ra_dav:version-url
 V 85
 /paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/shell/live_stat.php
 END
-rsyn_workflow.php
+assigner.php
 K 25
 svn:wc:ra_dav:version-url
-V 89
-/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/shell/rsyn_workflow.php
+V 84
+/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/shell/assigner.php
 END
 warninger.php
 K 25
@@ -21,23 +21,23 @@ svn:wc:ra_dav:version-url
 V 85
 /paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/shell/warninger.php
 END
-stat_recorder.php
-K 25
-svn:wc:ra_dav:version-url
-V 89
-/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/shell/stat_recorder.php
-END
-assigner.php
-K 25
-svn:wc:ra_dav:version-url
-V 84
-/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/shell/assigner.php
-END
 workload_stat.php
 K 25
 svn:wc:ra_dav:version-url
 V 89
 /paipai/paipai_b2b2c_rep/!svn/ver/61634/kf_proj/trunk/csi_ecc_com/shell/workload_stat.php
+END
+flag_setter.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/shell/flag_setter.php
+END
+stat_recorder.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/shell/stat_recorder.php
 END
 expire_recorder.php
 K 25
@@ -51,9 +51,9 @@ svn:wc:ra_dav:version-url
 V 83
 /paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/shell/alarmer.php
 END
-flag_setter.php
+rsyn_workflow.php
 K 25
 svn:wc:ra_dav:version-url
-V 87
-/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/shell/flag_setter.php
+V 89
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/shell/rsyn_workflow.php
 END

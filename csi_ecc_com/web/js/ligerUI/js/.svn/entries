@@ -1,7 +1,7 @@
 10
 
 dir
-62731
+62929
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/js
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 
@@ -12,7 +12,7 @@ https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 mikeye
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -26,7 +26,7 @@ svn:special svn:externals svn:needs-lock
 
 e1b45ce1-979d-514a-b810-c7c14b6f71c4
 
-core
+plugins
 dir
 
 ligerui.all.js
@@ -35,7 +35,7 @@ file
 
 
 
-2013-06-28T06:23:08.881000Z
+2013-07-08T02:44:40.206354Z
 160b254ff1690a3676f3056a0deab4cf
 2013-06-07T03:02:08.371903Z
 60190
@@ -69,7 +69,7 @@ file
 
 
 
-2013-06-28T06:23:08.887000Z
+2013-07-08T02:44:40.209354Z
 33c4c3e219d62136f3377cc450881158
 2013-06-07T03:02:08.371903Z
 60190
@@ -97,13 +97,16 @@ ninojiang
 
 27111
 
+core
+dir
+
 ligerui.min.js
 file
 
 
 
 
-2013-06-28T06:23:08.940000Z
+2013-07-08T02:44:40.212353Z
 14b5d3c93956aa19430b84602ada8ab4
 2013-06-07T03:02:08.371903Z
 60190
@@ -130,7 +133,4 @@ ninojiang
 
 
 89609
-
-plugins
-dir
 

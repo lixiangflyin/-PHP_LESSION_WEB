@@ -1,7 +1,7 @@
 10
 
 dir
-62731
+62929
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/controls
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 
@@ -12,7 +12,7 @@ https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 ninojiang
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -26,81 +26,13 @@ svn:special svn:externals svn:needs-lock
 
 e1b45ce1-979d-514a-b810-c7c14b6f71c4
 
-bg-panel-title-over.gif
+bg-tab-title.gif
 file
 
 
 
 
-2013-06-28T06:23:05.505000Z
-46f52516dc5ceabe435eaa274eba7ab9
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-825
-
-bg-panel-title-pressed.gif
-file
-
-
-
-
-2013-06-28T06:23:05.671000Z
-e6f0bc182601f0abb6b9b6426de89bff
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-825
-
-bg-panel-title.gif
-file
-
-
-
-
-2013-06-28T06:23:05.660000Z
+2013-07-08T02:44:41.211254Z
 7be4a3364304fe4edad66b08c1cbb39a
 2013-06-07T03:02:08.371903Z
 60190
@@ -128,13 +60,81 @@ has-props
 
 820
 
-bg-tab-title-over.gif
+dateeditor-bar-bg.gif
 file
 
 
 
 
-2013-06-28T06:23:05.550000Z
+2013-07-08T02:44:41.241251Z
+2632c7d438ba3f1977750ac62add3677
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13162
+
+btn-l.gif
+file
+
+
+
+
+2013-07-08T02:44:41.245250Z
+ea364d8699f9e82d674763f97a6a39af
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13237
+
+bg-panel-title-over.gif
+file
+
+
+
+
+2013-07-08T02:44:41.249250Z
 46f52516dc5ceabe435eaa274eba7ab9
 2013-06-07T03:02:08.371903Z
 60190
@@ -168,7 +168,7 @@ file
 
 
 
-2013-06-28T06:23:05.516000Z
+2013-07-08T02:44:41.296245Z
 e6f0bc182601f0abb6b9b6426de89bff
 2013-06-07T03:02:08.371903Z
 60190
@@ -195,244 +195,6 @@ has-props
 
 
 825
-
-bg-tab-title.gif
-file
-
-
-
-
-2013-06-28T06:23:05.449000Z
-7be4a3364304fe4edad66b08c1cbb39a
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-820
-
-bg-text.gif
-file
-
-
-
-
-2013-06-28T06:23:05.693000Z
-be90f3f20d0620735bedc624597e53c6
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13121
-
-bg-text.jpg
-file
-
-
-
-
-2013-06-28T06:23:05.560000Z
-5a316ec37ef859afc87bcfaf2921b66e
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13134
-
-bg-trigger-over.gif
-file
-
-
-
-
-2013-06-28T06:23:05.650000Z
-46f52516dc5ceabe435eaa274eba7ab9
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-825
-
-bg-trigger-pressed.gif
-file
-
-
-
-
-2013-06-28T06:23:05.606000Z
-e6f0bc182601f0abb6b9b6426de89bff
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-825
-
-bg-trigger.gif
-file
-
-
-
-
-2013-06-28T06:23:05.596000Z
-7be4a3364304fe4edad66b08c1cbb39a
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-820
-
-btn-l.gif
-file
-
-
-
-
-2013-06-28T06:23:05.494000Z
-ea364d8699f9e82d674763f97a6a39af
-2013-06-07T03:02:08.371903Z
-60190
-ninojiang
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13237
 
 btn-r.gif
 file
@@ -440,7 +202,7 @@ file
 
 
 
-2013-06-28T06:23:05.528000Z
+2013-07-08T02:44:41.136261Z
 ab4833b5cf036aa5d3b2264831a4eba1
 2013-06-07T03:02:08.371903Z
 60190
@@ -474,7 +236,7 @@ file
 
 
 
-2013-06-28T06:23:05.539000Z
+2013-07-08T02:44:41.141261Z
 6b6b9900fd42d8dd9a89d608ea31ae54
 2013-06-07T03:02:08.371903Z
 60190
@@ -502,14 +264,14 @@ has-props
 
 13164
 
-button-bg-over.gif
+bg-tab-title-over.gif
 file
 
 
 
 
-2013-06-28T06:23:05.682000Z
-a038cc075a433c26cd8145d614ae08b7
+2013-07-08T02:44:41.144260Z
+46f52516dc5ceabe435eaa274eba7ab9
 2013-06-07T03:02:08.371903Z
 60190
 ninojiang
@@ -534,16 +296,16 @@ has-props
 
 
 
-13215
+825
 
-button-bg.gif
+bg-text.jpg
 file
 
 
 
 
-2013-06-28T06:23:05.637000Z
-b40d51ec649d426079ae33635eef3d1b
+2013-07-08T02:44:41.158259Z
+5a316ec37ef859afc87bcfaf2921b66e
 2013-06-07T03:02:08.371903Z
 60190
 ninojiang
@@ -568,7 +330,7 @@ has-props
 
 
 
-13139
+13134
 
 checkbox.gif
 file
@@ -576,7 +338,7 @@ file
 
 
 
-2013-06-28T06:23:05.574000Z
+2013-07-08T02:44:41.163258Z
 e6a7a38d5714b57513f97ec8da8e1349
 2013-06-07T03:02:08.371903Z
 60190
@@ -610,7 +372,7 @@ file
 
 
 
-2013-06-28T06:23:05.585000Z
+2013-07-08T02:44:41.166258Z
 92c198e3d7eaceac043d5e822e1dc8d7
 2013-06-07T03:02:08.371903Z
 60190
@@ -638,14 +400,14 @@ has-props
 
 16087
 
-dateeditor-bar-bg.gif
+bg-trigger.gif
 file
 
 
 
 
-2013-06-28T06:23:05.463000Z
-2632c7d438ba3f1977750ac62add3677
+2013-07-08T02:44:41.170258Z
+7be4a3364304fe4edad66b08c1cbb39a
 2013-06-07T03:02:08.371903Z
 60190
 ninojiang
@@ -670,7 +432,75 @@ has-props
 
 
 
-13162
+820
+
+bg-trigger-pressed.gif
+file
+
+
+
+
+2013-07-08T02:44:41.174257Z
+e6f0bc182601f0abb6b9b6426de89bff
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+825
+
+radio.gif
+file
+
+
+
+
+2013-07-08T02:44:41.178257Z
+8fcdb6e4835189b669b73e9e3569ee32
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1745
 
 dateeditor-header-bg.gif
 file
@@ -678,7 +508,7 @@ file
 
 
 
-2013-06-28T06:23:05.626000Z
+2013-07-08T02:44:41.181257Z
 07b76ff737818d56a443f01cd4c2521a
 2013-06-07T03:02:08.371903Z
 60190
@@ -706,14 +536,14 @@ has-props
 
 13162
 
-radio.gif
+button-bg.gif
 file
 
 
 
 
-2013-06-28T06:23:05.616000Z
-8fcdb6e4835189b669b73e9e3569ee32
+2013-07-08T02:44:41.186256Z
+b40d51ec649d426079ae33635eef3d1b
 2013-06-07T03:02:08.371903Z
 60190
 ninojiang
@@ -738,5 +568,175 @@ has-props
 
 
 
-1745
+13139
+
+bg-trigger-over.gif
+file
+
+
+
+
+2013-07-08T02:44:41.189256Z
+46f52516dc5ceabe435eaa274eba7ab9
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+825
+
+bg-panel-title.gif
+file
+
+
+
+
+2013-07-08T02:44:41.193255Z
+7be4a3364304fe4edad66b08c1cbb39a
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+820
+
+bg-panel-title-pressed.gif
+file
+
+
+
+
+2013-07-08T02:44:41.199255Z
+e6f0bc182601f0abb6b9b6426de89bff
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+825
+
+bg-text.gif
+file
+
+
+
+
+2013-07-08T02:44:41.203254Z
+be90f3f20d0620735bedc624597e53c6
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13121
+
+button-bg-over.gif
+file
+
+
+
+
+2013-07-08T02:44:41.207254Z
+a038cc075a433c26cd8145d614ae08b7
+2013-06-07T03:02:08.371903Z
+60190
+ninojiang
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13215
 

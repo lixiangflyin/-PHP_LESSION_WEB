@@ -3,12 +3,6 @@ svn:wc:ra_dav:version-url
 V 109
 /paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/dateeditor
 END
-icon-last.gif
-K 25
-svn:wc:ra_dav:version-url
-V 123
-/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/dateeditor/icon-last.gif
-END
 icon-first.gif
 K 25
 svn:wc:ra_dav:version-url
@@ -26,4 +20,10 @@ K 25
 svn:wc:ra_dav:version-url
 V 123
 /paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/dateeditor/icon-next.gif
+END
+icon-last.gif
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/dateeditor/icon-last.gif
 END

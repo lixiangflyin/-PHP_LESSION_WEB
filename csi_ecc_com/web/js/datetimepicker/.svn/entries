@@ -1,7 +1,7 @@
 10
 
 dir
-62731
+62929
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep/kf_proj/trunk/csi_ecc_com/web/js/datetimepicker
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 
@@ -12,7 +12,7 @@ https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 mikeye
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -29,13 +29,47 @@ e1b45ce1-979d-514a-b810-c7c14b6f71c4
 i18n
 dir
 
+jquery-ui-timepicker-addon.js
+file
+
+
+
+
+2013-07-08T02:44:43.657009Z
+6d712334ae2147c9f83d26f80a5fbb6d
+2013-06-08T09:35:05.468501Z
+60436
+mikeye
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+70990
+
 jquery-ui-sliderAccess.js
 file
 
 
 
 
-2013-06-28T06:23:09.271000Z
+2013-07-08T02:44:43.659009Z
 8367560b688f3f1b2e86af001988a20e
 2013-06-08T09:35:05.468501Z
 60436
@@ -69,7 +103,7 @@ file
 
 
 
-2013-06-28T06:23:09.276000Z
+2013-07-08T02:44:43.654009Z
 4c4e6b894efc6381846a0764f1e70f77
 2013-06-08T09:35:05.468501Z
 60436
@@ -96,38 +130,4 @@ mikeye
 
 
 487
-
-jquery-ui-timepicker-addon.js
-file
-
-
-
-
-2013-06-28T06:23:09.266000Z
-6d712334ae2147c9f83d26f80a5fbb6d
-2013-06-08T09:35:05.468501Z
-60436
-mikeye
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-70990
 

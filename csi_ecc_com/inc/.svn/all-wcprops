@@ -3,17 +3,17 @@ svn:wc:ra_dav:version-url
 V 69
 /paipai/paipai_b2b2c_rep/!svn/ver/62205/kf_proj/trunk/csi_ecc_com/inc
 END
-constant_web.inc.php
-K 25
-svn:wc:ra_dav:version-url
-V 90
-/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/inc/constant_web.inc.php
-END
 global.func.php
 K 25
 svn:wc:ra_dav:version-url
 V 85
 /paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/inc/global.func.php
+END
+constant_web.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/inc/constant_web.inc.php
 END
 constant.inc.php
 K 25

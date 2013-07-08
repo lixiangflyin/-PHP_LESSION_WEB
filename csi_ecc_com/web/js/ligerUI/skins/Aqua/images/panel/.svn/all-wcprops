@@ -9,29 +9,23 @@ svn:wc:ra_dav:version-url
 V 119
 /paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/header2-bg.jpg
 END
-panel-toolbar.jpg
+panel-menu.jpg
 K 25
 svn:wc:ra_dav:version-url
-V 122
-/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-toolbar.jpg
+V 119
+/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-menu.jpg
 END
-panel-tools.gif
+header-bg.gif
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/header-bg.gif
+END
+panel-btn-r.gif
 K 25
 svn:wc:ra_dav:version-url
 V 120
-/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-tools.gif
-END
-panel-toolbar.gif
-K 25
-svn:wc:ra_dav:version-url
-V 122
-/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-toolbar.gif
-END
-panel-btn-l.gif
-K 25
-svn:wc:ra_dav:version-url
-V 120
-/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-btn-l.gif
+/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-btn-r.gif
 END
 panel-btn.gif
 K 25
@@ -51,17 +45,11 @@ svn:wc:ra_dav:version-url
 V 121
 /paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-header.gif
 END
-panel-menu-item-down.gif
+header-bg.jpg
 K 25
 svn:wc:ra_dav:version-url
-V 129
-/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-menu-item-down.gif
-END
-panel-btn-r.gif
-K 25
-svn:wc:ra_dav:version-url
-V 120
-/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-btn-r.gif
+V 118
+/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/header-bg.jpg
 END
 bar-bg.gif
 K 25
@@ -69,27 +57,39 @@ svn:wc:ra_dav:version-url
 V 115
 /paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/bar-bg.gif
 END
-header-bg.jpg
+panel-tools.gif
 K 25
 svn:wc:ra_dav:version-url
-V 118
-/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/header-bg.jpg
+V 120
+/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-tools.gif
 END
-panel-menu.jpg
+panel-toolbar.gif
 K 25
 svn:wc:ra_dav:version-url
-V 119
-/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-menu.jpg
-END
-header-bg.gif
-K 25
-svn:wc:ra_dav:version-url
-V 118
-/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/header-bg.gif
+V 122
+/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-toolbar.gif
 END
 panel-menu.gif
 K 25
 svn:wc:ra_dav:version-url
 V 119
 /paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-menu.gif
+END
+panel-menu-item-down.gif
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-menu-item-down.gif
+END
+panel-btn-l.gif
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-btn-l.gif
+END
+panel-toolbar.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins/Aqua/images/panel/panel-toolbar.jpg
 END

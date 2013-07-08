@@ -1,0 +1,10 @@
+<?php
+
+$error = true;
+
+if($error)
+{
+	exit('something error!');
+}
+
+echo 'nothing error!';

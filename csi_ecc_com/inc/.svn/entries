@@ -1,7 +1,7 @@
 10
 
 dir
-62731
+62929
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep/kf_proj/trunk/csi_ecc_com/inc
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 
@@ -12,7 +12,7 @@ https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 mikeye
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -26,76 +26,8 @@ svn:special svn:externals svn:needs-lock
 
 e1b45ce1-979d-514a-b810-c7c14b6f71c4
 
-admin
+service
 dir
-
-constant.inc.php
-file
-
-
-
-
-2013-06-28T06:23:03.059000Z
-3beefb00777a6bd04265b7d33c23efa9
-2013-06-08T09:35:05.468501Z
-60436
-mikeye
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7
-
-constant_web.inc.php
-file
-
-
-
-
-2013-07-05T07:55:31.441000Z
-2946d7a30447191062236c791ff544a7
-2013-07-02T09:36:27.891372Z
-62183
-mikeye
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6076
 
 global.func.php
 file
@@ -103,7 +35,7 @@ file
 
 
 
-2013-06-28T06:23:02.985000Z
+2013-07-08T02:44:39.025472Z
 646d69368b5e07e93bbe187baa2d2f01
 2013-06-07T03:02:08.371903Z
 60190
@@ -131,6 +63,74 @@ ninojiang
 
 1273
 
-service
+constant_web.inc.php
+file
+
+
+
+
+2013-07-08T02:44:39.028472Z
+2946d7a30447191062236c791ff544a7
+2013-07-02T09:36:27.891372Z
+62183
+mikeye
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6076
+
+constant.inc.php
+file
+
+
+
+
+2013-07-08T02:44:39.029472Z
+3beefb00777a6bd04265b7d33c23efa9
+2013-06-08T09:35:05.468501Z
+60436
+mikeye
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7
+
+admin
 dir
 

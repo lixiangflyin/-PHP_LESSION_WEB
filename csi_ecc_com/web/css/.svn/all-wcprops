@@ -15,17 +15,11 @@ svn:wc:ra_dav:version-url
 V 94
 /paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/css/jquery-ui-1.10.3.css
 END
-index_page.css
+my_message.css
 K 25
 svn:wc:ra_dav:version-url
 V 88
-/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/web/css/index_page.css
-END
-user_state.css
-K 25
-svn:wc:ra_dav:version-url
-V 88
-/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/css/user_state.css
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/css/my_message.css
 END
 process_list.css
 K 25
@@ -33,17 +27,17 @@ svn:wc:ra_dav:version-url
 V 90
 /paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/css/process_list.css
 END
-power_manage.css
+member_config.css
 K 25
 svn:wc:ra_dav:version-url
-V 90
-/paipai/paipai_b2b2c_rep/!svn/ver/61634/kf_proj/trunk/csi_ecc_com/web/css/power_manage.css
+V 91
+/paipai/paipai_b2b2c_rep/!svn/ver/61634/kf_proj/trunk/csi_ecc_com/web/css/member_config.css
 END
-overlay.css
+user_state.css
 K 25
 svn:wc:ra_dav:version-url
-V 85
-/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/css/overlay.css
+V 88
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/css/user_state.css
 END
 group_config.css
 K 25
@@ -51,17 +45,29 @@ svn:wc:ra_dav:version-url
 V 90
 /paipai/paipai_b2b2c_rep/!svn/ver/61634/kf_proj/trunk/csi_ecc_com/web/css/group_config.css
 END
-index.css
+overlay.css
 K 25
 svn:wc:ra_dav:version-url
-V 83
-/paipai/paipai_b2b2c_rep/!svn/ver/61634/kf_proj/trunk/csi_ecc_com/web/css/index.css
+V 85
+/paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/css/overlay.css
 END
-my_message.css
+index_page.css
 K 25
 svn:wc:ra_dav:version-url
 V 88
-/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/css/my_message.css
+/paipai/paipai_b2b2c_rep/!svn/ver/61721/kf_proj/trunk/csi_ecc_com/web/css/index_page.css
+END
+power_manage.css
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/paipai/paipai_b2b2c_rep/!svn/ver/61634/kf_proj/trunk/csi_ecc_com/web/css/power_manage.css
+END
+abnormal_order.css
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/css/abnormal_order.css
 END
 deal_detail.css
 K 25
@@ -69,15 +75,9 @@ svn:wc:ra_dav:version-url
 V 89
 /paipai/paipai_b2b2c_rep/!svn/ver/61961/kf_proj/trunk/csi_ecc_com/web/css/deal_detail.css
 END
-member_config.css
+index.css
 K 25
 svn:wc:ra_dav:version-url
-V 91
-/paipai/paipai_b2b2c_rep/!svn/ver/61634/kf_proj/trunk/csi_ecc_com/web/css/member_config.css
-END
-abnormal_order.css
-K 25
-svn:wc:ra_dav:version-url
-V 92
-/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/css/abnormal_order.css
+V 83
+/paipai/paipai_b2b2c_rep/!svn/ver/61634/kf_proj/trunk/csi_ecc_com/web/css/index.css
 END

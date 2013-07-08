@@ -1,7 +1,7 @@
 10
 
 dir
-62731
+62929
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep/kf_proj/trunk/csi_ecc_com/web/js/ligerUI/skins
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 
@@ -12,7 +12,7 @@ https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 ninojiang
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -26,19 +26,13 @@ svn:special svn:externals svn:needs-lock
 
 e1b45ce1-979d-514a-b810-c7c14b6f71c4
 
-Aqua
-dir
-
-icons
-dir
-
 ligerui-icons.css
 file
 
 
 
 
-2013-06-28T06:23:04.427000Z
+2013-07-08T02:44:43.306044Z
 9d9cc4443692664b2d5498ff3d1cbeac
 2013-06-07T03:02:08.371903Z
 60190
@@ -65,4 +59,10 @@ ninojiang
 
 
 3480
+
+Aqua
+dir
+
+icons
+dir
 

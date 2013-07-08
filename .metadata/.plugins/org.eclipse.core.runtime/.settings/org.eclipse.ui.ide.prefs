@@ -1,6 +1,7 @@
 EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
+IDE_ENCODINGS_PREFERENCE=GBK
 PROBLEMS_FILTERS_MIGRATE=true
 eclipse.preferences.version=1
-platformState=1372986990064
+platformState=1373179398519
 quickStart=false
 tipsAndTricks=true

@@ -9,17 +9,23 @@ svn:wc:ra_dav:version-url
 V 91
 /paipai/paipai_b2b2c_rep/!svn/ver/60577/kf_proj/trunk/csi_ecc_com/web/service/js/message.js
 END
+team.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/paipai/paipai_b2b2c_rep/!svn/ver/60577/kf_proj/trunk/csi_ecc_com/web/service/js/team.js
+END
+detail_close.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/paipai/paipai_b2b2c_rep/!svn/ver/61634/kf_proj/trunk/csi_ecc_com/web/service/js/detail_close.js
+END
 kanban.js
 K 25
 svn:wc:ra_dav:version-url
 V 90
 /paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/web/service/js/kanban.js
-END
-deal_overtime.js
-K 25
-svn:wc:ra_dav:version-url
-V 97
-/paipai/paipai_b2b2c_rep/!svn/ver/61961/kf_proj/trunk/csi_ecc_com/web/service/js/deal_overtime.js
 END
 overtime.js
 K 25
@@ -27,17 +33,17 @@ svn:wc:ra_dav:version-url
 V 92
 /paipai/paipai_b2b2c_rep/!svn/ver/60190/kf_proj/trunk/csi_ecc_com/web/service/js/overtime.js
 END
-detail.js
-K 25
-svn:wc:ra_dav:version-url
-V 90
-/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/service/js/detail.js
-END
 list.js
 K 25
 svn:wc:ra_dav:version-url
 V 88
 /paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/web/service/js/list.js
+END
+deal_overtime.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/paipai/paipai_b2b2c_rep/!svn/ver/61961/kf_proj/trunk/csi_ecc_com/web/service/js/deal_overtime.js
 END
 unsolved.js
 K 25
@@ -45,23 +51,17 @@ svn:wc:ra_dav:version-url
 V 92
 /paipai/paipai_b2b2c_rep/!svn/ver/61961/kf_proj/trunk/csi_ecc_com/web/service/js/unsolved.js
 END
-team.js
-K 25
-svn:wc:ra_dav:version-url
-V 88
-/paipai/paipai_b2b2c_rep/!svn/ver/60577/kf_proj/trunk/csi_ecc_com/web/service/js/team.js
-END
 detail_unsolved.js
 K 25
 svn:wc:ra_dav:version-url
 V 99
 /paipai/paipai_b2b2c_rep/!svn/ver/62183/kf_proj/trunk/csi_ecc_com/web/service/js/detail_unsolved.js
 END
-detail_close.js
+detail.js
 K 25
 svn:wc:ra_dav:version-url
-V 96
-/paipai/paipai_b2b2c_rep/!svn/ver/61634/kf_proj/trunk/csi_ecc_com/web/service/js/detail_close.js
+V 90
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/web/service/js/detail.js
 END
 group_unassign.js
 K 25

@@ -1,7 +1,7 @@
 10
 
 dir
-62731
+62929
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep/kf_proj/trunk/csi_ecc_com/dao/service
 https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 
@@ -12,7 +12,7 @@ https://tc-svn.tencent.com/paipai/paipai_b2b2c_rep
 mikeye
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -26,14 +26,14 @@ svn:special svn:externals svn:needs-lock
 
 e1b45ce1-979d-514a-b810-c7c14b6f71c4
 
-IAssignmentDao.php
+IServiceReplyDao.php
 file
 
 
 
 
-2013-06-28T06:23:02.055000Z
-488d1788dbbd3e5aeccb0b9984721a4c
+2013-07-08T02:44:38.559519Z
+210ef360b8c8f708d7dd8aabec7cff87
 2013-06-08T09:35:05.468501Z
 60436
 mikeye
@@ -58,7 +58,7 @@ mikeye
 
 
 
-5503
+5580
 
 IMessageDao.php
 file
@@ -66,7 +66,7 @@ file
 
 
 
-2013-06-28T06:23:02.039000Z
+2013-07-08T02:44:38.548520Z
 51c1d4923aa7a04bbe66e53a66cd603b
 2013-06-08T09:35:05.468501Z
 60436
@@ -100,7 +100,7 @@ file
 
 
 
-2013-07-05T07:55:31.115000Z
+2013-07-08T02:44:38.550520Z
 caff422b26b0462fb8736a4563fa5d30
 2013-07-03T01:55:05.687813Z
 62205
@@ -128,14 +128,14 @@ mikeye
 
 14587
 
-IServiceReplyDao.php
+IAssignmentDao.php
 file
 
 
 
 
-2013-06-28T06:23:02.034000Z
-210ef360b8c8f708d7dd8aabec7cff87
+2013-07-08T02:44:38.552519Z
+488d1788dbbd3e5aeccb0b9984721a4c
 2013-06-08T09:35:05.468501Z
 60436
 mikeye
@@ -160,41 +160,7 @@ mikeye
 
 
 
-5580
-
-IStatDao.php
-file
-
-
-
-
-2013-07-05T07:55:31.127000Z
-b7b03121c814e50b9738f97caf0a1f16
-2013-07-02T09:36:27.891372Z
-62183
-mikeye
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9699
+5503
 
 IWorkflowDao.php
 file
@@ -202,7 +168,7 @@ file
 
 
 
-2013-06-28T06:23:02.061000Z
+2013-07-08T02:44:38.555519Z
 56546037df4f502c2baa76291409bf86
 2013-06-08T09:35:05.468501Z
 60436
@@ -229,4 +195,38 @@ mikeye
 
 
 6121
+
+IStatDao.php
+file
+
+
+
+
+2013-07-08T02:44:38.557519Z
+b7b03121c814e50b9738f97caf0a1f16
+2013-07-02T09:36:27.891372Z
+62183
+mikeye
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9699
 

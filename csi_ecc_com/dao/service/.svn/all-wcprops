@@ -3,24 +3,6 @@ svn:wc:ra_dav:version-url
 V 77
 /paipai/paipai_b2b2c_rep/!svn/ver/62205/kf_proj/trunk/csi_ecc_com/dao/service
 END
-IWorkflowDao.php
-K 25
-svn:wc:ra_dav:version-url
-V 94
-/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/dao/service/IWorkflowDao.php
-END
-IAssignmentDao.php
-K 25
-svn:wc:ra_dav:version-url
-V 96
-/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/dao/service/IAssignmentDao.php
-END
-IServiceApplyDao.php
-K 25
-svn:wc:ra_dav:version-url
-V 98
-/paipai/paipai_b2b2c_rep/!svn/ver/62205/kf_proj/trunk/csi_ecc_com/dao/service/IServiceApplyDao.php
-END
 IServiceReplyDao.php
 K 25
 svn:wc:ra_dav:version-url
@@ -32,6 +14,24 @@ K 25
 svn:wc:ra_dav:version-url
 V 93
 /paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/dao/service/IMessageDao.php
+END
+IServiceApplyDao.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/paipai/paipai_b2b2c_rep/!svn/ver/62205/kf_proj/trunk/csi_ecc_com/dao/service/IServiceApplyDao.php
+END
+IAssignmentDao.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/dao/service/IAssignmentDao.php
+END
+IWorkflowDao.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/paipai/paipai_b2b2c_rep/!svn/ver/60436/kf_proj/trunk/csi_ecc_com/dao/service/IWorkflowDao.php
 END
 IStatDao.php
 K 25
