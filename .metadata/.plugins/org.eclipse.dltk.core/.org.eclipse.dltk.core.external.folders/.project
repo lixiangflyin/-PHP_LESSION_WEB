@@ -8,4 +8,21 @@
 	</buildSpec>
 	<natures>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>K:/opt/web/.metadata/.plugins/com.zend.php.core/__language__/f91c0010</location>
+		</link>
+		<link>
+			<name>.link4</name>
+			<type>2</type>
+			<location>K:/opt/web/.metadata/.plugins/com.zend.php.core/__language__/c3c008c9</location>
+		</link>
+		<link>
+			<name>.link5</name>
+			<type>2</type>
+			<location>K:/opt/web/.metadata/.plugins/org.eclipse.php.core/__language__/b4227215</location>
+		</link>
+	</linkedResources>
 </projectDescription>

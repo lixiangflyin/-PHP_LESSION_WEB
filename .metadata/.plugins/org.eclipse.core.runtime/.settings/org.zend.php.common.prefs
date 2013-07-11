@@ -1,4 +1,3 @@
-com.phpserver.autodetection=false
 eclipse.preferences.version=1
 isFirstStartup=true
-viewsToReopen=
+viewsToReopen=org.eclipse.ui.views.ContentOutline,
