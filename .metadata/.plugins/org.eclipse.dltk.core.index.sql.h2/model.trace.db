@@ -1,0 +1,2427 @@
+07-11 13:42:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_INTERNAL_CACHERESOURCE_FILE[*].PHP';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_internal_cacheresource_file.php';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:42:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:42:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_INTERNAL_RESOURCE_FILE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_internal_resource_file.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:42:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_INTERNAL_RESOURCE_FILE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_internal_resource_file.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:42:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_RESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_resource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:42:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_RESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_resource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:42:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_RESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_resource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:42:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_INTERNAL_TEMPLATE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_internal_template.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:42:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_INTERNAL_TEMPLATE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_internal_template.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:42:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_INTERNAL_TEMPLATE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_internal_template.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:46:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$this->setTemplateDir('.[*]'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$this->setTemplateDir('.'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:46:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$this->setTemplateDir('.[*]'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$this->setTemplateDir('.'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:46:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$this->setTemplateDir('.[*]'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$this->setTemplateDir('.'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:46:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$->setCompileDir('.[*]'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$->setCompileDir('.'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:46:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$->setCompileDir('.[*]'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$->setCompileDir('.'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:46:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$->setCompileDir('.[*]'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$->setCompileDir('.'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:00 jdbc[4]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-169]
+	at org.h2.message.DbException.get(DbException.java:169)
+	at org.h2.message.DbException.get(DbException.java:146)
+	at org.h2.message.DbException.get(DbException.java:135)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:120)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:93)
+	at org.h2.Driver.connect(Driver.java:72)
+	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
+	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
+	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
+	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
+	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
+	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
+	at org.eclipse.dltk.internal.core.index.sql.SqlSearchEngine.search(SqlSearchEngine.java:66)
+	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:285)
+	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:263)
+	at org.eclipse.dltk.core.index2.search.ModelAccess.findTypes(ModelAccess.java:203)
+	at org.eclipse.php.internal.core.model.PhpModelAccess.findTypes(PhpModelAccess.java:87)
+	at org.eclipse.php.internal.core.typeinference.PHPModelUtils.getTypes(PHPModelUtils.java:1830)
+	at org.eclipse.php.internal.core.typeinference.PHPModelUtils.getTypes(PHPModelUtils.java:1783)
+	at org.eclipse.php.internal.core.typeinference.PHPTypeInferenceUtils.internalGetModelElements(PHPTypeInferenceUtils.java:209)
+	at org.eclipse.php.internal.core.typeinference.PHPTypeInferenceUtils.getModelElements(PHPTypeInferenceUtils.java:146)
+	at org.eclipse.php.internal.core.codeassist.PHPSelectionEngine.internalASTResolve(PHPSelectionEngine.java:364)
+	at org.eclipse.php.internal.core.codeassist.PHPSelectionEngine.select(PHPSelectionEngine.java:103)
+	at com.dubture.twig.core.codeassist.SelectionEngine.select(SelectionEngine.java:60)
+	at org.eclipse.dltk.internal.core.Openable.codeSelect(Openable.java:662)
+	at org.eclipse.dltk.internal.core.Openable.codeSelect(Openable.java:678)
+	at org.eclipse.dltk.internal.core.AbstractSourceModule.codeSelect(AbstractSourceModule.java:85)
+	at org.eclipse.dltk.internal.core.AbstractSourceModule.codeSelect(AbstractSourceModule.java:76)
+	at org.eclipse.php.internal.core.ast.nodes.DefaultBindingResolver.resolveFunction(DefaultBindingResolver.java:628)
+	at org.eclipse.php.internal.core.ast.nodes.DefaultBindingResolver.resolveName(DefaultBindingResolver.java:301)
+	at org.eclipse.php.internal.core.ast.nodes.Identifier.resolveBinding(Identifier.java:165)
+	at org.eclipse.php.internal.ui.actions.OpenCallHierarchyAction.getSelectionModelElement(OpenCallHierarchyAction.java:279)
+	at org.eclipse.php.internal.ui.actions.OpenCallHierarchyAction.isEnabled(OpenCallHierarchyAction.java:178)
+	at org.eclipse.php.internal.ui.actions.OpenCallHierarchyAction.access$0(OpenCallHierarchyAction.java:172)
+	at org.eclipse.php.internal.ui.actions.OpenCallHierarchyAction$1.run(OpenCallHierarchyAction.java:125)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.h2.jdbc.JdbcSQLException: The connection was not closed by the application and is garbage collected [90018-169]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
+	... 37 more
+07-11 13:58:47 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:47 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:47 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:47 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_INTERNAL_CACHERESOURCE_FILE[*].PHP';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_internal_cacheresource_file.php';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_INTERNAL_CACHERESOURCE_FILE[*].PHP';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_internal_cacheresource_file.php';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_INTERNAL_CACHERESOURCE_FILE[*].PHP';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_internal_cacheresource_file.php';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_INTERNAL_CACHERESOURCE_FILE[*].PHP';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_internal_cacheresource_file.php';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_INTERNAL_CACHERESOURCE_FILE[*].PHP';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_internal_cacheresource_file.php';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 13:58:49 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_INTERNAL_CACHERESOURCE_FILE[*].PHP';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_internal_cacheresource_file.php';
+
+/**
+' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:00:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'TEMPLATES_C[*]'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'templates_c'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:00:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'TEMPLATES_C[*]'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'templates_c'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:00:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'TEMPLATES_C[*]'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'templates_c'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:00:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'TEMPLATES_C[*]'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'templates_c'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:00:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'TEMPLATES_C[*]'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'templates_c'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:00:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'TEMPLATES_C[*]'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'templates_c'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:00:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'TEMPLATES_C[*]'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$'templates_c'' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:02:14 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:02:14 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:02:14 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:02:14 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:02:14 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:02:14 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:02:14 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:02:14 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(82,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:09:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:09:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:09:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:09:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:09:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:09:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:09:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:09:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:09:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:09:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:09:02 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:09:02 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:51 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:52 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:52 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:52 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:52 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:52 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:52 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:52 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:52 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:52 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:53 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:53 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:53 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:53 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:53 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:53 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:53 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:53 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:53 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:53 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['CONTENT[*]']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['content']->value;?>
+
+</body>
+</html><?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:53 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:56 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:56 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:56 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:56 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:56 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:56 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:56 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:56 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:56 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:56 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:57 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:58 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:10:59 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:01 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['TITLE[*]']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$_smarty_tpl->tpl_vars['title']->value;?>
+</title>
+</head>
+<body>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:03 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:03 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:03 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:03 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:03 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:03 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:03 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:03 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:03 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:03 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:03 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello[*]' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100;"; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$Smarty;
+
+
+$smarty->assign('title','hello' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:04 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:04 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:04 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:04 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:04 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:04 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:04 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:04 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:04 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:04 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:11:05 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'SMARTY_CACHERESOURCE[*].PHP';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$SMARTY_SYSPLUGINS_DIR.'smarty_cacheresource.php';
+include_once' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 100; [42000-169]
+07-11 14:17:34 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:34 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:35 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:35 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:36 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:36 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:37 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:37 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:39 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:39 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:41 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:41 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:45 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:45 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:46 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:46 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:17:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USER[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('user',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(83,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:39 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:39 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:41 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:41 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:41 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:41 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:43 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:43 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:43 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:43 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:44 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:44 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:44 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:44 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:46 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_301 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:21:46 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('USERS[*]',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_300 WHERE 1=1 AND NAME='assign('users',array' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(87,1,2,3)) LIMIT 10; [42000-169]
+07-11 14:41:41 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$($_smarty_tpl->tpl_vars['RANDOM[*]']->value<50){?>
+	<div>small</div>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(91,1,2,3)) LIMIT 100; "; SQL statement:
+SELECT * FROM R_ORG_ECLIPSE_PHP_CORE_PHPNATURE_402 WHERE 1=1 AND NAME='$($_smarty_tpl->tpl_vars['random']->value<50){?>
+	<div>small</div>
+<?php' AND FILE_ID IN(SELECT ID FROM FILES WHERE CONTAINER_ID IN(91,1,2,3)) LIMIT 100; [42000-169]
