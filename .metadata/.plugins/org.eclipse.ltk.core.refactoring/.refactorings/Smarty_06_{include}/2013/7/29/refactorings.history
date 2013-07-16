@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Smarty_06_{include}/web/templates/index.html&apos; to &apos;index.tpl&apos;" description="Rename resource &apos;index.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="web/templates/index.html" name="index.tpl" stamp="1373942775682" updateReferences="true"/>
+</session>

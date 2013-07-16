@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.zend.php.phpunit.PHPUnitLaunchConfigurationType">
+<stringAttribute key="ATTR_FILE" value="C:\Program Files (x86)\Zend\Zend Studio 10.1.0\plugins\com.zend.php.phpunit_10.1.0.201306250232\resources\ZendPHPUnit.php"/>
+<stringAttribute key="ATTR_FILE_FULL_PATH" value="C:\Program Files (x86)\Zend\Zend Studio 10.1.0\plugins\com.zend.php.phpunit_10.1.0.201306250232\resources\ZendPHPUnit.php"/>
+<stringAttribute key="ATTR_LOCATION" value="C:\Program Files (x86)\Zend\Zend Studio 10.1.0\plugins\com.zend.php.debug.debugger.win32.x86_5.3.21.v20130625\resources\php54\php-cgi.exe"/>
+<stringAttribute key="ATTR_PROJECT_NAME" value="PerlRegex_04_()"/>
+<stringAttribute key="ATTR_WORKING_DIRECTORY" value="PerlRegex_04_()"/>
+<stringAttribute key="ZEND_PHPUNIT_TESTS_CONTAINER_TYPE" value="SCRIPT_SOURCE"/>
+<booleanAttribute key="com.zend.php.phpunit.code_coverage" value="true"/>
+<stringAttribute key="com.zend.php.phpunit.container" value="newfile.php"/>
+<booleanAttribute key="com.zend.php.phpunit.is_suite" value="true"/>
+<booleanAttribute key="com.zend.php.phpunit.logXml" value="true"/>
+<stringAttribute key="com.zend.php.phpunit.logXmlLocation" value="C:\Users\KENZFL~1\AppData\Local\Temp\web.phpunit.newfile.php.843080626188517458.xml"/>
+<stringAttribute key="com.zend.php.phpunit.project" value="PerlRegex_04_()"/>
+<stringAttribute key="debugOutputEncoding" value="UTF-8"/>
+<stringAttribute key="debugTransferEncoding" value="UTF-8"/>
+<booleanAttribute key="firstLineBreakpoint" value="false"/>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="ZEND_PHPUNIT_LOG_XML" value="C:\Users\KENZFL~1\AppData\Local\Temp\web.phpunit.newfile.php.843080626188517458.xml"/>
+<mapEntry key="ZEND_PHPUNIT_PORT" value="7478"/>
+<mapEntry key="ZEND_PHPUNIT_PROJECT_LOCATION" value="K:\opt\web\PerlRegex_04_()"/>
+<mapEntry key="ZEND_PHPUNIT_TESTS_LOCATION" value="C:\Users\KENZFL~1\AppData\Local\Temp\web.phpunit.newfile.php.2679888064627970680.php"/>
+</mapAttribute>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="true"/>
+<stringAttribute key="org.eclipse.php.debug.core.PHP_Project" value="/PerlRegex_04_()"/>
+<stringAttribute key="org.eclipse.php.debug.coreconfiguration_delegate_class" value="com.zend.php.debug.core.launch.PHPExecutableExtendedLaunchDelegate"/>
+<stringAttribute key="php_debug_type" value="php_exe_script_debug"/>
+</launchConfiguration>

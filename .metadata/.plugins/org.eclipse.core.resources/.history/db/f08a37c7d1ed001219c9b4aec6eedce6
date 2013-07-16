@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{$title}</title>
+</head>
+<body>
+<div class="cont1">
+{content.tpl}
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PerlRegex_02_/原子&apos; to &apos;原子表&apos;" description="Rename resource &apos;原子&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="原子" name="原子表" stamp="1373600070840" updateReferences="true"/>
+</session>

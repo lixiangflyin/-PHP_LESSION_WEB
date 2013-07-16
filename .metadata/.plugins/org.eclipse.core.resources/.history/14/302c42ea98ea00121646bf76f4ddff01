@@ -1,0 +1,21 @@
+<?php
+
+$pattern = '';
+
+$string = '';
+
+$ret = preg_match($pattern, $subject);
+
+
+
+
+?>
+
+
+
+
+
+
+
+
+

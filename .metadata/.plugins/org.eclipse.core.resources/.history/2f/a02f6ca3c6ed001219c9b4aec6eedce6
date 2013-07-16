@@ -1,0 +1,14 @@
+<div class="main layout_row3" id="container">
+<script type="text/javascript">
+G.logic.login.logout = (function(oldFn){
+	return function(){
+		oldFn(function(){
+			location.reload();
+		});
+	};
+})(G.logic.login.logout);
+</script>
+  <div class="crumbs"><a href="http://www.51buy.com">首页</a> &gt; <a href="http://base.51buy.com/index.html">我的易迅</a> &gt; {pageName}</div>
+	{content}
+	{left_nav}
+</div>

@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="BuildPathsPropertyPage">
+		<item value="3" key="pageIndex"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item value="433" key="height"/>
+		<item value="488" key="width"/>
+		<item value="256" key="y"/>
+		<item value="393" key="x"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.TypeSelectionComponent">
+		<item value="true" key="show_status_line"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet isWindowWorkingSet=&quot;false&quot; workingSetName=&quot;&quot;/&gt;" key="workingset_settings"/>
+	</section>
 	<section name="org.eclipse.php.internal.ui.explorer.PHPExplorerPart">
 		<item value="true" key="group_libraries"/>
 		<item value="false" key="linkWithEditor"/>

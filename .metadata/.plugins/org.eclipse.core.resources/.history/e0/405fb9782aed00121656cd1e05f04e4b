@@ -1,0 +1,7 @@
+<?php
+$str = 'English';
+echo mb_detect_encoding($str);
+
+$str2 = '中文';
+echo mb_detect_encoding($str2);
+?>

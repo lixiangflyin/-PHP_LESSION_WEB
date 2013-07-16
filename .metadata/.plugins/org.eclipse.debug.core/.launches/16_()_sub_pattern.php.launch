@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.zend.php.phpunit.PHPUnitLaunchConfigurationType">
+<stringAttribute key="ATTR_LOCATION" value="C:\Program Files (x86)\Zend\Zend Studio 10.1.0\plugins\com.zend.php.debug.debugger.win32.x86_5.3.21.v20130625\resources\php54\php-cgi.exe"/>
+<stringAttribute key="ZEND_PHPUNIT_TESTS_CONTAINER_TYPE" value="SCRIPT_SOURCE"/>
+<booleanAttribute key="com.zend.php.phpunit.code_coverage" value="true"/>
+<stringAttribute key="com.zend.php.phpunit.container" value="16_()_sub_pattern.php"/>
+<booleanAttribute key="com.zend.php.phpunit.is_suite" value="true"/>
+<booleanAttribute key="com.zend.php.phpunit.logXml" value="true"/>
+<stringAttribute key="com.zend.php.phpunit.phpunitPath" value=""/>
+<stringAttribute key="com.zend.php.phpunit.project" value="PerlRegex_04_()"/>
+<booleanAttribute key="firstLineBreakpoint" value="true"/>
+<booleanAttribute key="org.eclipse.php.debug.core.RunWithDebugInfo" value="true"/>
+<stringAttribute key="org.eclipse.php.debug.coreconfiguration_delegate_class" value="com.zend.php.debug.core.launch.PHPExecutableExtendedLaunchDelegate"/>
+<stringAttribute key="org.eclipse.php.debug.corephp_debugger_id" value="org.eclipse.php.debug.core.zendDebugger"/>
+</launchConfiguration>
