@@ -1,0 +1,792 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0047)http://www.php.net/manual/zh/ref.outcontrol.php -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh"><head profile="http://purl.org/NET/erdf/profile"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title>PHP: Output Control 函数 - Manual</title>
+ <style type="text/css" media="all">
+  @import url("http://static.php.net/www.php.net/styles/site.css");
+  @import url("http://static.php.net/www.php.net/styles/phpnet.css");
+  
+ </style>
+ <!--[if IE]><![if gte IE 6]><![endif]-->
+  <style type="text/css" media="print">
+   @import url("http://static.php.net/www.php.net/styles/print.css");
+  </style>
+ <!--[if IE]><![endif]><![endif]-->
+ 
+ <link rel="shortcut icon" href="http://static.php.net/www.php.net/favicon.ico">
+ <link rel="contents" href="http://www.php.net/manual/zh/index.php">
+ <link rel="index" href="http://www.php.net/manual/zh/book.outcontrol.php">
+ <link rel="prev" href="http://www.php.net/manual/zh/outcontrol.examples.basic.php">
+ <link rel="next" href="http://www.php.net/manual/zh/function.flush.php">
+ <link rel="schema.dc" href="http://purl.org/dc/elements/1.1/">
+ <link rel="schema.rdfs" href="http://www.w3.org/2000/01/rdf-schema#">
+ <link rev="canonical" rel="self alternate shorter shorturl shortlink" href="http://php.net/outcontrol">
+ <link rel="license" href="http://creativecommons.org/licenses/by/3.0/" about="#content">
+ <link rel="alternate" href="http://www.php.net/manual/en/feeds/ref.outcontrol.atom" type="application/atom+xml">
+ <link rel="canonical" href="http://php.net/manual/zh/ref.outcontrol.php">
+ <script type="text/javascript" src="./PHP  Output Control 函数 - Manual_files/userprefs.js"></script>
+ <!--<base href="http://www.php.net/manual/zh/ref.outcontrol.php">--><base href=".">
+ <meta http-equiv="Content-language" content="zh">
+            <script type="text/javascript" src="./PHP  Output Control 函数 - Manual_files/jquery.min.js"></script>
+            <script type="text/javascript" src="./PHP  Output Control 函数 - Manual_files/jquery-ui.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    var toggleImage = function(elem) {
+        if ($(elem).hasClass("shown")) {
+            $(elem).removeClass("shown").addClass("hidden");
+            $("img", elem).attr("src", "/images/notes-add.gif");
+        }
+        else {
+            $(elem).removeClass("hidden").addClass("shown");
+            $("img", elem).attr("src", "/images/notes-reject.gif");
+        }
+    };
+
+    $(".soft-deprecation-notice h1.title").each(function() {
+        $(this).prepend("<a class='toggler shown' href='#'><img src='/images/notes-reject.gif' alt='minimize' /></a> ");
+    });
+    $(".refsect1 h3.title").each(function() {
+        url = "https://bugs.php.net/report.php?bug_type=Documentation+problem&amp;manpage=" + $(this).parent().parent().attr("id") + "%23" + $(this).parent().attr("id");
+        $(this).parent().prepend("<div class='reportbug'><a href='" + url + "'>Report a bug</a></div>");
+        $(this).prepend("<a class='toggler shown' href='#'><img src='/images/notes-reject.gif' alt='reject note' /></a> ");
+    });
+    $("#usernotes .head").each(function() {
+        $(this).prepend("<a class='toggler shown' href='#'><img src='/images/notes-reject.gif' alt='reject note' /></a> ");
+    });
+    $(".soft-deprecation-notice h1.title .toggler").click(function() {
+        $(this).parent().siblings().slideToggle("slow");
+        toggleImage(this);
+        return false;
+    });
+    $(".refsect1 h3.title .toggler").click(function() {
+        $(this).parent().siblings().slideToggle("slow");
+        toggleImage(this);
+        return false;
+    });
+    $("#usernotes .head .toggler").click(function() {
+        $(this).parent().next().slideToggle("slow");
+        toggleImage(this);
+        return false;
+    });
+});
+</script>
+<script type="text/javascript" src="./PHP  Output Control 函数 - Manual_files/usernotes.js"></script>
+
+</head>
+<body style="margin-top: 25px;">
+
+<div id="head-beta-warning" style="display: block;">
+  <a id="beta-warning" href="http://www.php.net/manual/zh/ref.outcontrol.php?setbeta=1&beta=1" style="display: block;">
+    <span class="dismiss">dismiss</span>
+    <span class="blurb" style="display: inline;">Step into the future! Click here to switch to the beta php.net site</span>
+  </a>
+</div>
+
+<div id="headnav">
+ <a href="http://www.php.net/" rel="home"><img src="./PHP  Output Control 函数 - Manual_files/php.gif" alt="PHP" width="120" height="67" id="phplogo"></a>
+ <div id="headmenu">
+  <a href="http://www.php.net/downloads.php">downloads</a> |
+  <a href="http://www.php.net/docs.php">documentation</a> |
+  <a href="http://www.php.net/FAQ.php">faq</a> |
+  <a href="http://www.php.net/support.php">getting help</a> |
+  <a href="http://www.php.net/mailing-lists.php">mailing lists</a> |
+  <a href="http://www.php.net/license">licenses</a> |
+  <a href="https://wiki.php.net/">wiki</a> |
+  <a href="https://bugs.php.net/">reporting bugs</a> |
+  <a href="http://www.php.net/sites.php">php.net sites</a> |
+  <a href="http://www.php.net/conferences/">conferences</a> |
+  <a href="http://www.php.net/my.php">my php.net</a>
+ </div>
+</div>
+
+<div id="headsearch">
+ <form method="post" action="http://www.php.net/search.php" id="topsearch">
+  <p>
+   <span title="Keyboard shortcut: Alt+S (Win), Ctrl+S (Apple)">
+    <span class="shortkey">s</span>earch for
+   </span>
+   <input type="text" name="pattern" value="" size="30" accesskey="s" title="Search">
+   <span>in the</span>
+   <select name="show">
+    <option value="all">all php.net sites</option>
+    <option value="local">this mirror only</option>
+    <option value="quickref" selected="selected">function list</option>
+    <option value="manual">online documentation</option>
+    <option value="bugdb">bug database</option>
+    <option value="news_archive">Site News Archive</option>
+    <option value="changelogs">All Changelogs</option>
+    <option value="pear">just pear.php.net</option>
+    <option value="pecl">just pecl.php.net</option>
+    <option value="talks">just talks.php.net</option>
+    <option value="maillist">general mailing list</option>
+    <option value="devlist">developer mailing list</option>
+    <option value="phpdoc">documentation mailing list</option>
+   </select>
+   <input type="image" src="./PHP  Output Control 函数 - Manual_files/small_submit_white.gif" class="submit" alt="search">
+   <input type="hidden" name="lang" value="zh">
+  </p>
+ </form>
+</div>
+
+<div id="layout_2">
+ <div id="leftbar">
+<!--UdmComment-->
+<ul class="toc">
+ <li class="header home"><a href="http://www.php.net/manual/zh/index.php">PHP Manual</a></li>
+ <li class="header up"><a href="http://www.php.net/manual/zh/funcref.php">函数参考</a></li>
+ <li class="header up"><a href="http://www.php.net/manual/zh/refs.basic.php.php">影响 PHP 行为的扩展</a></li>
+ <li class="header up"><a href="http://www.php.net/manual/zh/book.outcontrol.php">输出控制</a></li>
+ <li><a href="http://www.php.net/manual/zh/intro.outcontrol.php">简介</a></li>
+ <li><a href="http://www.php.net/manual/zh/outcontrol.setup.php">安装／配置</a></li>
+ <li><a href="http://www.php.net/manual/zh/outcontrol.constants.php">预定义常量</a></li>
+ <li><a href="http://www.php.net/manual/zh/outcontrol.examples.php">范例</a></li>
+ <li class="active"><a href="./PHP  Output Control 函数 - Manual_files/PHP  Output Control 函数 - Manual.htm">Output Control 函数</a></li>
+</ul><!--/UdmComment-->
+
+ </div>
+ <div id="content" class="manual/zh">
+<!--UdmComment-->
+<div class="manualnavbar manualnavbar_top">
+ <span class="next">
+  <a href="http://www.php.net/manual/zh/function.flush.php">flush<img src="./PHP  Output Control 函数 - Manual_files/caret-r.gif" alt="&gt;" width="11" height="7"></a>
+ </span>
+ <span class="prev">
+  <a href="http://www.php.net/manual/zh/outcontrol.examples.basic.php"><img src="./PHP  Output Control 函数 - Manual_files/caret-l.gif" alt="&lt;" width="11" height="7">基本用法</a>
+ </span>
+ <hr>
+ <span class="lastupdated">[<a href="https://edit.php.net/?project=PHP&perm=zh/ref.outcontrol.php">edit</a>] Last updated: Fri, 12 Jul 2013</span>
+ <div class="langchooser">
+  <form action="http://www.php.net/manual/change.php" method="get">
+   <p>view this page in </p><fieldset><select name="page">
+    <option value="en/ref.outcontrol.php">English</option>
+    <option value="pt_BR/ref.outcontrol.php">Brazilian Portuguese</option>
+    <option value="fr/ref.outcontrol.php">French</option>
+    <option value="de/ref.outcontrol.php">German</option>
+    <option value="it/ref.outcontrol.php">Italian</option>
+    <option value="ja/ref.outcontrol.php">Japanese</option>
+    <option value="ro/ref.outcontrol.php">Romanian</option>
+    <option value="ru/ref.outcontrol.php">Russian</option>
+    <option value="es/ref.outcontrol.php">Spanish</option>
+    <option value="tr/ref.outcontrol.php">Turkish</option>
+    <option value="help-translate.php">Other</option>
+   </select>
+   <input type="image" src="./PHP  Output Control 函数 - Manual_files/small_submit.gif" id="changeLangImage" alt="Change language">
+  </fieldset></form>
+ </div>
+</div>
+<!--/UdmComment-->
+
+<div id="ref.outcontrol" class="reference">
+ <h1 class="title">Output Control 函数</h1>
+
+ <div class="partintro">
+  <h1 class="title">参见</h1>
+  <p class="para">
+   See also  <span class="function"><a href="http://www.php.net/manual/zh/function.header.php" class="function">header()</a></span> and
+    <span class="function"><a href="http://www.php.net/manual/zh/function.setcookie.php" class="function">setcookie()</a></span>.
+  </p>
+ </div>
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Table of Contents</h2><ul class="chunklist chunklist_reference"><li><a href="http://www.php.net/manual/zh/function.flush.php">flush</a> — 刷新输出缓冲</li><li><a href="http://www.php.net/manual/zh/function.ob-clean.php">ob_clean</a> — 清空（擦掉）输出缓冲区</li><li><a href="http://www.php.net/manual/zh/function.ob-end-clean.php">ob_end_clean</a> — 清空（擦除）缓冲区并关闭输出缓冲</li><li><a href="http://www.php.net/manual/zh/function.ob-end-flush.php">ob_end_flush</a> — 冲刷出（送出）输出缓冲区内容并关闭缓冲</li><li><a href="http://www.php.net/manual/zh/function.ob-flush.php">ob_flush</a> — 冲刷出（送出）输出缓冲区中的内容</li><li><a href="http://www.php.net/manual/zh/function.ob-get-clean.php">ob_get_clean</a> — 得到当前缓冲区的内容并删除当前输出缓。</li><li><a href="http://www.php.net/manual/zh/function.ob-get-contents.php">ob_get_contents</a> — 返回输出缓冲区的内容</li><li><a href="http://www.php.net/manual/zh/function.ob-get-flush.php">ob_get_flush</a> — 刷出（送出）缓冲区内容，以字符串形式返回内容，并关闭输出缓冲区。</li><li><a href="http://www.php.net/manual/zh/function.ob-get-length.php">ob_get_length</a> — 返回输出缓冲区内容的长度</li><li><a href="http://www.php.net/manual/zh/function.ob-get-level.php">ob_get_level</a> — 返回输出缓冲机制的嵌套级别</li><li><a href="http://www.php.net/manual/zh/function.ob-get-status.php">ob_get_status</a> — 得到所有输出缓冲区的状态</li><li><a href="http://www.php.net/manual/zh/function.ob-gzhandler.php">ob_gzhandler</a> — 在ob_start中使用的用来压缩输出缓冲区中内容的回调函数。ob_start callback function to gzip output buffer</li><li><a href="http://www.php.net/manual/zh/function.ob-implicit-flush.php">ob_implicit_flush</a> — 打开/关闭绝对刷送</li><li><a href="http://www.php.net/manual/zh/function.ob-list-handlers.php">ob_list_handlers</a> — 列出所有使用中的输出处理程序。</li><li><a href="http://www.php.net/manual/zh/function.ob-start.php">ob_start</a> — 打开输出控制缓冲</li><li><a href="http://www.php.net/manual/zh/function.output-add-rewrite-var.php">output_add_rewrite_var</a> — 添加URL重写器的值（Add URL rewriter values）</li><li><a href="http://www.php.net/manual/zh/function.output-reset-rewrite-vars.php">output_reset_rewrite_vars</a> — 重设URL重写器的值（Reset URL rewriter values）</li></ul>
+</div>
+<br><br><!--UdmComment-->
+<div class="manualnavbar manualnavbar_bottom">
+ <span class="next">
+  <a href="http://www.php.net/manual/zh/function.flush.php">flush<img src="./PHP  Output Control 函数 - Manual_files/caret-r.gif" alt="&gt;" width="11" height="7"></a>
+ </span>
+ <span class="prev">
+  <a href="http://www.php.net/manual/zh/outcontrol.examples.basic.php"><img src="./PHP  Output Control 函数 - Manual_files/caret-l.gif" alt="&lt;" width="11" height="7">基本用法</a>
+ </span>
+ <hr>
+ <span class="lastupdated">[<a href="https://edit.php.net/?project=PHP&perm=zh/ref.outcontrol.php">edit</a>] Last updated: Fri, 12 Jul 2013</span>
+ <div class="langchooser">
+  &nbsp;
+ </div>
+</div>
+<!--/UdmComment-->
+
+
+<div id="usernotes">
+ <div class="head"><a class="toggler shown" href="http://www.php.net/manual/zh/ref.outcontrol.php#"><img src="./PHP  Output Control 函数 - Manual_files/notes-reject.gif" alt="reject note"></a> 
+  <span class="action"><a href="http://www.php.net/manual/add-note.php?sect=ref.outcontrol&redirect=http://www.php.net/manual/zh/ref.outcontrol.php"><img src="./PHP  Output Control 函数 - Manual_files/notes-add.gif" alt="add a note" width="13" height="13" class="middle"></a> <small><a href="http://www.php.net/manual/add-note.php?sect=ref.outcontrol&redirect=http://www.php.net/manual/zh/ref.outcontrol.php">add a note</a></small></span>
+  <small>User Contributed Notes</small>
+  <strong>Output Control 函数</strong> - [<em>11</em> notes]
+ </div><div id="allnotes">
+ <a name="90404"></a><div class="note">  <div class="votes">
+    <div id="Vu90404">
+    <a href="http://www.php.net/manual/vote-note.php?id=90404&page=ref.outcontrol&vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd90404">
+    <a href="http://www.php.net/manual/vote-note.php?id=90404&page=ref.outcontrol&vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V90404" title="100% like this...">
+    2
+    </div>
+  </div>
+  <a href="http://www.php.net/manual/zh/ref.outcontrol.php#90404" class="name">
+  <strong class="user"><em>Anonymous</em></strong></a><a class="genanchor" href="http://www.php.net/manual/zh/ref.outcontrol.php#90404"> ¶</a><div class="date" title="2009-04-20 05:24"><strong>4 years ago</strong></div>
+  <div class="text" id="Hcom90404">
+<div class="phpcode"><code><span class="html">
+You possibly also want to end your benchmark after the output is flushed.<br>
+<br>
+<span class="default">&lt;?php<br>
+your_benchmark_start_function</span><span class="keyword">();<br>
+<br>
+</span><span class="default">ob_start </span><span class="keyword">();<br>
+for (</span><span class="default">$i </span><span class="keyword">= </span><span class="default">0</span><span class="keyword">; </span><span class="default">$i </span><span class="keyword">&lt; </span><span class="default">5000</span><span class="keyword">; </span><span class="default">$i</span><span class="keyword">++)<br>
+&nbsp;&nbsp;&nbsp; echo </span><span class="default">str_repeat </span><span class="keyword">(</span><span class="string">"your string blablabla bla bla"</span><span class="keyword">, (</span><span class="default">rand</span><span class="keyword">() % </span><span class="default">4</span><span class="keyword">) + </span><span class="default">1</span><span class="keyword">).</span><span class="string">"&lt;br&gt;\n"</span><span class="keyword">;<br>
+<br>
+&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &lt;----------<br>
+echo </span><span class="default">your_benchmark_end_function</span><span class="keyword">();&nbsp; &nbsp; &nbsp; |<br>
+</span><span class="default">ob_end_flush </span><span class="keyword">(); ------------------------<br>
+</span><span class="default">?&gt;</span>
+</span>
+</code></div>
+  </div>
+ </div>
+ <a name="87215"></a><div class="note">  <div class="votes">
+    <div id="Vu87215">
+    <a href="http://www.php.net/manual/vote-note.php?id=87215&page=ref.outcontrol&vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd87215">
+    <a href="http://www.php.net/manual/vote-note.php?id=87215&page=ref.outcontrol&vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V87215" title="100% like this...">
+    1
+    </div>
+  </div>
+  <a href="http://www.php.net/manual/zh/ref.outcontrol.php#87215" class="name">
+  <strong class="user"><em>della at sun dot com</em></strong></a><a class="genanchor" href="http://www.php.net/manual/zh/ref.outcontrol.php#87215"> ¶</a><div class="date" title="2008-11-24 05:08"><strong>4 years ago</strong></div>
+  <div class="text" id="Hcom87215">
+<div class="phpcode"><code><span class="html">
+Sometimes users are blaming about slow pages ... not being aware that mostly this is due to network issues.
+<br>
+So I've decided to add some statistics at the end of my pages:
+<br>
+
+<br>
+At beginning I start the counters:
+<br>
+
+<br>
+<span class="default">&lt;?php
+<br>
+&nbsp; </span><span class="keyword">function </span><span class="default">microtime_float</span><span class="keyword">() { 
+<br>
+&nbsp;&nbsp;&nbsp; if (</span><span class="default">version_compare</span><span class="keyword">(</span><span class="default">PHP_VERSION</span><span class="keyword">, </span><span class="string">'5.0.0'</span><span class="keyword">, </span><span class="string">'&gt;'</span><span class="keyword">))&nbsp; return </span><span class="default">microtime</span><span class="keyword">(</span><span class="default">true</span><span class="keyword">);
+<br>
+&nbsp;&nbsp;&nbsp; list(</span><span class="default">$u</span><span class="keyword">,</span><span class="default">$s</span><span class="keyword">)=</span><span class="default">explode</span><span class="keyword">(</span><span class="string">' '</span><span class="keyword">,</span><span class="default">microtime</span><span class="keyword">()); return ((float)</span><span class="default">$u</span><span class="keyword">+(float)</span><span class="default">$s</span><span class="keyword">);&nbsp; 
+<br>
+&nbsp; }
+<br>
+&nbsp; </span><span class="default">$initime</span><span class="keyword">=</span><span class="default">microtime_float</span><span class="keyword">();
+<br>
+&nbsp; </span><span class="default">ob_start</span><span class="keyword">();
+<br>
+&nbsp; </span><span class="default">ob_implicit_flush</span><span class="keyword">();
+<br>
+</span><span class="default">?&gt;
+<br>
+</span>
+<br>
+And at the end I show the statistics:
+<br>
+
+<br>
+<span class="default">&lt;?php
+<br>
+&nbsp; </span><span class="keyword">echo </span><span class="string">"PHP Time: "</span><span class="keyword">.</span><span class="default">round</span><span class="keyword">((</span><span class="default">microtime_float</span><span class="keyword">()-</span><span class="default">$initime</span><span class="keyword">)*</span><span class="default">1000</span><span class="keyword">).</span><span class="string">" msecs. "</span><span class="keyword">;
+<br>
+&nbsp; echo </span><span class="string">"Size: "</span><span class="keyword">.</span><span class="default">round_byte</span><span class="keyword">(</span><span class="default">strlen</span><span class="keyword">(</span><span class="default">ob_get_contents</span><span class="keyword">()));
+<br>
+&nbsp; </span><span class="default">ob_end_flush</span><span class="keyword">();
+<br>
+</span><span class="default">?&gt;
+<br>
+</span>
+<br>
+(round_byte is my function to print byte sizes)</span>
+</code></div>
+  </div>
+ </div>
+ <a name="76102"></a><div class="note">  <div class="votes">
+    <div id="Vu76102">
+    <a href="http://www.php.net/manual/vote-note.php?id=76102&page=ref.outcontrol&vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd76102">
+    <a href="http://www.php.net/manual/vote-note.php?id=76102&page=ref.outcontrol&vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V76102" title="50% like this...">
+    0
+    </div>
+  </div>
+  <a href="http://www.php.net/manual/zh/ref.outcontrol.php#76102" class="name">
+  <strong class="user"><em>jgeewax a t gmail</em></strong></a><a class="genanchor" href="http://www.php.net/manual/zh/ref.outcontrol.php#76102"> ¶</a><div class="date" title="2007-06-29 12:02"><strong>6 years ago</strong></div>
+  <div class="text" id="Hcom76102">
+<div class="phpcode"><code><span class="html">
+It seems that while using output buffering, an included file which calls die() before the output buffer is closed is flushed rather than cleaned. That is, ob_end_flush() is called by default.<br>
+<br>
+<span class="default">&lt;?php<br>
+</span><span class="comment">// a.php (this file should never display anything)<br>
+</span><span class="default">ob_start</span><span class="keyword">();<br>
+include(</span><span class="string">'b.php'</span><span class="keyword">);<br>
+</span><span class="default">ob_end_clean</span><span class="keyword">();<br>
+</span><span class="default">?&gt;<br>
+</span><br>
+<span class="default">&lt;?php<br>
+</span><span class="comment">// b.php<br>
+</span><span class="keyword">print </span><span class="string">"b"</span><span class="keyword">;<br>
+die();<br>
+</span><span class="default">?&gt;<br>
+</span><br>
+This ends up printing "b" rather than nothing as ob_end_flush() is called instead of ob_end_clean(). That is, die() flushes the buffer rather than cleans it. This took me a while to determine what was causing the flush, so I thought I'd share.</span>
+</code></div>
+  </div>
+ </div>
+ <a name="72499"></a><div class="note">  <div class="votes">
+    <div id="Vu72499">
+    <a href="http://www.php.net/manual/vote-note.php?id=72499&page=ref.outcontrol&vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd72499">
+    <a href="http://www.php.net/manual/vote-note.php?id=72499&page=ref.outcontrol&vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V72499" title="no votes...">
+    0
+    </div>
+  </div>
+  <a href="http://www.php.net/manual/zh/ref.outcontrol.php#72499" class="name">
+  <strong class="user"><em>basicartsstudios at hotmail dot com</em></strong></a><a class="genanchor" href="http://www.php.net/manual/zh/ref.outcontrol.php#72499"> ¶</a><div class="date" title="2007-01-21 02:39"><strong>6 years ago</strong></div>
+  <div class="text" id="Hcom72499">
+<div class="phpcode"><code><span class="html">
+Sometimes you might not want to include a php-file under the specifications defined in the functions include() or require(), but you might want to have in return the string that the script in the file "echoes".<br>
+<br>
+Include() and require() both directly put out the evaluated code.<br>
+<br>
+For avoiding this, try output-buffering:<br>
+<span class="default">&lt;?php<br>
+ob_start</span><span class="keyword">();<br>
+eval(</span><span class="default">file_get_contents</span><span class="keyword">(</span><span class="default">$file</span><span class="keyword">));<br>
+</span><span class="default">$result </span><span class="keyword">= </span><span class="default">ob_get_contents</span><span class="keyword">();<br>
+</span><span class="default">ob_end_clean</span><span class="keyword">();<br>
+</span><span class="default">?&gt;<br>
+</span>or<br>
+<span class="default">&lt;?php<br>
+ob_start</span><span class="keyword">();<br>
+include(</span><span class="default">$file</span><span class="keyword">);<br>
+</span><span class="default">$result </span><span class="keyword">= </span><span class="default">ob_get_contents</span><span class="keyword">();<br>
+</span><span class="default">ob_end_clean</span><span class="keyword">();<br>
+</span><span class="default">?&gt;<br>
+</span>which i consider the same, correct me if I'm wrong.<br>
+<br>
+Best regards, BasicArtsStudios</span>
+</code></div>
+  </div>
+ </div>
+ <a name="69702"></a><div class="note">  <div class="votes">
+    <div id="Vu69702">
+    <a href="http://www.php.net/manual/vote-note.php?id=69702&page=ref.outcontrol&vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd69702">
+    <a href="http://www.php.net/manual/vote-note.php?id=69702&page=ref.outcontrol&vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V69702" title="no votes...">
+    0
+    </div>
+  </div>
+  <a href="http://www.php.net/manual/zh/ref.outcontrol.php#69702" class="name">
+  <strong class="user"><em>trucex [um, at] gmail [um, dot] com</em></strong></a><a class="genanchor" href="http://www.php.net/manual/zh/ref.outcontrol.php#69702"> ¶</a><div class="date" title="2006-09-15 07:08"><strong>6 years ago</strong></div>
+  <div class="text" id="Hcom69702">
+<div class="phpcode"><code><span class="html">
+Unfortunately, the PHP guys didn't build support into any of the image output functions to return the image instead of outputting it.
+<br>
+
+<br>
+Fortunately, we have output buffering to fix that. 
+<br>
+
+<br>
+<span class="default">&lt;?php
+<br>
+
+<br>
+$im </span><span class="keyword">= </span><span class="default">imagecreatetruecolor</span><span class="keyword">(</span><span class="default">200</span><span class="keyword">, </span><span class="default">200</span><span class="keyword">);
+<br>
+
+<br>
+</span><span class="comment">// Other image functions here...
+<br>
+
+<br>
+</span><span class="default">ob_start</span><span class="keyword">();
+<br>
+</span><span class="default">imagepng</span><span class="keyword">(</span><span class="default">$im</span><span class="keyword">);
+<br>
+</span><span class="default">$imageData </span><span class="keyword">= </span><span class="default">ob_get_contents</span><span class="keyword">();
+<br>
+</span><span class="default">ob_clean</span><span class="keyword">();
+<br>
+
+<br>
+</span><span class="default">?&gt;
+<br>
+</span>
+<br>
+You can now use the $imageData variable to either create another GD image, save it, put it in a database, make modifications to the binary, or output it to the user. You can easily check the size of it as well without having to access the disk...just use strlen();</span>
+</code></div>
+  </div>
+ </div>
+ <a name="69499"></a><div class="note">  <div class="votes">
+    <div id="Vu69499">
+    <a href="http://www.php.net/manual/vote-note.php?id=69499&page=ref.outcontrol&vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd69499">
+    <a href="http://www.php.net/manual/vote-note.php?id=69499&page=ref.outcontrol&vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V69499" title="no votes...">
+    0
+    </div>
+  </div>
+  <a href="http://www.php.net/manual/zh/ref.outcontrol.php#69499" class="name">
+  <strong class="user"><em>webmaster at wistex dot com</em></strong></a><a class="genanchor" href="http://www.php.net/manual/zh/ref.outcontrol.php#69499"> ¶</a><div class="date" title="2006-09-07 09:07"><strong>6 years ago</strong></div>
+  <div class="text" id="Hcom69499">
+<div class="phpcode"><code><span class="html">
+Now this just blew my mind. I had a problem with MySQL being incredibly slow on Windows 2003 running IIS... on ASP/VBScript pages. PHP is also installed on the server and so is Microsoft SQL 2005 Express. (Yes, we're running ASP, PHP, MySQL and MS SQL on the same Windows 2003 Server using IIS.)<br>
+<br>
+I was browsing the internet for a solution and saw a suggestion that I change output_buffering to on if MySQL was slow for PHP pages.&nbsp; Since we also served PHP pages with MySQL from the same server, it caught my eye.&nbsp; For the hell of it, I went into php.ini and changed output_buffering to on and suddenly MySQL and ASP was faster... MySQL and PHP was faster... Microsoft SQL Server 2005 Express and ASP was faster.... everything was faster... even stuff that had no PHP!<br>
+<br>
+And I didn't even have to restart IIS. As soon as I saved the php.ini file with the change, everything got faster.<br>
+<br>
+Apparently PHP and MySQL and IIS are so intertwined somehow that changing the buffering setting really effects the performance of the entire server.<br>
+<br>
+So, if you are having performance problems on Windows 2003 &amp; IIS, you might try setting output_buffering = On in php.ini if you happen to have PHP installed.&nbsp; Having it set to off apparently effects the performance of Windows 2003 and IIS severely... even for webpages that do not use PHP or MySQL.</span>
+</code></div>
+  </div>
+ </div>
+ <a name="69059"></a><div class="note">  <div class="votes">
+    <div id="Vu69059">
+    <a href="http://www.php.net/manual/vote-note.php?id=69059&page=ref.outcontrol&vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd69059">
+    <a href="http://www.php.net/manual/vote-note.php?id=69059&page=ref.outcontrol&vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V69059" title="no votes...">
+    0
+    </div>
+  </div>
+  <a href="http://www.php.net/manual/zh/ref.outcontrol.php#69059" class="name">
+  <strong class="user"><em>kamermans at teratechnologies dot net</em></strong></a><a class="genanchor" href="http://www.php.net/manual/zh/ref.outcontrol.php#69059"> ¶</a><div class="date" title="2006-08-21 06:30"><strong>6 years ago</strong></div>
+  <div class="text" id="Hcom69059">
+<div class="phpcode"><code><span class="html">
+Output buffering is set to '4096' instead of 'Off' or '0' by default in the php-5.0.4-10.5 RPM for Fedora Core release 4 (Stentz).&nbsp; This has cost me much time!</span>
+</code></div>
+  </div>
+ </div>
+ <a name="54102"></a><div class="note">  <div class="votes">
+    <div id="Vu54102">
+    <a href="http://www.php.net/manual/vote-note.php?id=54102&page=ref.outcontrol&vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd54102">
+    <a href="http://www.php.net/manual/vote-note.php?id=54102&page=ref.outcontrol&vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V54102" title="no votes...">
+    0
+    </div>
+  </div>
+  <a href="http://www.php.net/manual/zh/ref.outcontrol.php#54102" class="name">
+  <strong class="user"><em>kend52 at verizon dot net</em></strong></a><a class="genanchor" href="http://www.php.net/manual/zh/ref.outcontrol.php#54102"> ¶</a><div class="date" title="2005-06-23 04:25"><strong>8 years ago</strong></div>
+  <div class="text" id="Hcom54102">
+<div class="phpcode"><code><span class="html">
+I ran out of memory, while output buffering and drawing text on imported images. Only the top portion of the 5MP image was displayed by the browser.&nbsp; Try increasing the memory limit in either the php.ini file( memory_limit = 16M; ) or in the .htaccess file( php_value memory_limit "16M" ). Also see function memory_get_usage() .</span>
+</code></div>
+  </div>
+ </div>
+ <a name="43965"></a><div class="note">  <div class="votes">
+    <div id="Vu43965">
+    <a href="http://www.php.net/manual/vote-note.php?id=43965&page=ref.outcontrol&vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd43965">
+    <a href="http://www.php.net/manual/vote-note.php?id=43965&page=ref.outcontrol&vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V43965" title="no votes...">
+    0
+    </div>
+  </div>
+  <a href="http://www.php.net/manual/zh/ref.outcontrol.php#43965" class="name">
+  <strong class="user"><em>gruik at libertysurf dot fr</em></strong></a><a class="genanchor" href="http://www.php.net/manual/zh/ref.outcontrol.php#43965"> ¶</a><div class="date" title="2004-07-09 10:53"><strong>9 years ago</strong></div>
+  <div class="text" id="Hcom43965">
+<div class="phpcode"><code><span class="html">
+For those who are looking for optimization, try using buffered output.<br>
+<br>
+I noticed that an output function call (i.e echo()) is somehow time expensive. When using buffered output, only one output function call is made and it seems to be much faster.<br>
+Try this :<br>
+<br>
+<span class="default">&lt;?php<br>
+your_benchmark_start_function</span><span class="keyword">();<br>
+<br>
+for (</span><span class="default">$i </span><span class="keyword">= </span><span class="default">0</span><span class="keyword">; </span><span class="default">$i </span><span class="keyword">&lt; </span><span class="default">5000</span><span class="keyword">; </span><span class="default">$i</span><span class="keyword">++)<br>
+&nbsp;&nbsp;&nbsp; echo </span><span class="default">str_repeat </span><span class="keyword">(</span><span class="string">"your string blablabla bla bla"</span><span class="keyword">, (</span><span class="default">rand</span><span class="keyword">() % </span><span class="default">4</span><span class="keyword">) + </span><span class="default">1</span><span class="keyword">).</span><span class="string">"&lt;br&gt;\n"</span><span class="keyword">;<br>
+<br>
+echo </span><span class="default">your_benchmark_end_function</span><span class="keyword">();<br>
+</span><span class="default">?&gt;<br>
+</span><br>
+And then :<br>
+<br>
+<span class="default">&lt;?php<br>
+your_benchmark_start_function</span><span class="keyword">();<br>
+<br>
+</span><span class="default">ob_start </span><span class="keyword">();<br>
+for (</span><span class="default">$i </span><span class="keyword">= </span><span class="default">0</span><span class="keyword">; </span><span class="default">$i </span><span class="keyword">&lt; </span><span class="default">5000</span><span class="keyword">; </span><span class="default">$i</span><span class="keyword">++)<br>
+&nbsp;&nbsp;&nbsp; echo </span><span class="default">str_repeat </span><span class="keyword">(</span><span class="string">"your string blablabla bla bla"</span><span class="keyword">, (</span><span class="default">rand</span><span class="keyword">() % </span><span class="default">4</span><span class="keyword">) + </span><span class="default">1</span><span class="keyword">).</span><span class="string">"&lt;br&gt;\n"</span><span class="keyword">;<br>
+<br>
+echo </span><span class="default">your_benchmark_end_function</span><span class="keyword">();<br>
+</span><span class="default">ob_end_flush </span><span class="keyword">();<br>
+</span><span class="default">?&gt;</span>
+</span>
+</code></div>
+  </div>
+ </div>
+ <a name="33844"></a><div class="note">  <div class="votes">
+    <div id="Vu33844">
+    <a href="http://www.php.net/manual/vote-note.php?id=33844&page=ref.outcontrol&vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd33844">
+    <a href="http://www.php.net/manual/vote-note.php?id=33844&page=ref.outcontrol&vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V33844" title="0% like this...">
+    -1
+    </div>
+  </div>
+  <a href="http://www.php.net/manual/zh/ref.outcontrol.php#33844" class="name">
+  <strong class="user"><em>tijmen</em></strong></a><a class="genanchor" href="http://www.php.net/manual/zh/ref.outcontrol.php#33844"> ¶</a><div class="date" title="2003-07-08 09:44"><strong>10 years ago</strong></div>
+  <div class="text" id="Hcom33844">
+<div class="phpcode"><code><span class="html">
+Trying to benchmark your server when using output_buffering ?<br>
+Don't forget that the value 4096 in the php.ini will give you complete different loadtimes compares to the value of 1.<br>
+In the first case the output will be sent after buffering 4096 and the loadtime timed at the end of the page will contain the loadtime needed to download the complete page in the clientbrowser while the second value will contain the loadtime needed to place the complete page in the buffer. The time needed for sending is not clocked.<br>
+This can be very frustrating if you don't see the differance between server and the 1st is using 4096 instead of 1.<br>
+Although technically much faster than the second server the second server was providing much better loadtime results.<br>
+This result will grow when using large amounts of output.<br>
+But this becomes interesting if you want to measure the time needed for the page to be loaded for the client.</span>
+</code></div>
+  </div>
+ </div>
+ <a name="72657"></a><div class="note">  <div class="votes">
+    <div id="Vu72657">
+    <a href="http://www.php.net/manual/vote-note.php?id=72657&page=ref.outcontrol&vote=up" title="Vote up!" class="usernotes-voteu">up</a>
+    </div>
+    <div id="Vd72657">
+    <a href="http://www.php.net/manual/vote-note.php?id=72657&page=ref.outcontrol&vote=down" title="Vote down!" class="usernotes-voted">down</a>
+    </div>
+    <div class="tally" id="V72657" title="0% like this...">
+    -2
+    </div>
+  </div>
+  <a href="http://www.php.net/manual/zh/ref.outcontrol.php#72657" class="name">
+  <strong class="user"><em>basicartsstudios at hotmail dot com</em></strong></a><a class="genanchor" href="http://www.php.net/manual/zh/ref.outcontrol.php#72657"> ¶</a><div class="date" title="2007-01-28 04:45"><strong>6 years ago</strong></div>
+  <div class="text" id="Hcom72657">
+<div class="phpcode"><code><span class="html">
+Please note that most browsers don't display a table unless they passed its end-tag "&lt;/table&gt;".<br>
+<br>
+Thats why using this feature in HTML-tables might not result in what you expected...<br>
+<br>
+best regards<br>
+BasicArtsStudios</span>
+</code></div>
+  </div>
+ </div></div>
+
+ <div class="foot"><a href="http://www.php.net/manual/add-note.php?sect=ref.outcontrol&redirect=http://www.php.net/manual/zh/ref.outcontrol.php"><img src="./PHP  Output Control 函数 - Manual_files/notes-add.gif" alt="add a note" width="13" height="13" class="middle"></a> <small><a href="http://www.php.net/manual/add-note.php?sect=ref.outcontrol&redirect=http://www.php.net/manual/zh/ref.outcontrol.php">add a note</a></small></div>
+</div><br>
+ </div>
+ <div class="cleaner">&nbsp;</div>
+</div>
+
+<div id="footnav">
+   <a href="http://www.php.net/source.php?url=/manual/zh/ref.outcontrol.php">show source</a> |
+ <a href="http://www.php.net/credits.php">credits</a> |
+ <a href="http://www.php.net/stats/">stats</a> |
+ <a href="http://www.php.net/sitemap.php">sitemap</a> |
+ <a href="http://www.php.net/contact.php">contact</a> |
+ <a href="http://www.php.net/contact.php#ads">advertising</a> |
+ <a href="http://www.php.net/mirrors.php">mirror sites</a>
+</div>
+
+<div id="pagefooter">
+ <div id="copyright">
+  <a href="http://www.php.net/copyright.php">Copyright © 2001-2013 The PHP Group</a><br>
+  All rights reserved.
+ </div>
+
+ <div id="thismirror">
+  <a href="http://www.php.net/mirror.php">This mirror</a> generously provided by:
+  <a href="http://developer.yahoo.com/">Yahoo! Inc.</a><br>
+  Last updated: Wed Jul 17 04:41:39 2013 PDT
+ </div>
+</div>
+
+<script src="./PHP  Output Control 函数 - Manual_files/jquery.min(1).js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+    function showBetaWarning() {
+        return document.cookie.indexOf("BetaWarning=") == -1;
+    }
+
+    // ----- BETA WARNING CODE -----
+    var headBetaWarning = $('#head-beta-warning');
+
+    // Wire up the beta warning.
+    headBetaWarning.find('.dismiss').click(function(e) {
+        e.preventDefault();
+        $('body').css('margin-top', 0);
+        headBetaWarning.slideUp("fast");
+
+        // Hide it for a month by default.
+        var expiry = new Date();
+        expiry.setTime(expiry.getTime() + (30 * 24 * 60 * 60 * 1000));
+
+        document.cookie = "BetaWarning=off; expires=" + expiry.toGMTString() + "; path=/";
+    });
+
+    if (showBetaWarning()) {
+        headBetaWarning.show();
+        $('body').css('margin-top', '25px');
+        $('#beta-warning').slideDown(300, function() {
+           $(this).find('.blurb').fadeIn('slow');
+        });
+    }
+
+});
+</script>
+
+<!--[if IE 6]>
+<script type="text/javascript">
+    var IE6UPDATE_OPTIONS = {
+        icons_path: "/ie6update/images/"
+    }
+</script>
+<script type="text/javascript" src="/ie6update/ie6update.js"></script>
+<![endif]-->
+
+
+</body></html>

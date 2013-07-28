@@ -13,17 +13,19 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="template_dir" key="selection"/>
+		<item value="array" key="selection"/>
 		<list key="findhistory">
+			<item value="Array"/>
+			<item value="item"/>
 			<item value="template_dir"/>
 			<item value="_get_dir"/>
 			<item value="subject"/>
 			<item value="tpl_vars"/>
 			<item value="setTemplateDir"/>
 			<item value="$this-&gt;template_dir"/>
-			<item value="dir"/>
 		</list>
 		<list key="replacehistory">
+			<item value="menu"/>
 		</list>
 	</section>
 </section>

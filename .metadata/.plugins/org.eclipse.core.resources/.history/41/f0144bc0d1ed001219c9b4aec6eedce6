@@ -1,5 +1,0 @@
-<div>
-	<p>{$message}</p>
-	<p>{innerContent.tpl}</p>
-	<p>{innerContent.tpl}</p>
-</div>

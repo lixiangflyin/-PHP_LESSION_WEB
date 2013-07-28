@@ -1,6 +1,7 @@
-EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
-PROBLEMS_FILTERS_MIGRATE=true
+#Sat Jul 27 18:18:46 CST 2013
 eclipse.preferences.version=1
-platformState=1373460374628
-quickStart=false
 tipsAndTricks=true
+platformState=1372397790018
+EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
+quickStart=false
+PROBLEMS_FILTERS_MIGRATE=true
