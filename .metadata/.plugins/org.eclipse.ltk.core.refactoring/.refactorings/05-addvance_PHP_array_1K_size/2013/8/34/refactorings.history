@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename source module &apos;newfile.php&apos; to &apos;01_1K_rows.php&apos;&#x0D;&#x0A;- Original element: &apos;(default package)\newfile.php&apos;&#x0D;&#x0A;- Renamed element: &apos;(default package)\01_1K_rows.php&apos;" description="Rename source module &apos;newfile.php&apos;" flags="589830" id="org.eclipse.dltk.ui.rename.sourcemodule" input="/&lt;{newfile.php" name="01_1K_rows.php" stamp="1377240860293" version="1.0"/>
+</session>

@@ -1,6 +1,0 @@
-<?php
-$filePath = __FILE__;
-
-$dir = dirname($filePath);
-
-var_dump($dir);

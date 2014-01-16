@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Script project &apos;x12_PHP_Array_&apos; to &apos;x12_PHP_Array_by_value&apos;&#x0D;&#x0A;- Original element: &apos;x12_PHP_Array_&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Script project &apos;x12_PHP_Array_&apos;" flags="7" id="org.eclipse.dltk.ui.rename.script.project" input="=x12_PHP_Array_" name="x12_PHP_Array_by_value" references="true" stamp="1375269450409" version="1.0"/>
+</session>

@@ -1,4 +1,0 @@
-<?php
-var dir = __DIR__;
-
-echo dir;

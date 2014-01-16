@@ -1,6 +1,0 @@
-<?php
-$dir = __DIR__;
-
-vardump($dir);
-
-echo $dir;

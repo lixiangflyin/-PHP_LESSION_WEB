@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Script project &apos;17_PHP_date()_format&apos; to &apos;18.1_PHP_date()_format&apos;&#x0D;&#x0A;- Original element: &apos;17_PHP_date()_format&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Script project &apos;17_PHP_date()_format&apos;" flags="7" id="org.eclipse.dltk.ui.rename.script.project" input="=17_PHP_date()_format" name="18.1_PHP_date()_format" references="true" stamp="1379402606025" version="1.0"/>
+</session>

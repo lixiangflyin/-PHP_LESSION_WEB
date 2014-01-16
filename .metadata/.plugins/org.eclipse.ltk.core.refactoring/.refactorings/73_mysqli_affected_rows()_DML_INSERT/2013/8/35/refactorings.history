@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename source module &apos;02_DML_INSERT.php&apos; to &apos;02_DML_INSERT_mysqli_insert_id.php&apos;&#x0D;&#x0A;- Original element: &apos;(default package)\02_DML_INSERT.php&apos;&#x0D;&#x0A;- Renamed element: &apos;(default package)\02_DML_INSERT_mysqli_insert_id.php&apos;" description="Rename source module &apos;02_DML_INSERT.php&apos;" flags="589830" id="org.eclipse.dltk.ui.rename.sourcemodule" input="/&lt;{02_DML_INSERT.php" name="02_DML_INSERT_mysqli_insert_id.php" stamp="1377569434989" version="1.0"/>
+</session>

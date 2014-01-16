@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8" />
+	<title>工单处理</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="Copyright" content="Tencent" />
+	<meta name="author" content="ninojiang" />
+	<link rel="stylesheet" type="text/css" href="css/gb.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/overlay.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/abnormal_order.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/process_list.css" media="screen" />
+	<script src="js/jquery.1.7.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/csi.js"></script>
+	<script>
+		var BIZ = '{biz}';
+		var MOD = '{mod}';
+		var ACT = '{act}';
+	</script>
+</head>
+<body class="yc_oder">
+	<div class="wrapper">
+		<!--S 头部 -->
+		<div class="ecc_header">
+			<div class="ecc_header_inner grid_c1">
+				<div id="loading-tips" style="position: absolute; top: -25px; left: 400px; width: 200px; height: 15px; padding: 3px; background: #FFC;border: 1px solid blue;">数据加载中......</div>
+				<h1>
+					<a href="/" class="ecc_logo"><span class="hidden">腾讯电商服务指数平台</span> </a>
+				</h1>
+				<ul class="ecc_header_action">
+                	<li><a href="/index.php?biz=service&mod=kanban">首页</a></li>
+                    <li><a href="/page.php?menu=2&biz=service&mod=deal&act=unsolved">个人工作台</a></li>
+					<li><a href="/page.php?menu=2&biz=admin&mod=misc&act=date">数据订阅</a></li>
+					<li><a href="/page.php?menu=2&biz=admin&mod=misc&act=suggestion">您的建议</a></li>
+					<li><a href="/page.php?menu=2&biz=admin&mod=misc&act=aboutus">关于我们</a></li>
+					<li><a href="/page.php?menu=2&biz=admin&mod=member&act=list">系统配置</a></li>
+					<li><a href="/json.php?biz=admin&mod=user&act=logout">退出登录</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--E 头部 -->
+		
+		<div class="ecc_scoll_content grid_c1">
+				<!-- S 左侧导航 -->
+				<div class="ecc_sidebar" id="sider">
+					<!-- 用户操作 侧边栏 -->
+					<div class="ecc_mod_uside">
+						<div class="ecc_mod_uside_info">
+							<div class="ecc_side_userinfo_imgwrap"><img src="img/kf.jpg" width="60px" / ></div>
+							<div class="ecc_side_userinfo_des">
+								<p class="ecc_side_userinfo_name" style="cursor: pointer;" id="menu-username"></p>
+								<p class="ecc_side_userinfo_grouptypetit c_tx2">当前所属组别：</p>
+								<p class="ecc_side_userinfo_grouptype" id="menu-mygroup"></p>
+							</div>
+							<!-- <a href="javascript:void(0);" class="photo"><img src="http://tacs.oa.com/img.php?60*60" alt="" /></a>
+							<div class="info">
+								<p><strong id="menu-username" style="cursor: pointer;">&nbsp;</strong></p>
+								<p class="c_tx2">签入分组</p>
+								<p id="menu-mygroup"></p>
+							</div> -->
+						</div>
+						<ul class="ecc_side_navlist" id="menu-for-kf" style="display:none;">
+							<li class="ecc_side_navitem"><a href="/page.php?menu=2&biz=service&mod=deal&act=unsolved">我的待处理工单 </a><span class="num" id="my-count-unsolved">0</span></li>
+							<li class="ecc_side_navitem"><a href="/page.php?menu=2&biz=service&mod=deal&act=overtime">我的预警超时单</a><span class="num" id="my-count-overtime">0</span></li>
+							<li class="ecc_side_navitem"><a href="/page.php?menu=2&biz=service&mod=deal&act=message">我的消息提醒 </a><span class="num" id="my-count-message">0</span></li>
+							<!-- <li class="ecc_side_navitem"><a href="#" title="我关注的工单">我关注的工单</a><span class="num">10</span></li>
+							<li class="ecc_side_navitem"><a href="#" title="新建服务单">新建服务单</a></li>	 -->	
+							<li class="ecc_side_navitem"><a href="/page.php?menu=0&biz=service&mod=deal&act=list" target="_blank">服务工单查询</a></li>						
+						</ul>
+						<ul class="ecc_side_navlist" id="menu-for-leader" style="display: none;">
+							<li class='ecc_side_navitem'><a href="/page.php?menu=2&biz=service&mod=deal&act=groupunassign">组内待派单据</a></li>
+							<li class='ecc_side_navitem'><a href="/page.php?menu=2&biz=service&mod=deal&act=groupwork">组内员工工作查询</a></li>
+              <li class='ecc_side_navitem'><a href="/page.php?menu=2&biz=admin&mod=misc&act=cdm">IVR升级/暂存单</a></li>
+              <li class='ecc_side_navitem'><a href="/page.php?menu=2&biz=service&mod=ivr&act=query">IVR查询</a></li>						
+						</ul>
+						<!-- <div class="ecc_mod_uside_list" id="menu-for-kf" style="display:none;">
+							<ul>
+								<li><a href="/page.php?menu=2&biz=service&mod=deal&act=unsolved">我的待处理工单 <strong id="my-count-unsolved">0</strong></a></li>
+								<li><a href="/page.php?menu=2&biz=service&mod=deal&act=overtime">我的预警超时单 <strong id="my-count-overtime">0</strong></a></li>
+								<li><a href="/page.php?menu=2&biz=service&mod=deal&act=message">我的消息提醒 <strong id="my-count-message">0</strong></a></li>
+								<li class='menu-item-leader'><a href="/page.php?menu=2&biz=service&mod=deal&act=groupunassign">组内待派单据</a></li>
+								<li class='menu-item-leader'><a href="/page.php?menu=2&biz=service&mod=deal&act=groupwork">组内员工工作查</a></li>
+								<li><a href="/page.php?menu=0&biz=service&mod=deal&act=list">服务工单查询</a></li>
+							</ul>
+						</div>-->
+						<div class="ecc_mod_uside_list ecc_pri_uside_list" id="menu-for-admin" style="display:none;">
+							<h3>系统配置</h3>
+							<ul>
+								<li><a href="/page.php?menu=2&biz=admin&mod=member&act=list">成员管理</a></li>
+								<li><a href="/page.php?menu=2&biz=admin&mod=group&act=list">分组管理</a></li>
+								<li><a href="/page.php?menu=2&biz=admin&mod=role&act=list">角色管理</a></li>
+								<li><a href="/page.php?menu=2&biz=admin&mod=product&act=settings">重点商品管理</a></li>
+							</ul>
+						</div>
+						<div class="ecc_side_opt" id="menu-for-sign" style="display:none;">
+							<a id="sign-in-btn" href="javascript:void(0);" class="ecc_side_checkinbtn">签入</a>
+						</div>
+					</div>
+
+					<a class="sidebar_unfold_link" href="javascript:void(0);" id="sideFoldLink"><i></i></a>
+				</div>
+				<!-- E 左侧导航 -->
+		
+			<div class="ecc_main" id="content">
+				<!--<iframe style="display: none;" name="frame" id="frame" onload="javascript:CSI.dyniframesize('frame');" src="{frame_url}" frameborder="no" scrolling="no" border="no" width="100%" height="700px"></iframe>-->
+				{frame_content}
+			</div>
+			
+			<!-- S 底部 -->
+			<div class="footer">
+				<div class="container copyrights">&copy; 1998 - <span id="footCopyYear">2013</span> 上海易迅电子商务发展有限公司  版权所有</div>
+			</div>
+			<!-- E 底部 -->
+		</div>
+		
+	</div>
+	<div id="overlay" class="overlay_hide"></div>
+	<div id="loading_text"></div>
+	
+	<script language="javascript" type="text/javascript">
+		CSI.initMenu();
+		
+		var sider = document.getElementById('sider'),
+		content = document.getElementById('content');
+		sider.style.height = (content.offsetHeight) + 'px';
+		//document.getElementById('sider').style.height = (document.documentElement.clientHeight) + 'px';
+		document.getElementById('sideFoldLink').onclick = function(){
+			this.parentNode.parentNode.className = (this.parentNode.parentNode.className == 'ecc_scoll_content grid_c1 ecc_scoll_content_full') ? 'ecc_scoll_content grid_c1' : 'ecc_scoll_content grid_c1 ecc_scoll_content_full';
+		}
+
+	</script> 
+</body>
+</html>

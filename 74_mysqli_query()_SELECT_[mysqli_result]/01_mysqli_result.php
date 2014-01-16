@@ -12,4 +12,3 @@ $result = mysqli_query($con, $query);
 
 //关闭数据库连接
 mysqli_close($con);
-?>

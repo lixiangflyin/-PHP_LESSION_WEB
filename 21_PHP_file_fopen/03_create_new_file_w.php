@@ -23,6 +23,9 @@ x+	读/写。创建新文件。如果文件已存在，则返回 FALSE 和一个
 
 $file = fopen("newfile.txt",'w'); // 只写。打开并清空文件的内容；如果文件不存在，则创建新文件。 成功打开:	$file:resource (2) of type ("stream")
 
+fwrite($file, 'text');
+
+fclose($file);
 /**
 */
 ?>

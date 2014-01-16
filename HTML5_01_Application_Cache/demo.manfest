@@ -1,0 +1,16 @@
+CACHE MANIFEST
+# 2010-06-18:v2
+
+# Explicitly cached 'master entries'.
+CACHE:
+/w3school_banner.gif
+/time.js
+
+# Resources that require the user to be online.
+NETWORK:
+app_cache.php
+http://localhost
+
+
+
+

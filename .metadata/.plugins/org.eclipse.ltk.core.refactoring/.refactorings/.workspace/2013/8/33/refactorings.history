@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Script project &apos;10.5_PHP_urlencode&apos; to &apos;10.5_PHP_urlencode_urldecode&apos;&#x0D;&#x0A;- Original element: &apos;10.5_PHP_urlencode&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Script project &apos;10.5_PHP_urlencode&apos;" flags="7" id="org.eclipse.dltk.ui.rename.script.project" input="=10.5_PHP_urlencode" name="10.5_PHP_urlencode_urldecode" references="true" stamp="1376657659892" version="1.0"/>
+</session>

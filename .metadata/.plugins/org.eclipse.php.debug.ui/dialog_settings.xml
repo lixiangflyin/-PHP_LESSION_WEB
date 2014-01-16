@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="0.122738004" key="org.eclipse.php.debug.corephpdebug.dialog.columnwidth.column1"/>
-	<item value="0.32179385" key="org.eclipse.php.debug.corephpdebug.dialog.columnwidth.column0"/>
+	<item value="0.20876288" key="org.eclipse.php.debug.corephpdebug.dialog.columnwidth.column1"/>
+	<item value="0.40979382" key="org.eclipse.php.debug.corephpdebug.dialog.columnwidth.column0"/>
 	<item value="1" key="org.eclipse.php.debug.corephpdebug.dialog.columnwidth.sortColumn"/>
-	<item value="0.5082612" key="org.eclipse.php.debug.corephpdebug.dialog.columnwidth.column2"/>
+	<item value="0.7152062" key="org.eclipse.php.debug.corephpdebug.dialog.columnwidth.column2"/>
 </section>

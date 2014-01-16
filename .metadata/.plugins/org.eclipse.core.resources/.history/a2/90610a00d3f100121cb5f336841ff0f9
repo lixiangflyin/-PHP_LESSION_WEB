@@ -1,7 +1,0 @@
-<?php
-
-//以传值的方式传递一个大数组参数
-function output($big_array)
-{
-	
-}

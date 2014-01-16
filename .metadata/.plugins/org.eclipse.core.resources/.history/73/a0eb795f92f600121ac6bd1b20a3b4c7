@@ -1,5 +1,0 @@
-<?php
-$file = __FILE__;//(string:42) K:\opt\web\x20_magic_CONSTANT\__FILE__.php
-
-var_dump($file);
-

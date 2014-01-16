@@ -5,4 +5,4 @@ $title = 'this is PHP & html';
 $isVip = false;
 
 //output
-include_once 'view.php';
+include_once 'view2.php';

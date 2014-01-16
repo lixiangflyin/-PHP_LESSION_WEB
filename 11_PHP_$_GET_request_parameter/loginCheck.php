@@ -8,6 +8,8 @@ $_GET 变量用于收集来自 method="get" 的表单中的值。从带有 GET �
 则 $_GET["name"] = 'ken';
 则 $_GET["age"] = "18";
  */
+$name = $_GET["name"];
+$age = $_GET["age"];
 echo "name: " . $_GET["name"] . ",";
 echo "age: " . $_GET["age"],"; ";
 

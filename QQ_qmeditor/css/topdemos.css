@@ -1,0 +1,39 @@
+* {
+}
+a {
+}
+body {
+  font-family: Verdana, "宋体";
+	font-size: 12px;
+  line-height: 20px;
+  padding: 0;
+  margin: 0;
+}
+        
+.demo_nav {
+	margin-right: 10px;
+}
+.demo_nav a:visited {
+	color: blue;
+}
+.demo_nav ul {
+	list-style: square;
+	font-size: 1.1em;
+}
+.demo_nav ul ul{
+	padding-left: 15px;
+	font-size: 1em;
+  list-style: circle;
+}
+
+.demo_body {
+}
+
+.demo_header {
+	border-bottom: thin solid #ccc;
+	padding: 5px 0;
+}
+.demo_header h1 {
+	padding-left: 1em;
+	font-weight: normal;
+}

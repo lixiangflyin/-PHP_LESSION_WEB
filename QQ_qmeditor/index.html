@@ -1,0 +1,97 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <link rel="stylesheet" type="text/css" href="/css/topdemos.css" />
+        <link rel="stylesheet" type="text/css" href="http://tapd.oa.com/css/wiki.css" />
+          <script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>          <title>TOP</title>
+  </head>
+  <body>
+    <div class="demo_body">
+          <script type="text/javascript" src="http://127.0.0.1/js/tcc.js?r=20121015"></script>  <div class="example" style="width:98%">
+    <h2>组件示例</h2>
+    <form name="form1">
+      <div>
+      <lable>内容:</label>
+        <script>
+          TOP_SYSTEM = 'TAPD';
+          new Tcc.QmEditor({
+          id: 'TestEditor',
+          name: 'description'
+          });
+        </script>
+      </div>
+    </form>
+  </div>
+
+  <div class="doc">
+    <div class="wiki">
+         	<p>
+<h2 id="toc0">组件介绍</h2>
+</p>
+
+<p>轻量级的网页富文本编辑器，支持附件上传，支持截屏功能，支持Ctrl+V贴图功能<br />
+<BR></p>
+
+
+<h2 id="toc1">使用方法</h2>
+<p>在页面加入以下代码即可<br />
+
+<pre>&nbsp;
+&nbsp;
+&lt;script src=&quot;http://127.0.0.1/js/tcc.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+new Tcc.QmEditor({id: 'TestEditor', name: 'data[Ticket][description]'});
+&lt;/script&gt;
+&nbsp;</pre>
+
+<br />
+<BR ></p>
+
+<script>
+	try {
+		document.domain = 'oa.com';
+	} catch(e) {
+		
+	}
+	
+	function resize_height(){
+		try {
+			document.domain = _domain;
+		} catch(e) {
+		
+		}
+		try {
+			if( window.parent.document.getElementById('man_content') && window.parent.document.getElementById('man_content').id == 'man_content'){
+				setTimeout("change_height();",200);
+			}
+		} catch(e) {
+		
+		}
+	}
+	
+	function change_height(){
+		try {
+				document.domain = _domain;
+		} catch(e) {
+		
+		}
+		try {
+			var content_height = document.body.scrollHeight;
+			if(window.parent.document.getElementById('man_content').id == 'man_content'){
+				window.parent.document.getElementById('man_content').height = content_height+100;
+			}
+		} catch(e) {
+		
+		}
+	}
+	
+	document.body.onload=resize_height;
+	
+</script>    </div>
+  </div>
+    </div>
+  </body>
+</html>

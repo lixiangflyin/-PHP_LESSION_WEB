@@ -1,6 +1,6 @@
-#Sat Jul 27 17:08:37 CST 2013
-useAnnotationsPrefPage=true
+SortingAction.isChecked=true
 eclipse.preferences.version=1
 org.eclipse.php.core.workspaceDefaultLocale=zh_CN
-useQuickDiffPrefPage=true
 org.eclipse.php.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

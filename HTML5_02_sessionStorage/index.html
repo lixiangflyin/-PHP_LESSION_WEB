@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Session Store</title>
+</head>
+<body>
+	<p>Hello</p>
+	<script type="text/javascript">
+		if(! sessionStorage.jquery) {
+			document.write("222");
+		}
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			if(! sessionStorage.jquery) {
+				$.ajax({
+					url: "/jquery.js",
+					success: function(data){
+						sessionStorage.jquery = data;
+			     	}
+				});
+			}
+		});
+	</script>
+</body>
+</html>

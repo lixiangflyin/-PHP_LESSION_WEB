@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename source module &apos;link.php&apos; to &apos;getChar.php&apos;&#x0D;&#x0A;- Original element: &apos;(default package)\link.php&apos;&#x0D;&#x0A;- Renamed element: &apos;(default package)\getChar.php&apos;" description="Rename source module &apos;link.php&apos;" flags="589830" id="org.eclipse.dltk.ui.rename.sourcemodule" input="/&lt;{link.php" name="getChar.php" stamp="1377412024260" version="1.0"/>
+</session>
